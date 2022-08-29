@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6">
               <div className="footer-about">
                 <Link to="#">
-                  <img src="assets/images/logo-white.png" alt="" />
+                  <img src="assets/images/logo-white2.png" alt="" />
                 </Link>
                 <p>
                   We work with a passion of taking challenges and creating new
