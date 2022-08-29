@@ -334,7 +334,7 @@ p {
     .header-topbar-info-wrapper .header-topbar-info ul {
       display: flex;
       align-items: center;
-      column-gap: 30px; }
+      column-gap: 25px; }
       .header-topbar-info-wrapper .header-topbar-info ul li {
         font-size: 14px;
         font-weight: 500;
