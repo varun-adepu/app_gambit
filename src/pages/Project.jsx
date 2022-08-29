@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -14,7 +15,7 @@ const Project = () => {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="#">Home</a>
+                      <Link to="#">Home</Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Projects
@@ -29,7 +30,7 @@ const Project = () => {
 
       {/* Projects Card  */}
 
-      <section className="infetech-projects-grid-area pt-120 pb-90">
+      <section className="modularize-projects-grid-area pt-120 pb-90">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6">
@@ -38,9 +39,9 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">Tech Solutions</h4>
                   <span>DESIGN / IDEAS</span>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -50,9 +51,9 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">Smart Visions</h4>
                   <span>DESIGN / IDEAS</span>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -62,9 +63,9 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">Platform Integration</h4>
                   <span>DESIGN / IDEAS</span>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -74,9 +75,9 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">Web Development</h4>
                   <span>DESIGN / IDEAS</span>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -86,10 +87,10 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">Virtual Reality</h4>
                   <span>DESIGN / IDEAS</span>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
-                  </a>
-                </div>
+                  </Link>
+             </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -98,9 +99,9 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">Tech Solutions</h4>
                   <span>DESIGN / IDEAS</span>
-                  <a href="#">
+                  <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

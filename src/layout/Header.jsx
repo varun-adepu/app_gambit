@@ -6,63 +6,63 @@ const Header = () => {
   return (
     <>
       {isToggal && (
-        <div class="offcanvas_menu">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12">
-                <div class="offcanvas_menu_wrapper">
-                  <div class="canvas_close">
+        <div className="offcanvas_menu">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-12">
+                <div className="offcanvas_menu_wrapper">
+                  <div className="canvas_close">
                     <div onClick={() => setIsToggal(false)}>
-                      <i class="fa fa-times"></i>
+                      <i className="fa fa-times"></i>
                     </div>
                   </div>
-                  <div class="offcanvas-social">
-                    <ul class="text-center">
+                  <div className="offcanvas-social">
+                    <ul className="text-center">
                       <li>
                         <a href="%24.html">
-                          <i class="fab fa-facebook-f"></i>
+                          <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
                         <a href="%24.html">
-                          <i class="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
                         <a href="%24.html">
-                          <i class="fab fa-instagram"></i>
+                          <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
                         <a href="%24.html">
-                          <i class="fab fa-dribbble"></i>
+                          <i className="fab fa-dribbble"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
-                  <div id="menu" class="text-left ">
-                    <ul class="offcanvas_main_menu">
-                      <li class="menu-item-has-children active">
-                        <a href="/">Home</a>
+                  <div id="menu" className="text-left ">
+                    <ul className="offcanvas_main_menu">
+                      <li className="menu-item-has-children active">
+                        <Link to="/">Home</Link>
                       </li>
-                      <li class="menu-item-has-children active">
-                        <a href="about">About</a>
+                      <li className="menu-item-has-children active">
+                        <Link to="about">About</Link>
                       </li>
-                      <li class="menu-item-has-children active">
-                        <a href="/services">Services</a>
+                      <li className="menu-item-has-children active">
+                        <Link to="services">Services</Link>
                       </li>
-                      <li class="menu-item-has-children active">
-                        <a href="/projects">Projects</a>
+                      <li className="menu-item-has-children active">
+                        <Link to="project">Projects</Link>
                       </li>
-                      <li class="menu-item-has-children active">
-                        <a href="contact">Contact</a>
+                      <li className="menu-item-has-children active">
+                        <Link to="contact">Contact</Link>
                       </li>
                     </ul>
                   </div>
-                  <div class="offcanvas_footer">
+                  <div className="offcanvas_footer">
                     <span>
-                      <a href="mailto:pixydrops@gmail.com">
-                        <i class="fa fa-envelope-o"></i> pixydrops@gmail.com
+                      <a href="mailto:hello@appgambit.com">
+                        <i className="fa fa-envelope-o"></i> hello@appgambit.com
                       </a>
                     </span>
                   </div>
@@ -73,47 +73,47 @@ const Header = () => {
         </div>
       )}
 
-      <section class="infetech-header-area header-sticky">
-        <div class="header-wrapper">
-          <div class="templates-logo">
-            <a href="/">
+      <section className="modularize-header-area header-sticky">
+        <div className="header-wrapper">
+          <div className="templates-logo">
+            <Link to="/">
               <img src="assets/images/logo-white.png" alt="logo" />
-            </a>
+            </Link>
           </div>
-          <div class="header-box">
-            <div class="header-topbar">
-              <div class="row g-0 align-items-center ">
-                <div class="col-lg-6">
-                  <div class="header-topbar-text">
-                    <p>Welcome to IT Solutions & Services WordPress Theme </p>
+          <div className="header-box">
+            <div className="header-topbar">
+              <div className="row g-0 align-items-center ">
+                <div className="col-lg-6">
+                  <div className="header-topbar-text">
+                    {/* <p>Welcome to IT Solutions & Services WordPress Theme </p> */}
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="header-topbar-info-wrapper">
-                    <div class="header-topbar-info">
+                <div className="col-lg-6">
+                  <div className="header-topbar-info-wrapper">
+                    <div className="header-topbar-info">
                       <ul>
                         <li>
-                          <i class="fas fa-envelope"></i> needhelp@company.com
+                          <i className="fas fa-envelope"></i> hello@appgambit.com
                         </li>
                         <li>
-                          <i class="fas fa-clock"></i> Mon - Sat: 8.00 am - 7.00
+                          <i className="fas fa-clock"></i> Mon - Sat: 8.00 am - 7.00
                           pm
                         </li>
                       </ul>
                     </div>
-                    <div class="header-topbar-social">
+                    <div className="header-topbar-social">
                       <ul>
                         <li>
-                          <i class="fab fa-twitter"></i>
+                          <i className="fab fa-twitter"></i>
                         </li>
                         <li>
-                          <i class="fab fa-facebook-f"></i>
+                          <i className="fab fa-facebook-f"></i>
                         </li>
                         <li>
-                          <i class="fab fa-pinterest-p"></i>
+                          <i className="fab fa-pinterest-p"></i>
                         </li>
                         <li>
-                          <i class="fab fa-instagram"></i>
+                          <i className="fab fa-instagram"></i>
                         </li>
                       </ul>
                     </div>
@@ -121,12 +121,12 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div class="header-main-nav">
-              <div class="header-main-nav-box">
+            <div className="header-main-nav">
+              <div className="header-main-nav-box">
                 <ul>
                   <li>
                     <Link to="/">Home</Link>
-                    {/* <ul class="sub-menu">
+                    {/* <ul className="sub-menu">
                       <li>
                         <a href="index.html">Home 1</a>
                       </li>
@@ -144,7 +144,7 @@ const Header = () => {
                       </li>
                       <li>
                         <a href="#">Header Versions</a>
-                        <ul class="sub-menu">
+                        <ul className="sub-menu">
                           <li>
                             <a href="index.html">Header Style 1</a>
                           </li>
@@ -169,7 +169,7 @@ const Header = () => {
                   </li>
                   {/* <li>
                     <a href="#">Pages</a>
-                    <ul class="sub-menu">
+                    <ul className="sub-menu">
                       <li>
                         <a href="our-team.html">Our Team</a>
                       </li>
@@ -180,7 +180,7 @@ const Header = () => {
                   </li> */}
                   <li>
                     <Link to="services">Services</Link>
-                    {/* <ul class="sub-menu">
+                    {/* <ul className="sub-menu">
                       <li>
                         <a href="service-1.html">Service 1</a>
                       </li>
@@ -194,7 +194,7 @@ const Header = () => {
                   </li>
                   <li>
                     <Link to="project">Projects</Link>
-                    {/* <ul class="sub-menu">
+                    {/* <ul className="sub-menu">
                       <li>
                         <a href="projects.html">Projects</a>
                       </li>
@@ -205,7 +205,7 @@ const Header = () => {
                   </li>
                   {/* <li>
                     <a href="#">Blog</a>
-                    <ul class="sub-menu">
+                    <ul className="sub-menu">
                       <li>
                         <a href="blog.html">Blog</a>
                       </li>
@@ -219,37 +219,37 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-              <div class="header-main-info">
-                <div class="header-mini-btn">
+              <div className="header-main-info">
+                <div className="header-mini-btn">
                   <ul>
-                    <li>
-                      <a class="search-box-btn" href="#">
-                        <i class="fal fa-search"></i>
+                    {/* <li>
+                      <a className="search-box-btn" href="#">
+                        <i className="fal fa-search"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="fal fa-shopping-cart"></i>
+                        <i className="fal fa-shopping-cart"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a
-                        class="toggle-bar canvas_open"
-                        href="#"
+                      <Link
+                        className="toggle-bar canvas_open"
+                        to="#"
                         onClick={() => setIsToggal(true)}
                       >
-                        <i class="fal fa-bars"></i>
-                      </a>
+                        <i className="fal fa-bars"></i>
+                      </Link>
                     </li>
                   </ul>
                 </div>
-                <div class="header-main-info-contact">
-                  <div class="icon">
+                <div className="header-main-info-contact">
+                  <div className="icon">
                     <img src="assets/images/icon/phone.svg" alt="" />
                   </div>
-                  <div class="content">
+                  <div className="content">
                     <span>Call Anytime</span>
-                    <a href="tel:+8898006802">+ 88 ( 9800 ) 6802</a>
+                    <a href="tel:+919925200545">( + 91 )  99252 00545</a>
                   </div>
                 </div>
               </div>

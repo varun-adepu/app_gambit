@@ -143,7 +143,7 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #5f2dee;
+  background-color: #000;
   position: relative;
   z-index: 10;
   overflow: hidden;
@@ -151,7 +151,7 @@ p {
   .main-btn::before {
     position: absolute;
     content: '';
-    background-color: #b882fc;
+    background-color: #6c6a72;
     width: 100%;
     height: 0%;
     left: 50%;
@@ -165,8 +165,8 @@ p {
     opacity: 1; }
   .main-btn:hover {
     background-color: #fff;
-    color: #5f2dee;
-    border-color: #5f2dee; }
+    color: #000;
+    border-color: #000; }
     .main-btn:hover::before {
       height: 400px;
       opacity: 0; }
@@ -220,96 +220,100 @@ p {
 /*===========================
     2.HEADER css 
 ===========================*/
-.infetech-header-area {
+.modularize-header-area {
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
   z-index: 99; }
-  .infetech-header-area .templates-logo {
-    background: #1d1729;
+  .modularize-header-area .templates-logo {
+    background: #ffffff;
     padding: 42px 80px;
     height: 100%; }
     @media (max-width: 767px) {
-      .infetech-header-area .templates-logo {
+      .modularize-header-area .templates-logo {
         width: 100%;
         padding: 10px 0px;
         text-align: center; } }
-    .infetech-header-area .templates-logo img {
-      max-width: 160px; }
-  .infetech-header-area .header-wrapper {
+    .modularize-header-area .templates-logo img {
+      max-width: 230px; }
+  .modularize-header-area .header-wrapper {
     display: flex;
     column-gap: 50px; }
     @media (max-width: 767px) {
-      .infetech-header-area .header-wrapper {
+      .modularize-header-area .header-wrapper {
         display: block; } }
-  .infetech-header-area .header-box {
+  .modularize-header-area .header-box {
     width: 100%; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-header-area .header-box {
+      .modularize-header-area .header-box {
         display: flex;
         align-items: center; } }
     @media (max-width: 767px) {
-      .infetech-header-area .header-box {
+      .modularize-header-area .header-box {
         display: flex;
         align-items: center; } }
-    .infetech-header-area .header-box .header-topbar {
-      border-bottom: 1px solid #e4e0ee; }
+
+/* header border bottom  */
+    /* .modularize-header-area .header-box .header-topbar {
+      border-bottom: 1px solid #e4e0ee; } */
+
+
       @media only screen and (min-width: 10px) and (max-width: 992px) {
-        .infetech-header-area .header-box .header-topbar {
+        .modularize-header-area .header-box .header-topbar {
           display: none; } }
-      .infetech-header-area .header-box .header-topbar .header-topbar-text p {
+      .modularize-header-area .header-box .header-topbar .header-topbar-text p {
         font-size: 14px;
         font-weight: 500;
         color: #6c6a72; }
         @media only screen and (min-width: 10px) and (max-width: 1600px) {
-          .infetech-header-area .header-box .header-topbar .header-topbar-text p {
+          .modularize-header-area .header-box .header-topbar .header-topbar-text p {
             font-size: 13px; } }
-  .infetech-header-area.infetech-header-area-5 {
+  .modularize-header-area.modularize-header-area-5 {
     top: 30px; }
-    .infetech-header-area.infetech-header-area-5 .header-wrapper {
+    .modularize-header-area.modularize-header-area-5 .header-wrapper {
       background: #fff;
       margin-left: -60px;
       margin-right: -60px;
       box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05); }
       @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-        .infetech-header-area.infetech-header-area-5 .header-wrapper {
+        .modularize-header-area.modularize-header-area-5 .header-wrapper {
           margin-left: -0px;
           margin-right: -0px; } }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .infetech-header-area.infetech-header-area-5 .header-wrapper {
+        .modularize-header-area.modularize-header-area-5 .header-wrapper {
           margin-left: -0px;
           margin-right: -0px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-header-area.infetech-header-area-5 .header-wrapper {
+        .modularize-header-area.modularize-header-area-5 .header-wrapper {
           margin-left: -0px;
           margin-right: -0px; } }
       @media (max-width: 767px) {
-        .infetech-header-area.infetech-header-area-5 .header-wrapper {
+        .modularize-header-area.modularize-header-area-5 .header-wrapper {
           margin-left: -0px;
           margin-right: -0px; } }
-      .infetech-header-area.infetech-header-area-5 .header-wrapper .templates-logo {
+      .modularize-header-area.modularize-header-area-5 .header-wrapper .templates-logo {
         padding: 28px 60px; }
         @media (max-width: 767px) {
-          .infetech-header-area.infetech-header-area-5 .header-wrapper .templates-logo {
+          .modularize-header-area.modularize-header-area-5 .header-wrapper .templates-logo {
             padding: 10px 0; } }
       @media (max-width: 767px) {
-        .infetech-header-area.infetech-header-area-5 .header-wrapper .header-box {
+        .modularize-header-area.modularize-header-area-5 .header-wrapper .header-box {
           padding: 10px 0; } }
-      .infetech-header-area.infetech-header-area-5 .header-wrapper .header-box .header-main-nav {
+      .modularize-header-area.modularize-header-area-5 .header-wrapper .header-box .header-main-nav {
         height: auto; }
-        .infetech-header-area.infetech-header-area-5 .header-wrapper .header-box .header-main-nav .header-main-nav-box > ul > li {
+        .modularize-header-area.modularize-header-area-5 .header-wrapper .header-box .header-main-nav .header-main-nav-box > ul > li {
           padding: 36px 0;
           margin-right: 45px; }
           @media only screen and (min-width: 992px) and (max-width: 1200px) {
-            .infetech-header-area.infetech-header-area-5 .header-wrapper .header-box .header-main-nav .header-main-nav-box > ul > li {
+            .modularize-header-area.modularize-header-area-5 .header-wrapper .header-box .header-main-nav .header-main-nav-box > ul > li {
               margin-right: 20px; } }
-        .infetech-header-area.infetech-header-area-5 .header-wrapper .header-box .header-main-nav .header-main-info .header-mini-btn::before {
+        .modularize-header-area.modularize-header-area-5 .header-wrapper .header-box .header-main-nav .header-main-info .header-mini-btn::before {
           right: inherit;
           left: -30px; }
-    .infetech-header-area.infetech-header-area-5.header-sticky.sticky {
+    .modularize-header-area.modularize-header-area-5.header-sticky.sticky {
       box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05); }
-      .infetech-header-area.infetech-header-area-5.header-sticky.sticky .header-wrapper {
+      .modularize-header-area.modularize-header-area-5.header-sticky.sticky .header-wrapper {
         box-shadow: none; }
 
 .header-topbar-info-wrapper {
@@ -339,10 +343,11 @@ p {
           .header-topbar-info-wrapper .header-topbar-info ul li {
             font-size: 13px; } }
         .header-topbar-info-wrapper .header-topbar-info ul li i {
-          color: #b882fc;
+          color: #000;
           padding-right: 10px; }
   .header-topbar-info-wrapper .header-topbar-social {
-    background: #f4f2f9;
+    color: #000;
+    /* background: #f4f2f9; */
     padding: 9px 80px; }
     @media only screen and (min-width: 1600px) and (max-width: 1845px) {
       .header-topbar-info-wrapper .header-topbar-social {
@@ -571,7 +576,7 @@ p {
       width: 50px;
       text-align: center;
       line-height: 50px;
-      background: #5f2dee;
+      background: #000;
       border-radius: 50%; }
     .header-main-info .header-main-info-contact .content {
       display: flex;
@@ -968,46 +973,46 @@ p {
         border-color: #b882fc;
         color: #fff; }
 
-.infetech-header-area-2 .header-topbar-layout-2 {
+.modularize-header-area-2 .header-topbar-layout-2 {
   background: #1d1729;
   position: relative;
   z-index: 20; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-header-area-2 .header-topbar-layout-2 {
+    .modularize-header-area-2 .header-topbar-layout-2 {
       display: none; } }
   @media (max-width: 767px) {
-    .infetech-header-area-2 .header-topbar-layout-2 {
+    .modularize-header-area-2 .header-topbar-layout-2 {
       display: none; } }
-  .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-text {
+  .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-text {
     padding-left: 60px; }
     @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-      .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-text {
+      .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-text {
         padding-left: 30px; } }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-text {
+      .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-text {
         padding-left: 15px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-text {
+      .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-text {
         padding-left: 15px; } }
     @media (max-width: 767px) {
-      .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-text {
+      .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-text {
         padding-left: 15px; } }
-    .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-text p {
+    .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-text p {
       color: #b0a9c0;
       font-weight: 500;
       font-size: 14px; }
-  .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-info-wrapper .header-topbar-info {
+  .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-info-wrapper .header-topbar-info {
     display: block; }
-    .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-info-wrapper .header-topbar-info ul li {
+    .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-info-wrapper .header-topbar-info ul li {
       color: #b0a9c0;
       font-size: 14px;
       font-weight: 500; }
-  .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-info-wrapper .header-topbar-social {
+  .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-info-wrapper .header-topbar-social {
     background: #15101e; }
-    .infetech-header-area-2 .header-topbar-layout-2 .header-topbar-info-wrapper .header-topbar-social ul li a {
+    .modularize-header-area-2 .header-topbar-layout-2 .header-topbar-info-wrapper .header-topbar-social ul li a {
       font-size: 18px;
       color: #fff; }
-.infetech-header-area-2 .header-main-nav-layout-2 {
+.modularize-header-area-2 .header-main-nav-layout-2 {
   position: absolute;
   left: 0;
   top: 44px;
@@ -1016,59 +1021,59 @@ p {
   padding: 30px 60px;
   border-bottom: 1px solid #ffffff2e; }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .infetech-header-area-2 .header-main-nav-layout-2 {
+    .modularize-header-area-2 .header-main-nav-layout-2 {
       padding-left: 15px;
       padding-right: 15px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-header-area-2 .header-main-nav-layout-2 {
+    .modularize-header-area-2 .header-main-nav-layout-2 {
       top: 0; } }
   @media (max-width: 767px) {
-    .infetech-header-area-2 .header-main-nav-layout-2 {
+    .modularize-header-area-2 .header-main-nav-layout-2 {
       top: 0;
       padding: 10px 60px; } }
-  .infetech-header-area-2 .header-main-nav-layout-2 .logo-white img {
+  .modularize-header-area-2 .header-main-nav-layout-2 .logo-white img {
     width: 160px; }
-  .infetech-header-area-2 .header-main-nav-layout-2 .header-main-nav-box ul li {
+  .modularize-header-area-2 .header-main-nav-layout-2 .header-main-nav-box ul li {
     padding: 0; }
-    .infetech-header-area-2 .header-main-nav-layout-2 .header-main-nav-box ul li a {
+    .modularize-header-area-2 .header-main-nav-layout-2 .header-main-nav-box ul li a {
       color: #fff; }
-      .infetech-header-area-2 .header-main-nav-layout-2 .header-main-nav-box ul li a::before {
+      .modularize-header-area-2 .header-main-nav-layout-2 .header-main-nav-box ul li a::before {
         background: #fff; }
-    .infetech-header-area-2 .header-main-nav-layout-2 .header-main-nav-box ul li .sub-menu li a {
+    .modularize-header-area-2 .header-main-nav-layout-2 .header-main-nav-box ul li .sub-menu li a {
       color: #1d1729; }
-  .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info {
+  .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info {
     justify-content: flex-end; }
     @media (max-width: 767px) {
-      .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info {
+      .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info {
         justify-content: center;
         margin-top: 20px; } }
     @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-      .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn {
+      .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn {
         margin-right: 15px; } }
-    .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn ul li a {
+    .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn ul li a {
       color: #fff; }
       @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-        .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn ul li a {
+        .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn ul li a {
           margin-right: 15px; } }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn ul li:nth-child(2) a {
+      .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn ul li:nth-child(2) a {
         margin-right: 0; } }
-    .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn::before {
+    .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-mini-btn::before {
       background: #ffffff2e; }
-    .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact {
+    .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact {
       margin-right: 0; }
       @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-        .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact {
+        .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact {
           padding-left: 60px; } }
-      .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .content a {
+      .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .content a {
         color: #fff;
         white-space: nowrap; }
-      .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .content span {
+      .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .content span {
         color: #fff;
         opacity: 0.5; }
-      .infetech-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .icon {
+      .modularize-header-area-2 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .icon {
         background: #fff; }
-.infetech-header-area-2.infetech-header-area-3 .top-line {
+.modularize-header-area-2.modularize-header-area-3 .top-line {
   height: 5px;
   width: 100%;
   background: #b882fc;
@@ -1076,7 +1081,7 @@ p {
   z-index: 199;
   left: 0;
   top: 0; }
-  .infetech-header-area-2.infetech-header-area-3 .top-line::before {
+  .modularize-header-area-2.modularize-header-area-3 .top-line::before {
     position: absolute;
     content: '';
     left: 0;
@@ -1084,30 +1089,30 @@ p {
     height: 5px;
     width: 50%;
     background: #5f2dee; }
-.infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 {
+.modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 {
   top: 5px;
   background: #fff;
   padding: 25px 60px;
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05); }
-  .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2.header-main-nav-layout-4 {
+  .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2.header-main-nav-layout-4 {
     top: 45px;
     background: transparent;
     box-shadow: none;
     border-bottom: 1px solid #e4e0ee; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2.header-main-nav-layout-4 {
+      .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2.header-main-nav-layout-4 {
         top: 0; } }
     @media (max-width: 767px) {
-      .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2.header-main-nav-layout-4 {
+      .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2.header-main-nav-layout-4 {
         top: 0; } }
-  .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .logo-white {
+  .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .logo-white {
     text-align: left; }
     @media (max-width: 767px) {
-      .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .logo-white {
+      .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .logo-white {
         text-align: center; } }
-  .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a {
+  .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a {
     color: #6c6a72; }
-    .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a::before {
+    .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a::before {
       position: absolute;
       content: '';
       left: 0;
@@ -1116,19 +1121,19 @@ p {
       width: 0px;
       background: #5f2dee;
       transition: all linear 0.3s; }
-    .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a:hover {
+    .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a:hover {
       color: #1d1729; }
-      .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a:hover::before {
+      .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .header-main-nav-box ul li a:hover::before {
         width: 16px; }
-  .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-info .header-mini-btn ul li a {
+  .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .header-main-info .header-mini-btn ul li a {
     color: #1d1729; }
-  .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-info .header-mini-btn::before {
+  .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .header-main-info .header-mini-btn::before {
     background: #e4e0ee; }
-  .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .icon {
+  .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .icon {
     background: #5f2dee; }
-  .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .content span {
+  .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .content span {
     color: #6c6a72; }
-  .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .content a {
+  .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2 .header-main-info .header-main-info-contact .content a {
     color: #1d1729; }
 
 @media (min-width: 768px) {
@@ -1154,7 +1159,7 @@ p {
   .header-main-nav-layout-2.header-sticky.sticky {
     background: #1d1729; }
 
-  .infetech-header-area-2.infetech-header-area-3 .header-main-nav-layout-2.header-sticky.sticky {
+  .modularize-header-area-2.modularize-header-area-3 .header-main-nav-layout-2.header-sticky.sticky {
     top: 0;
     background: #fff; } }
 /*Loader Css*/
@@ -1272,7 +1277,7 @@ p {
 /*===========================
     3.BANNER css 
 ===========================*/
-.infetech-banner-area {
+.modularize-banner-area {
   position: relative;
   z-index: 10;
   overflow: hidden;
@@ -1280,18 +1285,18 @@ p {
   margin-top: -2px;
   margin-top: 120px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-banner-area {
+    .modularize-banner-area {
       margin-bottom: 80px; } }
   @media (max-width: 767px) {
-    .infetech-banner-area {
+    .modularize-banner-area {
       margin-bottom: 80px; } }
-  .infetech-banner-area.infetech-banner-layoyt-2 {
+  .modularize-banner-area.modularize-banner-layoyt-2 {
     margin-top: -2px;
     border: 0; }
-  .infetech-banner-area .infetech-banner-slide-active {
+  .modularize-banner-area .modularize-banner-slide-active {
     position: relative;
     z-index: 10; }
-    .infetech-banner-area .infetech-banner-slide-active::before {
+    .modularize-banner-area .modularize-banner-slide-active::before {
       position: absolute;
       content: '';
       left: 0;
@@ -1300,7 +1305,7 @@ p {
       width: 434px;
       background-image: url(../images/banner-shape-1.png);
       z-index: -1; }
-    .infetech-banner-area .infetech-banner-slide-active::after {
+    .modularize-banner-area .modularize-banner-slide-active::after {
       position: absolute;
       content: '';
       right: 0;
@@ -1309,22 +1314,22 @@ p {
       width: 395px;
       background-image: url(../images/banner-shape-2.png);
       z-index: -1; }
-    .infetech-banner-area .infetech-banner-slide-active.item-1 {
+    .modularize-banner-area .modularize-banner-slide-active.item-1 {
       background-image: url(../images/banner-thumb-1.jpg);
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
-    .infetech-banner-area .infetech-banner-slide-active.item-2 {
+    .modularize-banner-area .modularize-banner-slide-active.item-2 {
       background-image: url(../images/banner-thumb-2.jpg);
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
-    .infetech-banner-area .infetech-banner-slide-active.item-3 {
+    .modularize-banner-area .modularize-banner-slide-active.item-3 {
       background-image: url(../images/banner-thumb-3.jpg);
       background-size: cover;
       background-position: center center;
       background-repeat: no-repeat; }
-  .infetech-banner-area .infetech-banner-content {
+  .modularize-banner-area .modularize-banner-content {
     text-align: center;
     display: flex;
     align-items: center;
@@ -1333,9 +1338,9 @@ p {
     justify-content: center;
     position: relative; }
     @media (max-width: 767px) {
-      .infetech-banner-area .infetech-banner-content {
+      .modularize-banner-area .modularize-banner-content {
         height: 500px; } }
-    .infetech-banner-area .infetech-banner-content h4 {
+    .modularize-banner-area .modularize-banner-content h4 {
       font-size: 18px;
       font-weight: 600;
       color: #fff;
@@ -1346,12 +1351,12 @@ p {
       padding-bottom: 5px;
       margin-bottom: 30px; }
       @media (max-width: 767px) {
-        .infetech-banner-area .infetech-banner-content h4 {
+        .modularize-banner-area .modularize-banner-content h4 {
           font-size: 14px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .infetech-banner-area .infetech-banner-content h4 {
+        .modularize-banner-area .modularize-banner-content h4 {
           font-size: 18px; } }
-      .infetech-banner-area .infetech-banner-content h4::before {
+      .modularize-banner-area .modularize-banner-content h4::before {
         position: absolute;
         content: '';
         left: 0;
@@ -1359,7 +1364,7 @@ p {
         height: 2px;
         width: 100%;
         background: #a4a2a9; }
-    .infetech-banner-area .infetech-banner-content h1 {
+    .modularize-banner-area .modularize-banner-content h1 {
       font-size: 100px;
       font-weight: 800;
       color: #fff;
@@ -1367,30 +1372,30 @@ p {
       line-height: 1;
       margin-bottom: 28px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .infetech-banner-area .infetech-banner-content h1 {
+        .modularize-banner-area .modularize-banner-content h1 {
           font-size: 70px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-banner-area .infetech-banner-content h1 {
+        .modularize-banner-area .modularize-banner-content h1 {
           font-size: 60px; } }
       @media (max-width: 767px) {
-        .infetech-banner-area .infetech-banner-content h1 {
+        .modularize-banner-area .modularize-banner-content h1 {
           font-size: 30px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .infetech-banner-area .infetech-banner-content h1 {
+        .modularize-banner-area .modularize-banner-content h1 {
           font-size: 50px; } }
-    .infetech-banner-area .infetech-banner-content .banner-arrow {
+    .modularize-banner-area .modularize-banner-content .banner-arrow {
       position: absolute;
       left: 63%;
       top: 58%; }
-    .infetech-banner-area .infetech-banner-content img {
+    .modularize-banner-area .modularize-banner-content img {
       display: inline-block; }
       @media (max-width: 767px) {
-        .infetech-banner-area .infetech-banner-content img {
+        .modularize-banner-area .modularize-banner-content img {
           width: 28px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .infetech-banner-area .infetech-banner-content img {
+        .modularize-banner-area .modularize-banner-content img {
           width: 40px; } }
-  .infetech-banner-area.infetech-banner-slide .slick-arrow {
+  .modularize-banner-area.modularize-banner-slide .slick-arrow {
     position: absolute;
     right: 17%;
     height: 0;
@@ -1406,22 +1411,22 @@ p {
     transition: all linear 0.3s;
     opacity: 0.3; }
     @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-      .infetech-banner-area.infetech-banner-slide .slick-arrow {
+      .modularize-banner-area.modularize-banner-slide .slick-arrow {
         right: 10%; } }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .infetech-banner-area.infetech-banner-slide .slick-arrow {
+      .modularize-banner-area.modularize-banner-slide .slick-arrow {
         right: 40px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-banner-area.infetech-banner-slide .slick-arrow {
+      .modularize-banner-area.modularize-banner-slide .slick-arrow {
         right: 30px; } }
-    .infetech-banner-area.infetech-banner-slide .slick-arrow.prev {
+    .modularize-banner-area.modularize-banner-slide .slick-arrow.prev {
       top: 46%; }
-    .infetech-banner-area.infetech-banner-slide .slick-arrow.next {
+    .modularize-banner-area.modularize-banner-slide .slick-arrow.next {
       top: 54%; }
-    .infetech-banner-area.infetech-banner-slide .slick-arrow:hover {
+    .modularize-banner-area.modularize-banner-slide .slick-arrow:hover {
       opacity: 1; }
 
-.infetech-banner-area-layout-2 .infetech-banner-slide-item {
+.modularize-banner-area-layout-2 .modularize-banner-slide-item {
   background: url(../images/banner-thumb-4.jpg);
   padding-top: 250px;
   padding-bottom: 130px;
@@ -1430,11 +1435,11 @@ p {
   background-size: cover;
   position: relative;
   z-index: 10; }
-  .infetech-banner-area-layout-2 .infetech-banner-slide-item.item-2 {
+  .modularize-banner-area-layout-2 .modularize-banner-slide-item.item-2 {
     background: url(../images/banner-thumb-5.jpg); }
-  .infetech-banner-area-layout-2 .infetech-banner-slide-item.item-3 {
+  .modularize-banner-area-layout-2 .modularize-banner-slide-item.item-3 {
     background: url(../images/banner-thumb-6.jpg); }
-  .infetech-banner-area-layout-2 .infetech-banner-slide-item::before {
+  .modularize-banner-area-layout-2 .modularize-banner-slide-item::before {
     position: absolute;
     content: '';
     left: 0;
@@ -1446,7 +1451,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1; }
-  .infetech-banner-area-layout-2 .infetech-banner-slide-item .infetech-banner-content .play-btn a {
+  .modularize-banner-area-layout-2 .modularize-banner-slide-item .modularize-banner-content .play-btn a {
     height: 60px;
     width: 60px;
     text-align: center;
@@ -1455,7 +1460,7 @@ p {
     color: #fff;
     background: #b882fc;
     position: relative; }
-    .infetech-banner-area-layout-2 .infetech-banner-slide-item .infetech-banner-content .play-btn a::before {
+    .modularize-banner-area-layout-2 .modularize-banner-slide-item .modularize-banner-content .play-btn a::before {
       position: absolute;
       content: '';
       left: 0;
@@ -1465,28 +1470,28 @@ p {
       border: 1px solid #fff;
       border-radius: 50%;
       animation: play-popup 1.5s infinite; }
-  .infetech-banner-area-layout-2 .infetech-banner-slide-item .infetech-banner-content .info-text .title {
+  .modularize-banner-area-layout-2 .modularize-banner-slide-item .modularize-banner-content .info-text .title {
     font-size: 90px;
     color: #fff;
     padding-top: 39px;
     padding-bottom: 16px; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .infetech-banner-area-layout-2 .infetech-banner-slide-item .infetech-banner-content .info-text .title {
+      .modularize-banner-area-layout-2 .modularize-banner-slide-item .modularize-banner-content .info-text .title {
         font-size: 60px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-banner-area-layout-2 .infetech-banner-slide-item .infetech-banner-content .info-text .title {
+      .modularize-banner-area-layout-2 .modularize-banner-slide-item .modularize-banner-content .info-text .title {
         font-size: 40px; } }
     @media (max-width: 767px) {
-      .infetech-banner-area-layout-2 .infetech-banner-slide-item .infetech-banner-content .info-text .title {
+      .modularize-banner-area-layout-2 .modularize-banner-slide-item .modularize-banner-content .info-text .title {
         font-size: 40px; } }
-  .infetech-banner-area-layout-2 .infetech-banner-slide-item .infetech-banner-content .info-text p {
+  .modularize-banner-area-layout-2 .modularize-banner-slide-item .modularize-banner-content .info-text p {
     font-size: 18px;
     font-weight: 500;
     color: #fff;
     opacity: 0.7;
     padding-right: 50px;
     margin-bottom: 42px; }
-.infetech-banner-area-layout-2.infetech-banner-slide .slick-arrow {
+.modularize-banner-area-layout-2.modularize-banner-slide .slick-arrow {
   position: absolute;
   right: 17%;
   height: 0;
@@ -1502,70 +1507,70 @@ p {
   transition: all linear 0.3s;
   opacity: 0.3; }
   @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-    .infetech-banner-area-layout-2.infetech-banner-slide .slick-arrow {
+    .modularize-banner-area-layout-2.modularize-banner-slide .slick-arrow {
       right: 10%; } }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .infetech-banner-area-layout-2.infetech-banner-slide .slick-arrow {
+    .modularize-banner-area-layout-2.modularize-banner-slide .slick-arrow {
       right: 40px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-banner-area-layout-2.infetech-banner-slide .slick-arrow {
+    .modularize-banner-area-layout-2.modularize-banner-slide .slick-arrow {
       right: 30px; } }
-  .infetech-banner-area-layout-2.infetech-banner-slide .slick-arrow.prev {
+  .modularize-banner-area-layout-2.modularize-banner-slide .slick-arrow.prev {
     top: 46%; }
-  .infetech-banner-area-layout-2.infetech-banner-slide .slick-arrow.next {
+  .modularize-banner-area-layout-2.modularize-banner-slide .slick-arrow.next {
     top: 54%; }
-  .infetech-banner-area-layout-2.infetech-banner-slide .slick-arrow:hover {
+  .modularize-banner-area-layout-2.modularize-banner-slide .slick-arrow:hover {
     opacity: 1; }
-.infetech-banner-area-layout-2.infetech-banner-area-layout-3 {
+.modularize-banner-area-layout-2.modularize-banner-area-layout-3 {
   margin-top: 103px; }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .infetech-banner-area-layout-2.infetech-banner-area-layout-3 {
+    .modularize-banner-area-layout-2.modularize-banner-area-layout-3 {
       margin-top: 96px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-banner-area-layout-2.infetech-banner-area-layout-3 {
+    .modularize-banner-area-layout-2.modularize-banner-area-layout-3 {
       margin-top: 92px; } }
   @media (max-width: 767px) {
-    .infetech-banner-area-layout-2.infetech-banner-area-layout-3 {
+    .modularize-banner-area-layout-2.modularize-banner-area-layout-3 {
       margin-top: 92px; } }
-  .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item {
+  .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item {
     background-image: url(../images/banner-thumb-8.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; }
-    .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item::before {
+    .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item::before {
       display: none; }
-    .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item.item-2 {
+    .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item.item-2 {
       background-image: url(../images/banner-thumb-7.jpg); }
-    .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content span {
+    .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item .modularize-banner-content span {
       font-weight: 800;
       color: #5f2dee;
       text-transform: uppercase;
       letter-spacing: 2.5px; }
-    .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content .title {
+    .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item .modularize-banner-content .title {
       color: #1d1729;
       font-size: 100px;
       padding-top: 0;
       line-height: 110px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content .title {
+        .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item .modularize-banner-content .title {
           font-size: 60px;
           line-height: 60px; } }
       @media (max-width: 767px) {
-        .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content .title {
+        .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item .modularize-banner-content .title {
           font-size: 28px;
           line-height: 28px;
           margin-top: 20px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content .title {
+        .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item .modularize-banner-content .title {
           font-size: 56px;
           line-height: 56px; } }
-      .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content .title span {
+      .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item .modularize-banner-content .title span {
         text-transform: capitalize;
         color: #1d1729;
         letter-spacing: inherit;
         position: relative;
         z-index: 10; }
-        .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content .title span::before {
+        .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item .modularize-banner-content .title span::before {
           position: absolute;
           content: '';
           width: 100%;
@@ -1575,7 +1580,7 @@ p {
           background-image: url(../images/banner-line.png);
           z-index: -1; }
           @media (max-width: 767px) {
-            .infetech-banner-area-layout-2.infetech-banner-area-layout-3 .infetech-banner-slide-item .infetech-banner-content .title span::before {
+            .modularize-banner-area-layout-2.modularize-banner-area-layout-3 .modularize-banner-slide-item .modularize-banner-content .title span::before {
               display: none; } }
 
 .header-main-nav-layout-2 .logo-white {
@@ -1584,43 +1589,43 @@ p {
     .header-main-nav-layout-2 .logo-white {
       text-align: center; } }
 
-.infetech-banner-main-area {
+.modularize-banner-main-area {
   position: relative; }
-  .infetech-banner-main-area .banner-social {
+  .modularize-banner-main-area .banner-social {
     position: absolute;
     left: 80px;
     top: 50%;
     transform: translateY(-50%); }
     @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-      .infetech-banner-main-area .banner-social {
+      .modularize-banner-main-area .banner-social {
         left: 30px; } }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .infetech-banner-main-area .banner-social {
+      .modularize-banner-main-area .banner-social {
         display: none; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-banner-main-area .banner-social {
+      .modularize-banner-main-area .banner-social {
         display: none; } }
     @media (max-width: 767px) {
-      .infetech-banner-main-area .banner-social {
+      .modularize-banner-main-area .banner-social {
         display: none; } }
-    .infetech-banner-main-area .banner-social ul li {
+    .modularize-banner-main-area .banner-social ul li {
       margin: 40px 0; }
-      .infetech-banner-main-area .banner-social ul li a {
+      .modularize-banner-main-area .banner-social ul li a {
         color: #6c6a72; }
-  .infetech-banner-main-area .banner-play-icon {
+  .modularize-banner-main-area .banner-play-icon {
     display: flex;
     justify-content: flex-end;
     width: 100%;
     align-items: center; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-banner-main-area .banner-play-icon {
+      .modularize-banner-main-area .banner-play-icon {
         justify-content: flex-start;
         margin-top: 20px; } }
     @media (max-width: 767px) {
-      .infetech-banner-main-area .banner-play-icon {
+      .modularize-banner-main-area .banner-play-icon {
         justify-content: flex-start;
         margin-top: 20px; } }
-    .infetech-banner-main-area .banner-play-icon .icon a {
+    .modularize-banner-main-area .banner-play-icon .icon a {
       display: inline-block;
       height: 86px;
       width: 86px;
@@ -1630,7 +1635,7 @@ p {
       border-radius: 50%;
       color: #fff;
       position: relative; }
-      .infetech-banner-main-area .banner-play-icon .icon a::before {
+      .modularize-banner-main-area .banner-play-icon .icon a::before {
         position: absolute;
         content: '';
         left: 0;
@@ -1640,12 +1645,12 @@ p {
         border: 1px solid #5f2dee;
         border-radius: 50%;
         animation: play-popup 2s infinite; }
-    .infetech-banner-main-area .banner-play-icon .title {
+    .modularize-banner-main-area .banner-play-icon .title {
       font-size: 16px;
       font-weight: 500;
       color: #1d1729;
       margin-left: 50px; }
-  .infetech-banner-main-area .infetech-banner-area-layout-2 .infetech-banner-slide-item {
+  .modularize-banner-main-area .modularize-banner-area-layout-2 .modularize-banner-slide-item {
     padding-top: 144px;
     padding-bottom: 150px; }
 
@@ -1656,12 +1661,12 @@ p {
   to {
     transform: scale(1.5);
     opacity: 0; } }
-.infetech-banner-area-4 {
+.modularize-banner-area-4 {
   padding-top: 205px;
   padding-bottom: 77px;
   position: relative;
   z-index: 10; }
-  .infetech-banner-area-4::before {
+  .modularize-banner-area-4::before {
     position: absolute;
     content: '';
     left: 0;
@@ -1674,33 +1679,33 @@ p {
     background-repeat: no-repeat;
     z-index: -1; }
     @media (max-width: 767px) {
-      .infetech-banner-area-4::before {
+      .modularize-banner-area-4::before {
         display: none; } }
-  .infetech-banner-area-4 .banner-content-box {
+  .modularize-banner-area-4 .banner-content-box {
     text-align: center; }
-    .infetech-banner-area-4 .banner-content-box .title {
+    .modularize-banner-area-4 .banner-content-box .title {
       font-size: 60px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-banner-area-4 .banner-content-box .title {
+        .modularize-banner-area-4 .banner-content-box .title {
           font-size: 46px; } }
       @media (max-width: 767px) {
-        .infetech-banner-area-4 .banner-content-box .title {
+        .modularize-banner-area-4 .banner-content-box .title {
           font-size: 36px; } }
-    .infetech-banner-area-4 .banner-content-box span {
+    .modularize-banner-area-4 .banner-content-box span {
       font-size: 24px;
       font-weight: 400;
       color: #6c6a72;
       margin-top: 18px;
       margin-bottom: 50px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-banner-area-4 .banner-content-box span {
+        .modularize-banner-area-4 .banner-content-box span {
           font-size: 20px; } }
       @media (max-width: 767px) {
-        .infetech-banner-area-4 .banner-content-box span {
+        .modularize-banner-area-4 .banner-content-box span {
           font-size: 18px; } }
-    .infetech-banner-area-4 .banner-content-box .thumb {
+    .modularize-banner-area-4 .banner-content-box .thumb {
       position: relative; }
-      .infetech-banner-area-4 .banner-content-box .thumb .icon {
+      .modularize-banner-area-4 .banner-content-box .thumb .icon {
         background: #b882fc;
         display: inline-block;
         height: 102px;
@@ -1714,12 +1719,12 @@ p {
         left: -10px;
         top: 45px; }
         @media (max-width: 767px) {
-          .infetech-banner-area-4 .banner-content-box .thumb .icon {
+          .modularize-banner-area-4 .banner-content-box .thumb .icon {
             display: none; } }
         @media only screen and (min-width: 576px) and (max-width: 767px) {
-          .infetech-banner-area-4 .banner-content-box .thumb .icon {
+          .modularize-banner-area-4 .banner-content-box .thumb .icon {
             display: block; } }
-        .infetech-banner-area-4 .banner-content-box .thumb .icon::before {
+        .modularize-banner-area-4 .banner-content-box .thumb .icon::before {
           position: absolute;
           content: '';
           left: 50%;
@@ -1730,12 +1735,12 @@ p {
           border: 20px solid #5f2dee;
           border-radius: 50%;
           opacity: 0.05; }
-        .infetech-banner-area-4 .banner-content-box .thumb .icon.icon-2 {
+        .modularize-banner-area-4 .banner-content-box .thumb .icon.icon-2 {
           left: auto;
           right: 0;
           top: 170px; }
 
-.infetech-banner-area-5 {
+.modularize-banner-area-5 {
   background: #f5f3f9;
   padding: 295px 0 170px;
   background-image: url(../images/footer-line.png);
@@ -1743,7 +1748,7 @@ p {
   background-position: top right;
   background-repeat: no-repeat;
   position: relative; }
-  .infetech-banner-area-5::before {
+  .modularize-banner-area-5::before {
     position: absolute;
     content: '';
     left: 0;
@@ -1755,10 +1760,10 @@ p {
     background-position: center;
     background-repeat: no-repeat; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-banner-area-5::before {
+      .modularize-banner-area-5::before {
         display: none; } }
     @media (max-width: 767px) {
-      .infetech-banner-area-5::before {
+      .modularize-banner-area-5::before {
         display: none; } }
 
 .banner-content-5 {
@@ -1868,85 +1873,85 @@ p {
 /*===========================
     4.ABOUT css 
 ===========================*/
-.infetech-about-area {
+.modularize-about-area {
   margin-bottom: 20px;
   position: relative;
   z-index: 20;
   overflow: hidden;
   margin-bottom: -70px; }
-  .infetech-about-area .infetech-about-thumb {
+  .modularize-about-area .modularize-about-thumb {
     position: relative; }
-    .infetech-about-area .infetech-about-thumb .thumb {
+    .modularize-about-area .modularize-about-thumb .thumb {
       position: relative;
       top: -195px;
       left: 200px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .infetech-about-area .infetech-about-thumb .thumb {
+        .modularize-about-area .modularize-about-thumb .thumb {
           left: 50px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-about-area .infetech-about-thumb .thumb {
+        .modularize-about-area .modularize-about-thumb .thumb {
           position: absolute;
           top: 200px;
           left: 280px; } }
       @media (max-width: 767px) {
-        .infetech-about-area .infetech-about-thumb .thumb {
+        .modularize-about-area .modularize-about-thumb .thumb {
           display: none; } }
-    .infetech-about-area .infetech-about-thumb .about-logo {
+    .modularize-about-area .modularize-about-thumb .about-logo {
       position: absolute;
       top: 0;
       right: -63px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .infetech-about-area .infetech-about-thumb .about-logo {
+        .modularize-about-area .modularize-about-thumb .about-logo {
           display: none; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-about-area .infetech-about-thumb .about-logo {
+        .modularize-about-area .modularize-about-thumb .about-logo {
           display: none; } }
       @media (max-width: 767px) {
-        .infetech-about-area .infetech-about-thumb .about-logo {
+        .modularize-about-area .modularize-about-thumb .about-logo {
           display: none; } }
-    .infetech-about-area .infetech-about-thumb .about-box {
+    .modularize-about-area .modularize-about-thumb .about-box {
       position: absolute;
       top: 240px;
       left: 340px;
       background: #b882fc;
       padding: 24px 40px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .infetech-about-area .infetech-about-thumb .about-box {
+        .modularize-about-area .modularize-about-thumb .about-box {
           left: 250px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-about-area .infetech-about-thumb .about-box {
+        .modularize-about-area .modularize-about-thumb .about-box {
           top: 140px; } }
       @media (max-width: 767px) {
-        .infetech-about-area .infetech-about-thumb .about-box {
+        .modularize-about-area .modularize-about-thumb .about-box {
           position: static; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .infetech-about-area .infetech-about-thumb .about-box {
+        .modularize-about-area .modularize-about-thumb .about-box {
           position: absolute; } }
-      .infetech-about-area .infetech-about-thumb .about-box .title {
+      .modularize-about-area .modularize-about-thumb .about-box .title {
         font-size: 36px;
         font-weight: 700;
         color: #fff;
         display: flex;
         align-items: center; }
-      .infetech-about-area .infetech-about-thumb .about-box span {
+      .modularize-about-area .modularize-about-thumb .about-box span {
         font-size: 16px;
         color: #fff;
         font-weight: 500;
         text-transform: capitalize; }
-  .infetech-about-area.infetech-about-service-area {
+  .modularize-about-area.modularize-about-service-area {
     padding-bottom: 70px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-about-area.infetech-about-service-area {
+      .modularize-about-area.modularize-about-service-area {
         padding-top: 70px; } }
     @media (max-width: 767px) {
-      .infetech-about-area.infetech-about-service-area {
+      .modularize-about-area.modularize-about-service-area {
         padding-top: 70px; } }
-    .infetech-about-area.infetech-about-service-area .infetech-about-content p {
+    .modularize-about-area.modularize-about-service-area .modularize-about-content p {
       font-size: 24px;
       font-weight: 400;
       color: #6c6a72;
       line-height: 40px; }
-    .infetech-about-area.infetech-about-service-area .infetech-about-content .icon {
+    .modularize-about-area.modularize-about-service-area .modularize-about-content .icon {
       height: 125px;
       width: 125px;
       text-align: center;
@@ -1960,7 +1965,7 @@ p {
       position: relative;
       z-index: 10;
       margin-bottom: 33px; }
-      .infetech-about-area.infetech-about-service-area .infetech-about-content .icon::before {
+      .modularize-about-area.modularize-about-service-area .modularize-about-content .icon::before {
         position: absolute;
         content: '';
         left: 50%;
@@ -1971,57 +1976,57 @@ p {
         z-index: -1;
         height: 105px;
         width: 105px; }
-    .infetech-about-area.infetech-about-service-area .infetech-about-content ul li img {
+    .modularize-about-area.modularize-about-service-area .modularize-about-content ul li img {
       margin-right: 8px; }
-    .infetech-about-area.infetech-about-service-area .infetech-about-thumb {
+    .modularize-about-area.modularize-about-service-area .modularize-about-thumb {
       position: relative;
       z-index: 10;
       margin-right: -100px; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .infetech-about-area.infetech-about-service-area .infetech-about-thumb {
+        .modularize-about-area.modularize-about-service-area .modularize-about-thumb {
           margin-right: -50px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-about-area.infetech-about-service-area .infetech-about-thumb {
+        .modularize-about-area.modularize-about-service-area .modularize-about-thumb {
           margin-right: 0px; } }
       @media (max-width: 767px) {
-        .infetech-about-area.infetech-about-service-area .infetech-about-thumb {
+        .modularize-about-area.modularize-about-service-area .modularize-about-thumb {
           margin-right: 0px; } }
-      .infetech-about-area.infetech-about-service-area .infetech-about-thumb img.main-thumb {
+      .modularize-about-area.modularize-about-service-area .modularize-about-thumb img.main-thumb {
         margin-left: -60px; }
         @media (max-width: 767px) {
-          .infetech-about-area.infetech-about-service-area .infetech-about-thumb img.main-thumb {
+          .modularize-about-area.modularize-about-service-area .modularize-about-thumb img.main-thumb {
             margin-left: 0; } }
-      .infetech-about-area.infetech-about-service-area .infetech-about-thumb .item-1 {
+      .modularize-about-area.modularize-about-service-area .modularize-about-thumb .item-1 {
         position: absolute;
         left: -60px;
         top: 0;
         z-index: -1; }
-      .infetech-about-area.infetech-about-service-area .infetech-about-thumb .item-2 {
+      .modularize-about-area.modularize-about-service-area .modularize-about-thumb .item-2 {
         position: absolute;
         right: 0px;
         bottom: -50px;
         z-index: -1; }
 
-.infetech-about-content {
+.modularize-about-content {
   padding-left: 70px; }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .infetech-about-content {
+    .modularize-about-content {
       padding-left: 0; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-about-content {
+    .modularize-about-content {
       padding-left: 0;
       margin-top: 40px; } }
   @media (max-width: 767px) {
-    .infetech-about-content {
+    .modularize-about-content {
       padding-left: 0;
       margin-top: 20px; } }
-  .infetech-about-content span {
+  .modularize-about-content span {
     font-size: 16px;
     color: #5f2dee;
     padding-left: 28px;
     position: relative;
     font-weight: 600; }
-    .infetech-about-content span::before {
+    .modularize-about-content span::before {
       position: absolute;
       content: '';
       left: 0;
@@ -2029,36 +2034,36 @@ p {
       height: 2px;
       width: 16px;
       background: #5f2dee; }
-  .infetech-about-content > .title {
+  .modularize-about-content > .title {
     font-size: 45px;
     font-weight: 800;
     line-height: 55px; }
     @media (max-width: 767px) {
-      .infetech-about-content > .title {
+      .modularize-about-content > .title {
         font-size: 26px;
         line-height: 36px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .infetech-about-content > .title {
+      .modularize-about-content > .title {
         font-size: 45px;
         line-height: 55px; } }
-  .infetech-about-content p {
+  .modularize-about-content p {
     line-height: 30px;
     font-weight: 500;
     margin-top: 26px;
     margin-bottom: 40px; }
-  .infetech-about-content .about-card {
+  .modularize-about-content .about-card {
     display: flex;
     gap: 20px; }
     @media (max-width: 767px) {
-      .infetech-about-content .about-card {
+      .modularize-about-content .about-card {
         margin-bottom: 30px; } }
-    .infetech-about-content .about-card .icon {
+    .modularize-about-content .about-card .icon {
       padding-left: 20px;
       padding-top: 10px;
       position: relative;
       z-index: 10;
       min-width: 85px; }
-      .infetech-about-content .about-card .icon::before {
+      .modularize-about-content .about-card .icon::before {
         position: absolute;
         content: '';
         left: 0;
@@ -2068,107 +2073,107 @@ p {
         background: #f8f2ff;
         border-radius: 50%;
         z-index: -1; }
-    .infetech-about-content .about-card .content .title {
+    .modularize-about-content .about-card .content .title {
       font-size: 20px;
       font-weight: 800;
       color: #000;
       line-height: 26px;
       margin-top: 16px; }
-  .infetech-about-content ul {
+  .modularize-about-content ul {
     margin-top: 38px;
     margin-bottom: 38px; }
-    .infetech-about-content ul li {
+    .modularize-about-content ul li {
       font-size: 16px;
       font-weight: 700;
       color: #000;
       line-height: 38px; }
-      .infetech-about-content ul li i {
+      .modularize-about-content ul li i {
         color: #b882fc;
         padding-right: 9px; }
-  .infetech-about-content > a {
+  .modularize-about-content > a {
     border: 1px solid #5f2dee; }
 
-.infetech-about-3-area {
+.modularize-about-3-area {
   padding-bottom: 120px;
   overflow: hidden; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-about-3-area {
+    .modularize-about-3-area {
       padding-bottom: 90px; } }
   @media (max-width: 767px) {
-    .infetech-about-3-area {
+    .modularize-about-3-area {
       padding-bottom: 90px; } }
-  .infetech-about-3-area .section-title p {
+  .modularize-about-3-area .section-title p {
     font-weight: 500;
     color: #6c6a72;
     line-height: 30px;
     margin-top: 30px; }
-  .infetech-about-3-area .about-3-thumb {
+  .modularize-about-3-area .about-3-thumb {
     position: relative;
     z-index: 10; }
-    .infetech-about-3-area .about-3-thumb .about-ring {
+    .modularize-about-3-area .about-3-thumb .about-ring {
       margin-top: 60px;
       margin-left: -235px;
       z-index: -5;
       position: relative; }
-    .infetech-about-3-area .about-3-thumb .about-thumb-3 {
+    .modularize-about-3-area .about-3-thumb .about-thumb-3 {
       position: absolute;
       left: 40px;
       top: 0;
       z-index: 1; }
       @media (max-width: 767px) {
-        .infetech-about-3-area .about-3-thumb .about-thumb-3 {
+        .modularize-about-3-area .about-3-thumb .about-thumb-3 {
           left: 0; } }
-    .infetech-about-3-area .about-3-thumb .about-thumb-1 {
+    .modularize-about-3-area .about-3-thumb .about-thumb-1 {
       position: absolute;
       left: -190px;
       top: 310px;
       z-index: 2; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .infetech-about-3-area .about-3-thumb .about-thumb-1 {
+        .modularize-about-3-area .about-3-thumb .about-thumb-1 {
           display: none; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-about-3-area .about-3-thumb .about-thumb-1 {
+        .modularize-about-3-area .about-3-thumb .about-thumb-1 {
           display: none; } }
       @media (max-width: 767px) {
-        .infetech-about-3-area .about-3-thumb .about-thumb-1 {
+        .modularize-about-3-area .about-3-thumb .about-thumb-1 {
           display: none; } }
-    .infetech-about-3-area .about-3-thumb .about-thumb-2 {
+    .modularize-about-3-area .about-3-thumb .about-thumb-2 {
       position: absolute;
       left: 250px;
       top: 390px;
       z-index: 2; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .infetech-about-3-area .about-3-thumb .about-thumb-2 {
+        .modularize-about-3-area .about-3-thumb .about-thumb-2 {
           display: none; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-about-3-area .about-3-thumb .about-thumb-2 {
+        .modularize-about-3-area .about-3-thumb .about-thumb-2 {
           display: none; } }
       @media (max-width: 767px) {
-        .infetech-about-3-area .about-3-thumb .about-thumb-2 {
+        .modularize-about-3-area .about-3-thumb .about-thumb-2 {
           display: none; } }
-  .infetech-about-3-area .about-3-content {
+  .modularize-about-3-area .about-3-content {
     padding-left: 70px; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .infetech-about-3-area .about-3-content {
+      .modularize-about-3-area .about-3-content {
         padding-left: 20px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-about-3-area .about-3-content {
+      .modularize-about-3-area .about-3-content {
         padding-left: 0px; } }
     @media (max-width: 767px) {
-      .infetech-about-3-area .about-3-content {
+      .modularize-about-3-area .about-3-content {
         padding-left: 0px; } }
-    .infetech-about-3-area .about-3-content .about-sub-service {
+    .modularize-about-3-area .about-3-content .about-sub-service {
       display: flex;
       align-items: center;
       gap: 25px;
       margin-bottom: 30px; }
       @media (max-width: 767px) {
-        .infetech-about-3-area .about-3-content .about-sub-service {
+        .modularize-about-3-area .about-3-content .about-sub-service {
           display: block; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .infetech-about-3-area .about-3-content .about-sub-service {
+        .modularize-about-3-area .about-3-content .about-sub-service {
           display: flex; } }
-      .infetech-about-3-area .about-3-content .about-sub-service .icon {
+      .modularize-about-3-area .about-3-content .about-sub-service .icon {
         text-align: center;
         min-height: 105px;
         min-width: 105px;
@@ -2179,21 +2184,21 @@ p {
         border-bottom: 5px solid #5f2dee;
         display: inline-block; }
         @media (max-width: 767px) {
-          .infetech-about-3-area .about-3-content .about-sub-service .icon {
+          .modularize-about-3-area .about-3-content .about-sub-service .icon {
             margin-bottom: 20px; } }
-      .infetech-about-3-area .about-3-content .about-sub-service .content .title {
+      .modularize-about-3-area .about-3-content .about-sub-service .content .title {
         font-size: 24px;
         text-transform: capitalize; }
-      .infetech-about-3-area .about-3-content .about-sub-service .content p {
+      .modularize-about-3-area .about-3-content .about-sub-service .content p {
         line-height: 30px;
         color: #6c6a72;
         font-weight: 500;
         padding-top: 12px; }
-    .infetech-about-3-area .about-3-content .main-btn {
+    .modularize-about-3-area .about-3-content .main-btn {
       margin-top: 20px;
       border: 1px solid #5f2dee; }
 
-.infetech-about-4-area {
+.modularize-about-4-area {
   background-image: url(../images/about-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -2201,11 +2206,11 @@ p {
   padding-top: 120px;
   padding-bottom: 120px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-about-4-area {
+    .modularize-about-4-area {
       padding-top: 70px;
       padding-bottom: 70px; } }
   @media (max-width: 767px) {
-    .infetech-about-4-area {
+    .modularize-about-4-area {
       padding-top: 70px;
       padding-bottom: 70px; } }
 
@@ -2274,43 +2279,43 @@ p {
 /*===========================
     5.SERVICE css 
 ===========================*/
-.infetech-service-area {
+.modularize-service-area {
   position: relative;
   z-index: 25; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-service-area {
+    .modularize-service-area {
       padding-bottom: 60px; } }
-  .infetech-service-area.infetech-service-page-area {
+  .modularize-service-area.modularize-service-page-area {
     margin-bottom: 0;
     padding-top: 120px;
     padding-bottom: 185px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-service-area.infetech-service-page-area {
+      .modularize-service-area.modularize-service-page-area {
         padding-top: 80px;
         padding-bottom: 70px; } }
     @media (max-width: 767px) {
-      .infetech-service-area.infetech-service-page-area {
+      .modularize-service-area.modularize-service-page-area {
         padding-top: 80px;
         padding-bottom: 70px; } }
-    .infetech-service-area.infetech-service-page-area .single-infetech-serice-item .content {
+    .modularize-service-area.modularize-service-page-area .single-modularize-serice-item .content {
       box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.15); }
 
-.single-infetech-serice-item {
+.single-modularize-serice-item {
   margin-bottom: -86px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .single-infetech-serice-item {
+    .single-modularize-serice-item {
       margin-bottom: 0; } }
   @media (max-width: 767px) {
-    .single-infetech-serice-item {
+    .single-modularize-serice-item {
       margin-bottom: 30px; } }
-  .single-infetech-serice-item .thumb {
+  .single-modularize-serice-item .thumb {
     overflow: hidden; }
-    .single-infetech-serice-item .thumb img {
+    .single-modularize-serice-item .thumb img {
       transition: all linear 0.3s;
       width: 100%; }
-  .single-infetech-serice-item:hover .thumb img {
+  .single-modularize-serice-item:hover .thumb img {
     transform: scale(1.1); }
-  .single-infetech-serice-item .content {
+  .single-modularize-serice-item .content {
     margin-left: 20px;
     margin-right: 20px;
     top: -20px;
@@ -2319,18 +2324,18 @@ p {
     background: #fff;
     text-align: center;
     padding: 21px 30px; }
-    .single-infetech-serice-item .content .title {
+    .single-modularize-serice-item .content .title {
       font-size: 20px;
       line-height: 22px;
       font-weight: 800; }
       @media only screen and (min-width: 992px) and (max-width: 1200px) {
-        .single-infetech-serice-item .content .title {
+        .single-modularize-serice-item .content .title {
           font-size: 18px; } }
-      .single-infetech-serice-item .content .title a {
+      .single-modularize-serice-item .content .title a {
         color: #404040; }
-        .single-infetech-serice-item .content .title a:hover {
+        .single-modularize-serice-item .content .title a:hover {
           color: #5f2dee; }
-    .single-infetech-serice-item .content .icon {
+    .single-modularize-serice-item .content .icon {
       background: #5f2dee;
       height: 70px;
       width: 70px;
@@ -2340,16 +2345,16 @@ p {
       right: 0;
       bottom: 100%; }
 
-.infetech-service-3-area {
+.modularize-service-3-area {
   padding-bottom: 120px;
   margin-top: -30px;
   position: relative;
   z-index: 10; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-service-3-area {
+    .modularize-service-3-area {
       padding-bottom: 60px; } }
   @media (max-width: 767px) {
-    .infetech-service-3-area {
+    .modularize-service-3-area {
       padding-bottom: 60px; } }
 
 .single-service-3-item {
@@ -2428,21 +2433,21 @@ p {
     .single-service-3-item:hover::after {
       color: #7547f8; }
 
-.infetech-service-slide-3-area {
+.modularize-service-slide-3-area {
   padding-top: 70px;
   padding-bottom: 70px; }
   @media (max-width: 767px) {
-    .infetech-service-slide-3-area {
+    .modularize-service-slide-3-area {
       padding-top: 30px;
       padding-bottom: 30px; } }
-  .infetech-service-slide-3-area .container-fluid {
+  .modularize-service-slide-3-area .container-fluid {
     padding-left: 60px;
     padding-right: 60px; }
     @media (max-width: 767px) {
-      .infetech-service-slide-3-area .container-fluid {
+      .modularize-service-slide-3-area .container-fluid {
         padding-left: 15px;
         padding-right: 15px; } }
-  .infetech-service-slide-3-area .single-service-3-item {
+  .modularize-service-slide-3-area .single-service-3-item {
     margin-left: 100px;
     background-image: url(../images/service-line.png);
     background-position: right bottom;
@@ -2455,24 +2460,24 @@ p {
     margin-top: 50px;
     margin-bottom: 50px; }
     @media (max-width: 767px) {
-      .infetech-service-slide-3-area .single-service-3-item {
+      .modularize-service-slide-3-area .single-service-3-item {
         padding: 30px;
         margin-left: 0; } }
-    .infetech-service-slide-3-area .single-service-3-item .bg {
+    .modularize-service-slide-3-area .single-service-3-item .bg {
       display: none; }
-    .infetech-service-slide-3-area .single-service-3-item .thumb {
+    .modularize-service-slide-3-area .single-service-3-item .thumb {
       position: absolute;
       left: -100px;
       top: 50%;
       transform: translateY(-50%); }
       @media (max-width: 767px) {
-        .infetech-service-slide-3-area .single-service-3-item .thumb {
+        .modularize-service-slide-3-area .single-service-3-item .thumb {
           position: static;
           left: 0;
           transform: translateY(0px);
           display: inline-block;
           margin-top: 20px; } }
-      .infetech-service-slide-3-area .single-service-3-item .thumb span {
+      .modularize-service-slide-3-area .single-service-3-item .thumb span {
         position: absolute;
         top: 10px;
         right: 10px;
@@ -2487,14 +2492,14 @@ p {
         background: #5f2dee;
         border: 10px solid #fff;
         border-radius: 50%; }
-    .infetech-service-slide-3-area .single-service-3-item::after {
+    .modularize-service-slide-3-area .single-service-3-item::after {
       display: none; }
-    .infetech-service-slide-3-area .single-service-3-item .title {
+    .modularize-service-slide-3-area .single-service-3-item .title {
       color: #1d1729; }
-    .infetech-service-slide-3-area .single-service-3-item p {
+    .modularize-service-slide-3-area .single-service-3-item p {
       color: #6c6a72; }
 
-.infetech-sponser-slide-3 .col-lg-4 {
+.modularize-sponser-slide-3 .col-lg-4 {
   margin-left: 15px;
   margin-right: 15px; }
 
@@ -2601,7 +2606,7 @@ p {
 /*===========================
     6.FEATURE css 
 ===========================*/
-.infetech-feature-area {
+.modularize-feature-area {
   background: #1d1729;
   padding-top: 180px;
   padding-bottom: 120px;
@@ -2609,14 +2614,14 @@ p {
   position: relative;
   z-index: 10; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-feature-area {
+    .modularize-feature-area {
       padding-top: 80px;
       padding-bottom: 80px; } }
   @media (max-width: 767px) {
-    .infetech-feature-area {
+    .modularize-feature-area {
       padding-top: 80px;
       padding-bottom: 80px; } }
-  .infetech-feature-area::before {
+  .modularize-feature-area::before {
     position: absolute;
     content: '';
     left: 0;
@@ -2629,12 +2634,12 @@ p {
     background-position: center;
     z-index: -1; }
 
-.single-infetech-feature-item {
-  background: #15101e;
+.single-modularize-feature-item {
+  background: #000;
   text-align: center;
   margin-top: 90px;
   transition: all linear 0.3s; }
-  .single-infetech-feature-item .icon {
+  .single-modularize-feature-item .icon {
     height: 120px;
     width: 120px;
     text-align: center;
@@ -2646,53 +2651,54 @@ p {
     background: #15101e;
     border-radius: 50%;
     transition: all linear 0.3s; }
-    .single-infetech-feature-item .icon svg path {
+    .single-modularize-feature-item .icon svg path {
+      fill : #fff;
       transition: all linear 0.3s; }
-  .single-infetech-feature-item .content {
+  .single-modularize-feature-item .content {
     padding: 0 20px 35px; }
-    .single-infetech-feature-item .content .title {
+    .single-modularize-feature-item .content .title {
       color: #fff;
       font-size: 20px;
       margin-top: 26px;
       margin-bottom: 15px; }
-      .single-infetech-feature-item .content .title a {
+      .single-modularize-feature-item .content .title a {
         color: #fff;
         transition: all linear 0.3s; }
-    .single-infetech-feature-item .content p {
+    .single-modularize-feature-item .content p {
       color: #b0a9c0;
       font-size: 15px;
       transition: all linear 0.3s; }
-  .single-infetech-feature-item:hover {
+  .single-modularize-feature-item:hover {
     background: #fff;
     transform: translateY(-10px); }
-    .single-infetech-feature-item:hover .icon {
-      background: #5f2dee; }
-      .single-infetech-feature-item:hover .icon svg path {
+    .single-modularize-feature-item:hover .icon {
+      background: #000; }
+      .single-modularize-feature-item:hover .icon svg path {
         fill: #fff; }
-    .single-infetech-feature-item:hover .content .title a {
+    .single-modularize-feature-item:hover .content .title a {
       color: #1d1729; }
-    .single-infetech-feature-item:hover .content p {
+    .single-modularize-feature-item:hover .content p {
       color: #6c6a72; }
 
-.infetech-feature-slide .col-lg-2 {
+.modularize-feature-slide .col-lg-2 {
   margin-left: 15px;
   margin-right: 15px; }
 
 /*===========================
     7.CTA css 
 ===========================*/
-.infetech-cta-box {
+.modularize-cta-box {
   background-image: url(../images/cta-bg.jpg);
   position: relative;
   z-index: 10;
   padding: 80px 100px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-cta-box {
+    .modularize-cta-box {
       padding: 30px; } }
   @media (max-width: 767px) {
-    .infetech-cta-box {
+    .modularize-cta-box {
       padding: 30px; } }
-  .infetech-cta-box::before {
+  .modularize-cta-box::before {
     position: absolute;
     content: '';
     left: 0;
@@ -2704,82 +2710,82 @@ p {
     background-image: -ms-linear-gradient(180deg, #b882fc 0%, #5f2dee 100%);
     opacity: 0.85;
     z-index: -1; }
-  .infetech-cta-box .cta-content .title {
+  .modularize-cta-box .cta-content .title {
     font-size: 40px;
     color: #fff;
     margin-bottom: 16px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-cta-box .cta-content .title {
+      .modularize-cta-box .cta-content .title {
         margin-top: 30px; } }
     @media (max-width: 767px) {
-      .infetech-cta-box .cta-content .title {
+      .modularize-cta-box .cta-content .title {
         margin-top: 30px;
         font-size: 26px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .infetech-cta-box .cta-content .title {
+      .modularize-cta-box .cta-content .title {
         font-size: 40px; } }
-  .infetech-cta-box .cta-content ul li {
+  .modularize-cta-box .cta-content ul li {
     font-size: 16px;
     font-weight: 700;
     color: #fff;
     line-height: 36px; }
-    .infetech-cta-box .cta-content ul li i {
+    .modularize-cta-box .cta-content ul li i {
       padding-right: 9px; }
-  .infetech-cta-box .cta-content .main-btn {
+  .modularize-cta-box .cta-content .main-btn {
     background: #fff;
     color: #1d1729; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-cta-box .cta-content .main-btn {
+      .modularize-cta-box .cta-content .main-btn {
         margin-left: 0;
         margin-top: 15px; } }
     @media (max-width: 767px) {
-      .infetech-cta-box .cta-content .main-btn {
+      .modularize-cta-box .cta-content .main-btn {
         margin-left: 0;
         margin-top: 15px; } }
-    .infetech-cta-box .cta-content .main-btn:hover {
-      background: #5f2dee;
+    .modularize-cta-box .cta-content .main-btn:hover {
+      background: #000;
       color: #fff; }
 
-.infetech-cta-2-area {
+.modularize-cta-2-area {
   background-image: url(../images/bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-cta-2-area {
+    .modularize-cta-2-area {
       padding: 80px 0; } }
   @media (max-width: 767px) {
-    .infetech-cta-2-area {
+    .modularize-cta-2-area {
       padding: 80px 0; } }
-  .infetech-cta-2-area .cta-btn {
+  .modularize-cta-2-area .cta-btn {
     text-align: right; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-cta-2-area .cta-btn {
+      .modularize-cta-2-area .cta-btn {
         text-align: left;
         margin-top: 15px; } }
     @media (max-width: 767px) {
-      .infetech-cta-2-area .cta-btn {
+      .modularize-cta-2-area .cta-btn {
         text-align: left;
         margin-top: 15px; } }
-    .infetech-cta-2-area .cta-btn a {
+    .modularize-cta-2-area .cta-btn a {
       background: #fff;
       color: #1d1729; }
-      .infetech-cta-2-area .cta-btn a:hover {
+      .modularize-cta-2-area .cta-btn a:hover {
         background: #b882fc;
         color: #fff; }
   @media (max-width: 767px) {
-    .infetech-cta-2-area .cta-content {
+    .modularize-cta-2-area .cta-content {
       text-align: center; } }
-  .infetech-cta-2-area .cta-content p {
+  .modularize-cta-2-area .cta-content p {
     color: #fff;
     font-size: 20px;
     color: #e1d6ff; }
-  .infetech-cta-2-area .cta-content .title {
+  .modularize-cta-2-area .cta-content .title {
     color: #fff;
     font-size: 36px;
     margin-top: 17px; }
   @media (max-width: 767px) {
-    .infetech-cta-2-area .cta-btn {
+    .modularize-cta-2-area .cta-btn {
       text-align: center; } }
 
 .infetect-cta-area-home-2 {
@@ -2839,53 +2845,53 @@ p {
       .cta-home-box .title {
         font-size: 28px; } }
 
-.infetech-map {
+.modularize-map {
   margin-bottom: -8px; }
-  .infetech-map iframe {
+  .modularize-map iframe {
     height: 490px;
     width: 100%; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-map iframe {
+      .modularize-map iframe {
         height: 300px; } }
     @media (max-width: 767px) {
-      .infetech-map iframe {
+      .modularize-map iframe {
         height: 300px; } }
 
 /*===========================
     8.PROJECT css 
 ===========================*/
-.infetech-project-area {
+.modularize-project-area {
   border-bottom: 1px solid #e4e0ee;
   padding-bottom: 160px;
   margin-bottom: 80px;
   overflow: hidden; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-project-area {
+    .modularize-project-area {
       padding-top: 80px;
       padding-bottom: 80px; } }
   @media (max-width: 767px) {
-    .infetech-project-area {
+    .modularize-project-area {
       padding-top: 80px;
       padding-bottom: 80px; } }
-  .infetech-project-area .section-title p {
+  .modularize-project-area .section-title p {
     color: #6c6a72; }
   @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-    .infetech-project-area .container-fluid {
+    .modularize-project-area .container-fluid {
       padding-left: 25px;
       padding-right: 25px; } }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .infetech-project-area .container-fluid {
+    .modularize-project-area .container-fluid {
       padding-left: 0;
       padding-right: 0; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-project-area .container-fluid {
+    .modularize-project-area .container-fluid {
       padding-left: 0;
       padding-right: 0; } }
   @media (max-width: 767px) {
-    .infetech-project-area .container-fluid {
+    .modularize-project-area .container-fluid {
       padding-left: 0;
       padding-right: 0; } }
-  .infetech-project-area.infetech-project-area-5 {
+  .modularize-project-area.modularize-project-area-5 {
     margin-bottom: 0;
     border-bottom: 0; }
 
@@ -2982,96 +2988,96 @@ p {
   .single-project-item:hover img {
     transform: scale(1.1); }
 
-.infetech-project-slide-2 .col-lg-3,
-.infetech-project-slide .col-lg-3 {
+.modularize-project-slide-2 .col-lg-3,
+.modularize-project-slide .col-lg-3 {
   padding-left: 15px;
   padding-right: 15px; }
-.infetech-project-slide-2 .slick-dots,
-.infetech-project-slide .slick-dots {
+.modularize-project-slide-2 .slick-dots,
+.modularize-project-slide .slick-dots {
   position: absolute;
   left: 50%;
   bottom: -48px;
   transform: translateX(-50%);
   width: auto; }
-  .infetech-project-slide-2 .slick-dots li,
-  .infetech-project-slide .slick-dots li {
+  .modularize-project-slide-2 .slick-dots li,
+  .modularize-project-slide .slick-dots li {
     display: inline-block;
     margin: 0 5px; }
-    .infetech-project-slide-2 .slick-dots li button,
-    .infetech-project-slide .slick-dots li button {
+    .modularize-project-slide-2 .slick-dots li button,
+    .modularize-project-slide .slick-dots li button {
       border: 0;
       background: #bbb9be;
       height: 4px;
       width: 16px;
       font-size: 0; }
-    .infetech-project-slide-2 .slick-dots li.slick-active button,
-    .infetech-project-slide .slick-dots li.slick-active button {
+    .modularize-project-slide-2 .slick-dots li.slick-active button,
+    .modularize-project-slide .slick-dots li.slick-active button {
       background: #5f2dee; }
 
-.infetech-sponser-area {
+.modularize-sponser-area {
   padding-bottom: 80px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-sponser-area.infetech-sponser-area-3 {
+    .modularize-sponser-area.modularize-sponser-area-3 {
       padding-bottom: 40px; } }
   @media (max-width: 767px) {
-    .infetech-sponser-area.infetech-sponser-area-3 {
+    .modularize-sponser-area.modularize-sponser-area-3 {
       padding-bottom: 40px; } }
-  .infetech-sponser-area.infetech-sponser-services-area {
+  .modularize-sponser-area.modularize-sponser-services-area {
     border-top: 1px solid #e4e0ee;
     padding-top: 80px; }
-  .infetech-sponser-area .infetech-sponser-item {
+  .modularize-sponser-area .modularize-sponser-item {
     text-align: center;
     padding: 35px 0; }
-    .infetech-sponser-area .infetech-sponser-item img {
+    .modularize-sponser-area .modularize-sponser-item img {
       display: inline-block;
       opacity: 0.6; }
-    .infetech-sponser-area .infetech-sponser-item:hover {
+    .modularize-sponser-area .modularize-sponser-item:hover {
       background: #f4f2f9; }
-      .infetech-sponser-area .infetech-sponser-item:hover img {
+      .modularize-sponser-area .modularize-sponser-item:hover img {
         opacity: 1; }
-  .infetech-sponser-area.infetech-sponser-area-2 {
+  .modularize-sponser-area.modularize-sponser-area-2 {
     border-top: 1px solid #e4e0ee;
     padding-top: 90px;
     margin-top: 120px; }
-  .infetech-sponser-area.infetech-sponser-area-4 {
+  .modularize-sponser-area.modularize-sponser-area-4 {
     border-bottom: 1px solid #e4e0ee; }
-  .infetech-sponser-area.infetech-sponser-area-5 {
+  .modularize-sponser-area.modularize-sponser-area-5 {
     background-image: url(../images/sponser-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 90px 0; }
-    .infetech-sponser-area.infetech-sponser-area-5 .infetech-sponser-item {
+    .modularize-sponser-area.modularize-sponser-area-5 .modularize-sponser-item {
       transition: all linear 0.3s; }
-      .infetech-sponser-area.infetech-sponser-area-5 .infetech-sponser-item:hover {
+      .modularize-sponser-area.modularize-sponser-area-5 .modularize-sponser-item:hover {
         background: #7545fc; }
-        .infetech-sponser-area.infetech-sponser-area-5 .infetech-sponser-item:hover img {
+        .modularize-sponser-area.modularize-sponser-area-5 .modularize-sponser-item:hover img {
           opacity: 1; }
-      .infetech-sponser-area.infetech-sponser-area-5 .infetech-sponser-item img {
+      .modularize-sponser-area.modularize-sponser-area-5 .modularize-sponser-item img {
         opacity: 0.6;
         transition: all linear 0.3s; }
-  .infetech-sponser-area.infetech-sponser-about-area {
+  .modularize-sponser-area.modularize-sponser-about-area {
     padding-top: 90px;
     padding-bottom: 90px;
     border-bottom: 1px solid #e4e0ee; }
 
-.infetech-project-offer-area-2 .single-project-item-2 {
+.modularize-project-offer-area-2 .single-project-item-2 {
   position: relative;
   padding-right: 70px;
   z-index: 10;
   padding-bottom: 40px; }
   @media (max-width: 767px) {
-    .infetech-project-offer-area-2 .single-project-item-2 {
+    .modularize-project-offer-area-2 .single-project-item-2 {
       padding-right: 0;
       margin-bottom: 30px; } }
-  .infetech-project-offer-area-2 .single-project-item-2 .thumb {
+  .modularize-project-offer-area-2 .single-project-item-2 .thumb {
     overflow: hidden; }
-    .infetech-project-offer-area-2 .single-project-item-2 .thumb img {
+    .modularize-project-offer-area-2 .single-project-item-2 .thumb img {
       width: 100%;
       transition: all linear 0.3s; }
-  .infetech-project-offer-area-2 .single-project-item-2:hover .thumb img {
+  .modularize-project-offer-area-2 .single-project-item-2:hover .thumb img {
     transform: scale(1.1); }
-  .infetech-project-offer-area-2 .single-project-item-2 .project-content {
+  .modularize-project-offer-area-2 .single-project-item-2 .project-content {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -3083,7 +3089,7 @@ p {
     align-items: center;
     padding: 35px 40px 35px 50px; }
     @media (max-width: 767px) {
-      .infetech-project-offer-area-2 .single-project-item-2 .project-content {
+      .modularize-project-offer-area-2 .single-project-item-2 .project-content {
         position: static;
         width: 100%;
         justify-content: flex-start;
@@ -3091,24 +3097,24 @@ p {
         align-items: flex-start;
         padding: 20px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .infetech-project-offer-area-2 .single-project-item-2 .project-content {
+      .modularize-project-offer-area-2 .single-project-item-2 .project-content {
         position: static;
         width: 100%;
         justify-content: space-between;
         flex-direction: row;
         align-items: flex-start; } }
-    .infetech-project-offer-area-2 .single-project-item-2 .project-content .text a {
+    .modularize-project-offer-area-2 .single-project-item-2 .project-content .text a {
       font-size: 20px;
       font-weight: 800;
       color: #1d1729;
       line-height: 26px; }
-    .infetech-project-offer-area-2 .single-project-item-2 .project-content .icon {
+    .modularize-project-offer-area-2 .single-project-item-2 .project-content .icon {
       margin-left: 30px; }
       @media (max-width: 767px) {
-        .infetech-project-offer-area-2 .single-project-item-2 .project-content .icon {
+        .modularize-project-offer-area-2 .single-project-item-2 .project-content .icon {
           margin-left: 0;
           margin-top: 20px; } }
-      .infetech-project-offer-area-2 .single-project-item-2 .project-content .icon a {
+      .modularize-project-offer-area-2 .single-project-item-2 .project-content .icon a {
         height: 50px;
         width: 50px;
         text-align: center;
@@ -3117,13 +3123,13 @@ p {
         color: #fff;
         background: #b882fc; }
 
-.infetech-project-slider-area-2 {
+.modularize-project-slider-area-2 {
   padding-top: 120px;
   padding-bottom: 160px;
   position: relative;
   z-index: 10;
   overflow: hidden; }
-  .infetech-project-slider-area-2::before {
+  .modularize-project-slider-area-2::before {
     position: absolute;
     content: '';
     left: 0;
@@ -3132,27 +3138,27 @@ p {
     width: 100%;
     background: #f4f2f9;
     z-index: -1; }
-  .infetech-project-slider-area-2 .single-project-slider-item {
+  .modularize-project-slider-area-2 .single-project-slider-item {
     margin-left: 15px;
     margin-right: 15px; }
-    .infetech-project-slider-area-2 .single-project-slider-item .thumb {
+    .modularize-project-slider-area-2 .single-project-slider-item .thumb {
       overflow: hidden; }
-      .infetech-project-slider-area-2 .single-project-slider-item .thumb img {
+      .modularize-project-slider-area-2 .single-project-slider-item .thumb img {
         transition: all linear 0.3s;
         width: 100%; }
-    .infetech-project-slider-area-2 .single-project-slider-item .content {
+    .modularize-project-slider-area-2 .single-project-slider-item .content {
       padding-top: 25px;
       padding-bottom: 22px;
       border-bottom: 1px solid #e4e0ee;
       position: relative; }
-      .infetech-project-slider-area-2 .single-project-slider-item .content .title a {
+      .modularize-project-slider-area-2 .single-project-slider-item .content .title a {
         font-size: 24px;
         color: #1d1729; }
-      .infetech-project-slider-area-2 .single-project-slider-item .content span {
+      .modularize-project-slider-area-2 .single-project-slider-item .content span {
         color: #b882fc;
         font-weight: 800;
         margin-top: 2px; }
-      .infetech-project-slider-area-2 .single-project-slider-item .content .link {
+      .modularize-project-slider-area-2 .single-project-slider-item .content .link {
         position: absolute;
         right: 0;
         bottom: 0;
@@ -3163,9 +3169,9 @@ p {
         background: #e4e0ee;
         font-size: 14px;
         color: #6c6a72; }
-    .infetech-project-slider-area-2 .single-project-slider-item:hover .thumb img {
+    .modularize-project-slider-area-2 .single-project-slider-item:hover .thumb img {
       transform: scale(1.1); }
-    .infetech-project-slider-area-2 .single-project-slider-item:hover .content .link {
+    .modularize-project-slider-area-2 .single-project-slider-item:hover .content .link {
       background: #5f2dee;
       color: #fff; }
 
@@ -3187,16 +3193,16 @@ p {
     .project-slider-active .slick-dots li.slick-active button {
       background: #5f2dee; }
 
-.infetech-project-3-area {
+.modularize-project-3-area {
   padding-top: 112px;
   padding-bottom: 155px;
   position: relative;
   z-index: 10; }
   @media (max-width: 767px) {
-    .infetech-project-3-area {
+    .modularize-project-3-area {
       padding-top: 60px;
       padding-bottom: 90px; } }
-  .infetech-project-3-area::before {
+  .modularize-project-3-area::before {
     position: absolute;
     content: '';
     left: 0;
@@ -3205,29 +3211,29 @@ p {
     height: 425px;
     background: #1d1729;
     z-index: -1; }
-  .infetech-project-3-area .section-title {
+  .modularize-project-3-area .section-title {
     text-align: center;
     margin-bottom: 44px; }
-    .infetech-project-3-area .section-title .title {
+    .modularize-project-3-area .section-title .title {
       color: #fff; }
-  .infetech-project-3-area.services::before {
+  .modularize-project-3-area.services::before {
     display: none; }
-  .infetech-project-3-area.services .section-title .title {
+  .modularize-project-3-area.services .section-title .title {
     color: #1d1729; }
 
-.infetech-project-4-area {
+.modularize-project-4-area {
   overflow: hidden;
   position: relative;
   z-index: 10; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-project-4-area {
+    .modularize-project-4-area {
       padding-top: 50px;
       padding-bottom: 0px; } }
   @media (max-width: 767px) {
-    .infetech-project-4-area {
+    .modularize-project-4-area {
       padding-top: 50px;
       padding-bottom: 0px; } }
-  .infetech-project-4-area::before {
+  .modularize-project-4-area::before {
     position: absolute;
     content: '';
     left: 0;
@@ -3236,27 +3242,27 @@ p {
     width: 100%;
     background: #5f2dee;
     z-index: -1; }
-  .infetech-project-4-area .section-title {
+  .modularize-project-4-area .section-title {
     text-align: center; }
-    .infetech-project-4-area .section-title span {
+    .modularize-project-4-area .section-title span {
       color: #fff; }
-      .infetech-project-4-area .section-title span::before {
+      .modularize-project-4-area .section-title span::before {
         background: #fff; }
-    .infetech-project-4-area .section-title .title {
+    .modularize-project-4-area .section-title .title {
       color: #fff; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-projects-grid-area {
+  .modularize-projects-grid-area {
     padding-top: 70px;
     padding-bottom: 40px; } }
-.infetech-projects-grid-area .single-project-item {
+.modularize-projects-grid-area .single-project-item {
   margin-bottom: 30px; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-projects-details-area {
+  .modularize-projects-details-area {
     padding: 70px 0 50px; } }
 @media (max-width: 767px) {
-  .infetech-projects-details-area {
+  .modularize-projects-details-area {
     padding: 70px 0 50px; } }
 
 .projects-details-list-box {
@@ -3374,18 +3380,18 @@ p {
   width: 100%; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-project-details-list-area {
+  .modularize-project-details-list-area {
     padding-bottom: 40px; } }
 @media (max-width: 767px) {
-  .infetech-project-details-list-area {
+  .modularize-project-details-list-area {
     padding-bottom: 40px; } }
-.infetech-project-details-list-area .single-project-item {
+.modularize-project-details-list-area .single-project-item {
   margin-bottom: 30px; }
 
 /*===========================
     9.TESTIMONIAL css 
 ===========================*/
-.infetech-testimonial-area {
+.modularize-testimonial-area {
   background-image: url(../images/testimonial-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -3393,14 +3399,14 @@ p {
   padding-top: 115px;
   padding-bottom: 133px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-testimonial-area {
+    .modularize-testimonial-area {
       padding-top: 80px;
       padding-bottom: 80px; } }
   @media (max-width: 767px) {
-    .infetech-testimonial-area {
+    .modularize-testimonial-area {
       padding-top: 80px;
       padding-bottom: 80px; } }
-  .infetech-testimonial-area .single-testimonial-box {
+  .modularize-testimonial-area .single-testimonial-box {
     padding-left: 15px;
     padding-bottom: 15px;
     margin-left: 60px;
@@ -3410,25 +3416,25 @@ p {
     background-size: auto;
     background-repeat: no-repeat; }
     @media (max-width: 767px) {
-      .infetech-testimonial-area .single-testimonial-box {
+      .modularize-testimonial-area .single-testimonial-box {
         margin-left: 0; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .infetech-testimonial-area .single-testimonial-box {
+      .modularize-testimonial-area .single-testimonial-box {
         margin-left: 30px; } }
-    .infetech-testimonial-area .single-testimonial-box .single-testimonial-user {
+    .modularize-testimonial-area .single-testimonial-box .single-testimonial-user {
       margin-bottom: -85px;
       margin-left: -75px;
       position: relative;
       z-index: 20; }
       @media (max-width: 767px) {
-        .infetech-testimonial-area .single-testimonial-box .single-testimonial-user {
+        .modularize-testimonial-area .single-testimonial-box .single-testimonial-user {
           margin-left: 0;
           margin-bottom: 20px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .infetech-testimonial-area .single-testimonial-box .single-testimonial-user {
+        .modularize-testimonial-area .single-testimonial-box .single-testimonial-user {
           margin-bottom: -85px;
           margin-left: -60px; } }
-      .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .thumb {
+      .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .thumb {
         background: #fff;
         border-radius: 50%;
         overflow: hidden;
@@ -3437,14 +3443,14 @@ p {
         width: 150px;
         position: relative; }
         @media (max-width: 767px) {
-          .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .thumb {
+          .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .thumb {
             height: 100px;
             width: 100px; } }
         @media only screen and (min-width: 576px) and (max-width: 767px) {
-          .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .thumb {
+          .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .thumb {
             height: 150px;
             width: 150px; } }
-        .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .thumb::before {
+        .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .thumb::before {
           position: absolute;
           content: '';
           left: 50%;
@@ -3455,17 +3461,17 @@ p {
           border: 6px solid #5f2dee;
           border-radius: 50%; }
           @media (max-width: 767px) {
-            .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .thumb::before {
+            .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .thumb::before {
               height: 80px;
               width: 80px; } }
           @media only screen and (min-width: 576px) and (max-width: 767px) {
-            .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .thumb::before {
+            .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .thumb::before {
               height: 130px;
               width: 130px; } }
-        .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .thumb img {
+        .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .thumb img {
           width: 100%;
           border-radius: 50%; }
-      .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .user-content {
+      .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .user-content {
         background: #fff;
         border-radius: 60px;
         padding: 15px 85px 15px 177px;
@@ -3476,27 +3482,27 @@ p {
         z-index: -1;
         box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07); }
         @media (max-width: 767px) {
-          .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .user-content {
+          .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .user-content {
             padding: 15px 30px 15px 110px; } }
         @media only screen and (min-width: 576px) and (max-width: 767px) {
-          .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .user-content {
+          .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .user-content {
             padding: 15px 85px 15px 177px; } }
-        .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .user-content .title {
+        .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .user-content .title {
           font-size: 20px;
           color: #1d1729; }
-        .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .user-content span {
+        .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .user-content span {
           font-weight: 600;
           font-size: 14px;
           color: #5f2dee; }
-        .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .user-content img {
+        .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .user-content img {
           position: absolute;
           right: 55px;
           top: 100%; }
           @media (max-width: 767px) {
-            .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .user-content img {
+            .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .user-content img {
               right: 39px; } }
           @media only screen and (min-width: 576px) and (max-width: 767px) {
-            .infetech-testimonial-area .single-testimonial-box .single-testimonial-user .user-content img {
+            .modularize-testimonial-area .single-testimonial-box .single-testimonial-user .user-content img {
               right: 55px; } }
 
 .single-testimonial-item {
@@ -3527,54 +3533,54 @@ p {
     color: #6c6a72;
     line-height: 34px; }
 
-.infetech-testimonial-slide .col-lg-6 {
+.modularize-testimonial-slide .col-lg-6 {
   padding-left: 15px;
   padding-right: 15px; }
-.infetech-testimonial-slide .slick-dots {
+.modularize-testimonial-slide .slick-dots {
   position: absolute;
   left: 50%;
   bottom: -18px;
   transform: translateX(-50%);
   width: auto; }
-  .infetech-testimonial-slide .slick-dots li {
+  .modularize-testimonial-slide .slick-dots li {
     display: inline-block;
     margin: 0 5px; }
-    .infetech-testimonial-slide .slick-dots li button {
+    .modularize-testimonial-slide .slick-dots li button {
       border: 0;
       background: #bbb9be;
       height: 4px;
       width: 16px;
       font-size: 0; }
-    .infetech-testimonial-slide .slick-dots li.slick-active button {
+    .modularize-testimonial-slide .slick-dots li.slick-active button {
       background: #5f2dee; }
 
-.infetech-testimonial-4-area {
+.modularize-testimonial-4-area {
   background-image: url(../images/testimonial-bg-2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-testimonial-4-area {
+    .modularize-testimonial-4-area {
       padding-top: 70px;
       padding-bottom: 70px; } }
   @media (max-width: 767px) {
-    .infetech-testimonial-4-area {
+    .modularize-testimonial-4-area {
       padding-top: 70px;
       padding-bottom: 70px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-testimonial-4-area .testimonial-4-box .testimonial-small-thumb .testimonial-thumb-list {
+    .modularize-testimonial-4-area .testimonial-4-box .testimonial-small-thumb .testimonial-thumb-list {
       width: 350px;
       margin-bottom: 20px; } }
   @media (max-width: 767px) {
-    .infetech-testimonial-4-area .testimonial-4-box .testimonial-small-thumb .testimonial-thumb-list {
+    .modularize-testimonial-4-area .testimonial-4-box .testimonial-small-thumb .testimonial-thumb-list {
       width: 300px;
       margin-bottom: 20px; } }
-  .infetech-testimonial-4-area .testimonial-4-box .testimonial-small-thumb .testimonial-thumb-list li {
+  .modularize-testimonial-4-area .testimonial-4-box .testimonial-small-thumb .testimonial-thumb-list li {
     margin: 5px 0; }
-  .infetech-testimonial-4-area .testimonial-thumb-4 {
+  .modularize-testimonial-4-area .testimonial-thumb-4 {
     position: relative; }
-    .infetech-testimonial-4-area .testimonial-thumb-4 .quote-icon {
+    .modularize-testimonial-4-area .testimonial-thumb-4 .quote-icon {
       height: 115px;
       width: 115px;
       background: rgba(0, 0, 0, 0.2);
@@ -3590,14 +3596,14 @@ p {
       transform: translateY(-50%);
       z-index: 10; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-testimonial-4-area .testimonial-thumb-4 .quote-icon {
+        .modularize-testimonial-4-area .testimonial-thumb-4 .quote-icon {
           left: 350px;
           right: inherit; } }
       @media (max-width: 767px) {
-        .infetech-testimonial-4-area .testimonial-thumb-4 .quote-icon {
+        .modularize-testimonial-4-area .testimonial-thumb-4 .quote-icon {
           left: 350px;
           right: inherit; } }
-      .infetech-testimonial-4-area .testimonial-thumb-4 .quote-icon::before {
+      .modularize-testimonial-4-area .testimonial-thumb-4 .quote-icon::before {
         position: absolute;
         content: '';
         left: 50%;
@@ -3608,41 +3614,41 @@ p {
         border-radius: 50%;
         background: #b882fc;
         z-index: -1; }
-  .infetech-testimonial-4-area .testimonial-content-4 {
+  .modularize-testimonial-4-area .testimonial-content-4 {
     padding-left: 95px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-testimonial-4-area .testimonial-content-4 {
+      .modularize-testimonial-4-area .testimonial-content-4 {
         padding-left: 0;
         margin-top: 20px; } }
     @media (max-width: 767px) {
-      .infetech-testimonial-4-area .testimonial-content-4 {
+      .modularize-testimonial-4-area .testimonial-content-4 {
         padding-left: 0;
         margin-top: 20px; } }
-    .infetech-testimonial-4-area .testimonial-content-4 .section-title span {
+    .modularize-testimonial-4-area .testimonial-content-4 .section-title span {
       color: #b0a9c0; }
-      .infetech-testimonial-4-area .testimonial-content-4 .section-title span::before {
+      .modularize-testimonial-4-area .testimonial-content-4 .section-title span::before {
         background: #b0a9c0; }
-    .infetech-testimonial-4-area .testimonial-content-4 .section-title .title {
+    .modularize-testimonial-4-area .testimonial-content-4 .section-title .title {
       color: #fff; }
-    .infetech-testimonial-4-area .testimonial-content-4 .section-title p {
+    .modularize-testimonial-4-area .testimonial-content-4 .section-title p {
       font-weight: 500;
       line-height: 40px;
       color: #b0a9c0;
       font-size: 20px;
       margin-top: 25px; }
-  .infetech-testimonial-4-area .clients-info {
+  .modularize-testimonial-4-area .clients-info {
     margin-top: 40px; }
-    .infetech-testimonial-4-area .clients-info .title {
+    .modularize-testimonial-4-area .clients-info .title {
       color: #fff;
       font-size: 20px; }
-      .infetech-testimonial-4-area .clients-info .title span {
+      .modularize-testimonial-4-area .clients-info .title span {
         color: #b882fc;
         font-size: 14px;
         font-weight: 500;
         padding-left: 14px;
         margin-left: 14px;
         position: relative; }
-        .infetech-testimonial-4-area .clients-info .title span::before {
+        .modularize-testimonial-4-area .clients-info .title span::before {
           position: absolute;
           content: '';
           left: 0;
@@ -3651,7 +3657,7 @@ p {
           height: 2px;
           width: 2px;
           background: #fff; }
-  .infetech-testimonial-4-area .testimonial-slider-active-4 .slick-arrow {
+  .modularize-testimonial-4-area .testimonial-slider-active-4 .slick-arrow {
     position: absolute;
     bottom: 0;
     height: 50px;
@@ -3665,11 +3671,11 @@ p {
     z-index: 20;
     cursor: pointer;
     transition: all linear 0.3s; }
-    .infetech-testimonial-4-area .testimonial-slider-active-4 .slick-arrow.prev {
+    .modularize-testimonial-4-area .testimonial-slider-active-4 .slick-arrow.prev {
       right: 70px; }
-    .infetech-testimonial-4-area .testimonial-slider-active-4 .slick-arrow.next {
+    .modularize-testimonial-4-area .testimonial-slider-active-4 .slick-arrow.next {
       right: 0px; }
-    .infetech-testimonial-4-area .testimonial-slider-active-4 .slick-arrow:hover {
+    .modularize-testimonial-4-area .testimonial-slider-active-4 .slick-arrow:hover {
       border-color: #fff;
       color: #fff; }
 
@@ -3799,20 +3805,20 @@ p {
 /*===========================
     10.TESTIMONIAL css 
 ===========================*/
-.infetech-team-area {
+.modularize-team-area {
   padding-bottom: 120px;
   padding-top: 115px;
   position: relative;
   z-index: 20; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-team-area {
+    .modularize-team-area {
       padding-top: 50px;
       padding-bottom: 80px; } }
   @media (max-width: 767px) {
-    .infetech-team-area {
+    .modularize-team-area {
       padding-top: 50px;
       padding-bottom: 80px; } }
-  .infetech-team-area::before {
+  .modularize-team-area::before {
     position: absolute;
     content: '';
     top: 0;
@@ -3825,34 +3831,34 @@ p {
     background-repeat: no-repeat;
     z-index: -1; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-team-area .row {
+    .modularize-team-area .row {
       margin-bottom: 0; } }
   @media (max-width: 767px) {
-    .infetech-team-area .row {
+    .modularize-team-area .row {
       margin-bottom: 0; } }
-  .infetech-team-area .section-title p {
+  .modularize-team-area .section-title p {
     color: #6c6a72;
     line-height: 30px; }
-  .infetech-team-area.infetech-team-area-page {
+  .modularize-team-area.modularize-team-area-page {
     padding-top: 120px;
     padding-bottom: 56px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-team-area.infetech-team-area-page {
+      .modularize-team-area.modularize-team-area-page {
         padding-top: 60px;
         padding-bottom: 70px; } }
     @media (max-width: 767px) {
-      .infetech-team-area.infetech-team-area-page {
+      .modularize-team-area.modularize-team-area-page {
         padding-top: 60px;
         padding-bottom: 70px; } }
-    .infetech-team-area.infetech-team-area-page::before {
+    .modularize-team-area.modularize-team-area-page::before {
       display: none; }
-    .infetech-team-area.infetech-team-area-page .single-tema-item {
+    .modularize-team-area.modularize-team-area-page .single-tema-item {
       margin-bottom: 60px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-team-area.infetech-team-area-page .single-tema-item {
+        .modularize-team-area.modularize-team-area-page .single-tema-item {
           margin-bottom: 0; } }
       @media (max-width: 767px) {
-        .infetech-team-area.infetech-team-area-page .single-tema-item {
+        .modularize-team-area.modularize-team-area-page .single-tema-item {
           margin-bottom: 0; } }
 
 .single-tema-item {
@@ -4140,7 +4146,7 @@ p {
 /*===========================
     11.VIDEO css 
 ===========================*/
-.infetech-video-area {
+.modularize-video-area {
   padding-top: 120px;
   padding-bottom: 120px;
   background-image: url(../images/video-bg.jpg);
@@ -4150,12 +4156,12 @@ p {
   position: relative;
   z-index: 10;
   overflow: hidden; }
-  .infetech-video-area .video-shape {
+  .modularize-video-area .video-shape {
     position: absolute;
     left: 0;
     top: 0;
     z-index: -1; }
-  .infetech-video-area::before {
+  .modularize-video-area::before {
     position: absolute;
     content: '';
     left: 0;
@@ -4165,7 +4171,7 @@ p {
     background: #1d1729;
     opacity: 0.7;
     z-index: -2; }
-  .infetech-video-area .video-content .play-btn a {
+  .modularize-video-area .video-content .play-btn a {
     height: 60px;
     width: 60px;
     text-align: center;
@@ -4174,7 +4180,7 @@ p {
     color: #fff;
     background: #b882fc;
     position: relative; }
-    .infetech-video-area .video-content .play-btn a::before {
+    .modularize-video-area .video-content .play-btn a::before {
       position: absolute;
       content: '';
       left: 0;
@@ -4184,29 +4190,29 @@ p {
       border: 1px solid #fff;
       border-radius: 50%;
       animation: play-popup 1.5s infinite; }
-  .infetech-video-area .video-content span {
+  .modularize-video-area .video-content span {
     font-size: 16px;
     font-weight: 600;
     color: #fff;
     display: inline-block;
     padding-top: 43px;
     padding-bottom: 16px; }
-  .infetech-video-area .video-content .title {
+  .modularize-video-area .video-content .title {
     color: #fff;
     font-size: 60px; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .infetech-video-area .video-content .title {
+      .modularize-video-area .video-content .title {
         font-size: 46px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-video-area .video-content .title {
+      .modularize-video-area .video-content .title {
         font-size: 46px;
         margin-bottom: 20px; } }
     @media (max-width: 767px) {
-      .infetech-video-area .video-content .title {
+      .modularize-video-area .video-content .title {
         font-size: 26px;
         margin-bottom: 20px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .infetech-video-area .video-content .title {
+      .modularize-video-area .video-content .title {
         font-size: 40px;
         margin-bottom: 20px; } }
 
@@ -4254,24 +4260,24 @@ p {
     12.BLOG css 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-blog-area {
+  .modularize-blog-area {
     padding-top: 80px;
     padding-bottom: 80px; } }
 @media (max-width: 767px) {
-  .infetech-blog-area {
+  .modularize-blog-area {
     padding-top: 80px;
     padding-bottom: 80px; } }
-.infetech-blog-area.infetech-blog-area-3 {
+.modularize-blog-area.modularize-blog-area-3 {
   position: relative;
   border-bottom: 1px solid #e4e0ee;
   z-index: 10;
   margin-bottom: 80px; }
   @media (max-width: 767px) {
-    .infetech-blog-area.infetech-blog-area-3 {
+    .modularize-blog-area.modularize-blog-area-3 {
       padding-top: 50px;
       padding-bottom: 60px;
       margin-bottom: 40px; } }
-  .infetech-blog-area.infetech-blog-area-3::before {
+  .modularize-blog-area.modularize-blog-area-3::before {
     position: absolute;
     content: '';
     left: 0;
@@ -4380,73 +4386,73 @@ p {
   .single-blog-item:hover .content .blog-meta .title a {
     color: #5f2dee; }
 
-.infetech-blog-area-2 {
+.modularize-blog-area-2 {
   padding-top: 120px;
   padding-bottom: 70px;
   overflow: hidden; }
-  .infetech-blog-area-2 .section-title {
+  .modularize-blog-area-2 .section-title {
     padding-right: 40px; }
     @media only screen and (min-width: 10px) and (max-width: 1600px) {
-      .infetech-blog-area-2 .section-title {
+      .modularize-blog-area-2 .section-title {
         padding-right: 0; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-blog-area-2 .section-title {
+      .modularize-blog-area-2 .section-title {
         padding-bottom: 20px; } }
     @media (max-width: 767px) {
-      .infetech-blog-area-2 .section-title {
+      .modularize-blog-area-2 .section-title {
         padding-bottom: 20px; } }
-    .infetech-blog-area-2 .section-title p {
+    .modularize-blog-area-2 .section-title p {
       color: #6c6a72;
       margin-top: 29px;
       padding-right: 70px; }
       @media only screen and (min-width: 10px) and (max-width: 1600px) {
-        .infetech-blog-area-2 .section-title p {
+        .modularize-blog-area-2 .section-title p {
           padding-right: 0; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .infetech-blog-area-2 .section-title p {
+        .modularize-blog-area-2 .section-title p {
           margin-top: 10px; } }
       @media (max-width: 767px) {
-        .infetech-blog-area-2 .section-title p {
+        .modularize-blog-area-2 .section-title p {
           margin-top: 10px; } }
     @media only screen and (min-width: 992px) and (max-width: 1600px) {
-      .infetech-blog-area-2 .section-title .title {
+      .modularize-blog-area-2 .section-title .title {
         font-size: 30px; } }
-  .infetech-blog-area-2 .full-right {
+  .modularize-blog-area-2 .full-right {
     position: relative;
     left: calc((100% - 1020px) / 3); }
     @media only screen and (min-width: 992px) and (max-width: 1600px) {
-      .infetech-blog-area-2 .full-right {
+      .modularize-blog-area-2 .full-right {
         left: calc((100% - 1020px) / 4); } }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .infetech-blog-area-2 .full-right {
+      .modularize-blog-area-2 .full-right {
         left: calc((100% - 940px) / 4); } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-blog-area-2 .full-right {
+      .modularize-blog-area-2 .full-right {
         left: 0; } }
     @media (max-width: 767px) {
-      .infetech-blog-area-2 .full-right {
+      .modularize-blog-area-2 .full-right {
         left: 0; } }
-  .infetech-blog-area-2 .single-blog-item {
+  .modularize-blog-area-2 .single-blog-item {
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 50px; }
 
-.infetech-blog-slide-active {
+.modularize-blog-slide-active {
   margin-right: 275px; }
   @media only screen and (min-width: 1600px) and (max-width: 1800px) {
-    .infetech-blog-slide-active {
+    .modularize-blog-slide-active {
       margin-right: 180px; } }
   @media only screen and (min-width: 10px) and (max-width: 1600px) {
-    .infetech-blog-slide-active {
+    .modularize-blog-slide-active {
       margin-right: 0px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-blog-page-area {
+  .modularize-blog-page-area {
     padding: 70px 0 40px; } }
 @media (max-width: 767px) {
-  .infetech-blog-page-area {
+  .modularize-blog-page-area {
     padding: 70px 0 40px; } }
-.infetech-blog-page-area .single-blog-item {
+.modularize-blog-page-area .single-blog-item {
   margin-bottom: 30px; }
 
 .blog-sidebar .input-box {
@@ -4691,11 +4697,11 @@ p {
       color: #fff; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-blog-details-area {
+  .modularize-blog-details-area {
     padding-top: 40px;
     padding-bottom: 70px; } }
 @media (max-width: 767px) {
-  .infetech-blog-details-area {
+  .modularize-blog-details-area {
     padding-top: 40px;
     padding-bottom: 70px; } }
 
@@ -4776,7 +4782,7 @@ p {
 /*===========================
     13.FOOTER css 
 ===========================*/
-.infetech-footer-area {
+.modularize-footer-area {
   padding-top: 120px;
   padding-bottom: 107px;
   background-image: url(../images/footer-bg.jpg);
@@ -4784,19 +4790,19 @@ p {
   background-position: center;
   background-repeat: no-repeat; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-footer-area {
+    .modularize-footer-area {
       padding: 80px 0; } }
   @media (max-width: 767px) {
-    .infetech-footer-area {
+    .modularize-footer-area {
       padding: 80px 0; } }
-  .infetech-footer-area .title {
+  .modularize-footer-area .title {
     color: #fff;
     font-size: 20px;
     color: #fff;
     position: relative;
     padding-bottom: 14px;
     margin-bottom: 20px; }
-    .infetech-footer-area .title::before {
+    .modularize-footer-area .title::before {
       position: absolute;
       content: '';
       left: 0;
@@ -4805,7 +4811,7 @@ p {
       width: 17px;
       background: #5f2dee; }
       @media (max-width: 767px) {
-        .infetech-footer-area .title::before {
+        .modularize-footer-area .title::before {
           left: 50%;
           transform: translateX(-50%); } }
 
@@ -5116,17 +5122,17 @@ p {
     right: 0; }
   100% {
     right: 100px; } }
-.infetech-footer-4-area {
+.modularize-footer-4-area {
   background-image: url(../images/footer-line.png);
   background-position: top right;
   background-size: auto;
   background-repeat: no-repeat; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-footer-4-area {
+    .modularize-footer-4-area {
       padding-top: 70px;
       padding-bottom: 70px; } }
   @media (max-width: 767px) {
-    .infetech-footer-4-area {
+    .modularize-footer-4-area {
       padding-top: 70px;
       padding-bottom: 70px; } }
 
@@ -5203,11 +5209,11 @@ p {
     color: #fff;
     background: #5f2dee; }
 
-.infetech-footer-4-area.footer-copyright {
+.modularize-footer-4-area.footer-copyright {
   text-align: center;
   background: #fff;
   border-top-color: #e4e0ee; }
-  .infetech-footer-4-area.footer-copyright p {
+  .modularize-footer-4-area.footer-copyright p {
     font-size: 16px;
     font-weight: 500;
     color: #6c6a72; }
@@ -5215,7 +5221,7 @@ p {
 /*===========================
     14.CLIENTS css 
 ===========================*/
-.infetech-clients-area {
+.modularize-clients-area {
   padding-top: 115px;
   background-image: url(../images/client-bg-line.png);
   background-size: cover;
@@ -5302,12 +5308,12 @@ p {
 .clients-content-box a {
   border: 1px solid #5f2dee; }
 
-.infetech-clients-3-area {
+.modularize-clients-3-area {
   padding-top: 112px;
   padding-bottom: 120px;
   background: #f2f0f7; }
   @media (max-width: 767px) {
-    .infetech-clients-3-area {
+    .modularize-clients-3-area {
       padding-top: 60px;
       padding-bottom: 150px; } }
 
@@ -5426,15 +5432,15 @@ p {
         background: #5f2dee;
         color: #fff; }
 
-.infetech-clients-4-area {
+.modularize-clients-4-area {
   padding-top: 114px;
   padding-bottom: 120px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-clients-4-area {
+    .modularize-clients-4-area {
       padding-top: 50px;
       padding-bottom: 50px; } }
   @media (max-width: 767px) {
-    .infetech-clients-4-area {
+    .modularize-clients-4-area {
       padding-top: 50px;
       padding-bottom: 50px; } }
 
@@ -5503,13 +5509,13 @@ p {
 /*===========================
     15.TESTIMONIAL css 
 ===========================*/
-.infetech-information-area {
+.modularize-information-area {
   padding-top: 120px;
   padding-bottom: 120px;
   position: relative;
   z-index: 10;
   overflow: hidden; }
-  .infetech-information-area::before {
+  .modularize-information-area::before {
     position: absolute;
     content: '';
     left: 0;
@@ -5522,16 +5528,16 @@ p {
     background-repeat: no-repeat;
     z-index: -1; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-information-area .information-thumb {
+    .modularize-information-area .information-thumb {
       margin-bottom: 30px; } }
-  .infetech-information-area .information-thumb .thumb {
+  .modularize-information-area .information-thumb .thumb {
     display: flex;
     align-items: flex-start;
     position: relative; }
-    .infetech-information-area .information-thumb .thumb .information-logo {
+    .modularize-information-area .information-thumb .thumb .information-logo {
       padding-left: 60px;
       padding-top: 85px; }
-    .infetech-information-area .information-thumb .thumb::before {
+    .modularize-information-area .information-thumb .thumb::before {
       position: absolute;
       content: 'missions';
       left: -185px;
@@ -5543,13 +5549,13 @@ p {
       text-transform: uppercase;
       letter-spacing: 21px;
       transform: rotate(-90deg); }
-    .infetech-information-area .information-thumb .thumb.thumb-2 {
+    .modularize-information-area .information-thumb .thumb.thumb-2 {
       margin-top: -85px; }
-      .infetech-information-area .information-thumb .thumb.thumb-2 .information-logo {
+      .modularize-information-area .information-thumb .thumb.thumb-2 .information-logo {
         padding-left: 0;
         padding-right: 60px;
         margin-top: 85px; }
-      .infetech-information-area .information-thumb .thumb.thumb-2::before {
+      .modularize-information-area .information-thumb .thumb.thumb-2::before {
         content: 'visions';
         left: auto;
         right: -70px;
@@ -5628,7 +5634,7 @@ p {
 /*===========================
     16.OFFER css 
 ===========================*/
-.infetech-offer-area {
+.modularize-offer-area {
   padding-top: 120px;
   padding-bottom: 120px;
   background-image: url(../images/offer-bg.jpg);
@@ -5636,47 +5642,47 @@ p {
   background-position: center;
   background-repeat: no-repeat; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-offer-area {
+    .modularize-offer-area {
       padding: 70px 0; } }
   @media (max-width: 767px) {
-    .infetech-offer-area {
+    .modularize-offer-area {
       padding: 70px 0; } }
-  .infetech-offer-area .section-title {
+  .modularize-offer-area .section-title {
     margin-bottom: 30px;
     padding-right: 70px; }
-    .infetech-offer-area .section-title span {
+    .modularize-offer-area .section-title span {
       color: #fff; }
-      .infetech-offer-area .section-title span::before {
+      .modularize-offer-area .section-title span::before {
         background: #fff; }
-    .infetech-offer-area .section-title .title {
+    .modularize-offer-area .section-title .title {
       color: #fff; }
-  .infetech-offer-area .offer-text {
+  .modularize-offer-area .offer-text {
     padding-right: 30px; }
-    .infetech-offer-area .offer-text p {
+    .modularize-offer-area .offer-text p {
       font-size: 16px;
       font-weight: 500;
       color: #e1d6ff;
       margin-bottom: 26px; }
-  .infetech-offer-area .offer-list ul li {
+  .modularize-offer-area .offer-list ul li {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 15px; }
-    .infetech-offer-area .offer-list ul li img {
+    .modularize-offer-area .offer-list ul li img {
       padding-right: 5px; }
 
-.infetech-offer-thumb {
+.modularize-offer-thumb {
   position: relative;
   padding-left: 70px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-offer-thumb {
+    .modularize-offer-thumb {
       text-align: left !important;
       margin-top: 20px; } }
   @media (max-width: 767px) {
-    .infetech-offer-thumb {
+    .modularize-offer-thumb {
       text-align: left !important;
       margin-top: 20px; } }
-  .infetech-offer-thumb .offer-icon {
+  .modularize-offer-thumb .offer-icon {
     height: 130px;
     width: 130px;
     text-align: center;
@@ -5696,26 +5702,26 @@ p {
   height: 128px;
   z-index: 324; }
 
-.infetech-offer-category-area {
+.modularize-offer-category-area {
   padding-top: 118px;
   padding-bottom: 110px;
   background-image: url(../images/offer-category-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-  .infetech-offer-category-area .section-title span {
+  .modularize-offer-category-area .section-title span {
     color: #b882fc; }
-    .infetech-offer-category-area .section-title span::before {
+    .modularize-offer-category-area .section-title span::before {
       background: #b882fc; }
-  .infetech-offer-category-area .section-title .title {
+  .modularize-offer-category-area .section-title .title {
     color: #fff; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-offer-category-area .offer-content {
+    .modularize-offer-category-area .offer-content {
       margin-bottom: 30px; } }
   @media (max-width: 767px) {
-    .infetech-offer-category-area .offer-content {
+    .modularize-offer-category-area .offer-content {
       margin-bottom: 30px; } }
-  .infetech-offer-category-area .offer-content p {
+  .modularize-offer-category-area .offer-content p {
     font-size: 16px;
     font-weight: 500;
     color: #b0a9c0;
@@ -5751,22 +5757,22 @@ p {
     16.FUN FACTS css 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-fun-facts-area {
+  .modularize-fun-facts-area {
     padding-bottom: 40px; } }
 @media (max-width: 767px) {
-  .infetech-fun-facts-area {
+  .modularize-fun-facts-area {
     padding-bottom: 40px; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-fun-facts-area.infetech-fun-facts-about-area {
+  .modularize-fun-facts-area.modularize-fun-facts-about-area {
     padding-bottom: 50px; } }
 @media (max-width: 767px) {
-  .infetech-fun-facts-area.infetech-fun-facts-about-area {
+  .modularize-fun-facts-area.modularize-fun-facts-about-area {
     padding-bottom: 100px; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-fun-facts-area.infetech-fun-facts-service-area {
+  .modularize-fun-facts-area.modularize-fun-facts-service-area {
     padding-top: 70px; } }
 @media (max-width: 767px) {
-  .infetech-fun-facts-area.infetech-fun-facts-service-area {
+  .modularize-fun-facts-area.modularize-fun-facts-service-area {
     padding-top: 70px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5801,17 +5807,17 @@ p {
 /*===========================
     17.COMPANY css 
 ===========================*/
-.infetech-company-area {
+.modularize-company-area {
   padding-bottom: 120px;
   position: relative;
   z-index: 10; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-company-area {
+    .modularize-company-area {
       padding-bottom: 90px; } }
   @media (max-width: 767px) {
-    .infetech-company-area {
+    .modularize-company-area {
       padding-bottom: 90px; } }
-  .infetech-company-area::before {
+  .modularize-company-area::before {
     position: absolute;
     content: '';
     left: 0;
@@ -5823,30 +5829,30 @@ p {
     background-position: center;
     z-index: -1; }
     @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-      .infetech-company-area::before {
+      .modularize-company-area::before {
         width: 500px; } }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .infetech-company-area::before {
+      .modularize-company-area::before {
         display: none; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-company-area::before {
+      .modularize-company-area::before {
         display: none; } }
     @media (max-width: 767px) {
-      .infetech-company-area::before {
+      .modularize-company-area::before {
         display: none; } }
-  .infetech-company-area .section-title p {
+  .modularize-company-area .section-title p {
     font-weight: 500;
     line-height: 30px;
     color: #6c6a72;
     margin-top: 30px;
     font-size: 18px; }
-  .infetech-company-area .company-thumb img {
+  .modularize-company-area .company-thumb img {
     width: 100%; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-company-area .col-lg-6 {
+    .modularize-company-area .col-lg-6 {
       padding-left: 0px; } }
   @media (max-width: 767px) {
-    .infetech-company-area .col-lg-6 {
+    .modularize-company-area .col-lg-6 {
       padding-left: 15px; } }
 
 .company-service-item {
@@ -5872,59 +5878,59 @@ p {
     font-weight: 500;
     padding-top: 9px; }
 
-.infetech-company-about-area {
+.modularize-company-about-area {
   padding-top: 120px;
   padding-bottom: 130px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-company-about-area {
+    .modularize-company-about-area {
       padding-top: 80px;
       padding-bottom: 90px; } }
   @media (max-width: 767px) {
-    .infetech-company-about-area {
+    .modularize-company-about-area {
       padding-top: 80px;
       padding-bottom: 90px; } }
-  .infetech-company-about-area .company-about-thumb {
+  .modularize-company-about-area .company-about-thumb {
     position: relative;
     z-index: 20; }
-    .infetech-company-about-area .company-about-thumb .icon {
+    .modularize-company-about-area .company-about-thumb .icon {
       position: absolute;
       right: 0;
       top: 50%;
       transform: translateY(-50%);
       z-index: 10; }
       @media (max-width: 767px) {
-        .infetech-company-about-area .company-about-thumb .icon {
+        .modularize-company-about-area .company-about-thumb .icon {
           display: none; } }
-  .infetech-company-about-area .infetech-about-content {
+  .modularize-company-about-area .modularize-about-content {
     padding-left: 70px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-company-about-area .infetech-about-content {
+      .modularize-company-about-area .modularize-about-content {
         padding-left: 0; } }
     @media (max-width: 767px) {
-      .infetech-company-about-area .infetech-about-content {
+      .modularize-company-about-area .modularize-about-content {
         padding-left: 0; } }
-    .infetech-company-about-area .infetech-about-content p {
+    .modularize-company-about-area .modularize-about-content p {
       margin-bottom: 27px; }
-    .infetech-company-about-area .infetech-about-content ul {
+    .modularize-company-about-area .modularize-about-content ul {
       display: flex;
       justify-content: flex-start;
       gap: 80px;
       margin: 0; }
       @media (max-width: 767px) {
-        .infetech-company-about-area .infetech-about-content ul {
+        .modularize-company-about-area .modularize-about-content ul {
           display: block; } }
-      .infetech-company-about-area .infetech-about-content ul li {
+      .modularize-company-about-area .modularize-about-content ul li {
         font-size: 18px;
         font-weight: 700; }
-        .infetech-company-about-area .infetech-about-content ul li i {
+        .modularize-company-about-area .modularize-about-content ul li i {
           font-size: 20px; }
-    .infetech-company-about-area .infetech-about-content a {
+    .modularize-company-about-area .modularize-about-content a {
       margin-top: 35px; }
 
 /*===========================
     18.PROMO BANNER css 
 ===========================*/
-.infetech-promo-banner-area {
+.modularize-promo-banner-area {
   background-image: url(../images/promo-banner-bg.jpg);
   padding: 168px 0 120px;
   background-size: cover;
@@ -5932,18 +5938,18 @@ p {
   background-repeat: no-repeat;
   margin-top: -60px; }
   @media (max-width: 767px) {
-    .infetech-promo-banner-area {
+    .modularize-promo-banner-area {
       padding: 115px 0 60px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-promo-banner-area {
+    .modularize-promo-banner-area {
       padding: 115px 0 60px; } }
-  .infetech-promo-banner-area.infetech-promo-banner-about {
+  .modularize-promo-banner-area.modularize-promo-banner-about {
     padding-top: 110px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-promo-banner-area.infetech-promo-banner-about {
+      .modularize-promo-banner-area.modularize-promo-banner-about {
         padding-top: 50px; } }
     @media (max-width: 767px) {
-      .infetech-promo-banner-area.infetech-promo-banner-about {
+      .modularize-promo-banner-area.modularize-promo-banner-about {
         padding-top: 50px; } }
 
 .promo-banner-item .title {
@@ -5969,10 +5975,10 @@ p {
 /*===========================
     19.TECHNOLOGY css 
 ===========================*/
-.infetech-technology-area {
+.modularize-technology-area {
   position: relative;
   z-index: 10; }
-  .infetech-technology-area::before {
+  .modularize-technology-area::before {
     position: absolute;
     content: '';
     left: 0;
@@ -5982,12 +5988,12 @@ p {
     background: #f4f2f9;
     z-index: -1; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-technology-area.infetech-technology-service-area {
+    .modularize-technology-area.modularize-technology-service-area {
       padding-bottom: 70px; } }
   @media (max-width: 767px) {
-    .infetech-technology-area.infetech-technology-service-area {
+    .modularize-technology-area.modularize-technology-service-area {
       padding-bottom: 70px; } }
-  .infetech-technology-area.infetech-technology-service-area::before {
+  .modularize-technology-area.modularize-technology-service-area::before {
     bottom: auto;
     top: 0; }
 
@@ -6087,7 +6093,7 @@ p {
     19.CONTACT css 
 ===========================*/
 @media (max-width: 767px) {
-  .infetech-home-contact {
+  .modularize-home-contact {
     padding-bottom: 70px; } }
 
 .home-contact-leftbar .contact-content-item {
@@ -6179,7 +6185,7 @@ p {
       line-height: 60px;
       border: 1px solid #5f2dee; }
 
-.infetech-subscribe-area {
+.modularize-subscribe-area {
   padding-top: 110px;
   padding-bottom: 110px;
   background: #5f2dee;
@@ -6188,49 +6194,49 @@ p {
   background-repeat: no-repeat;
   background-size: auto; }
   @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-    .infetech-subscribe-area {
+    .modularize-subscribe-area {
       background-size: 40%; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .infetech-subscribe-area {
+    .modularize-subscribe-area {
       padding-top: 60px;
       padding-bottom: 60px; } }
   @media (max-width: 767px) {
-    .infetech-subscribe-area {
+    .modularize-subscribe-area {
       padding-top: 60px;
       padding-bottom: 60px; } }
-  .infetech-subscribe-area .subscribe-text {
+  .modularize-subscribe-area .subscribe-text {
     padding-right: 50px; }
-    .infetech-subscribe-area .subscribe-text .title {
+    .modularize-subscribe-area .subscribe-text .title {
       color: #fff;
       font-size: 45px; }
       @media (max-width: 767px) {
-        .infetech-subscribe-area .subscribe-text .title {
+        .modularize-subscribe-area .subscribe-text .title {
           font-size: 28px; } }
       @media only screen and (min-width: 576px) and (max-width: 767px) {
-        .infetech-subscribe-area .subscribe-text .title {
+        .modularize-subscribe-area .subscribe-text .title {
           font-size: 30px; } }
-  .infetech-subscribe-area .subscribe-form {
+  .modularize-subscribe-area .subscribe-form {
     padding-left: 70px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-subscribe-area .subscribe-form {
+      .modularize-subscribe-area .subscribe-form {
         padding-left: 0;
         margin-top: 20px; } }
     @media (max-width: 767px) {
-      .infetech-subscribe-area .subscribe-form {
+      .modularize-subscribe-area .subscribe-form {
         padding-left: 0;
         margin-top: 20px; } }
-    .infetech-subscribe-area .subscribe-form .input-box {
+    .modularize-subscribe-area .subscribe-form .input-box {
       position: relative; }
-      .infetech-subscribe-area .subscribe-form .input-box .icon {
+      .modularize-subscribe-area .subscribe-form .input-box .icon {
         position: absolute;
         right: 0;
         top: 5px; }
-        .infetech-subscribe-area .subscribe-form .input-box .icon button {
+        .modularize-subscribe-area .subscribe-form .input-box .icon button {
           border: 0;
           background: transparent;
           color: #fff;
           font-size: 24px; }
-      .infetech-subscribe-area .subscribe-form .input-box input[type="email"] {
+      .modularize-subscribe-area .subscribe-form .input-box input[type="email"] {
         width: 100%;
         height: 60px;
         background: transparent;
@@ -6238,7 +6244,7 @@ p {
         border-bottom: 2px solid #6f42f0;
         font-weight: 500;
         color: #fff; }
-        .infetech-subscribe-area .subscribe-form .input-box input[type="email"]::placeholder {
+        .modularize-subscribe-area .subscribe-form .input-box input[type="email"]::placeholder {
           opacity: 1;
           color: #fff; }
 
@@ -6307,17 +6313,17 @@ p {
   font-weight: 500; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-contact-page-area {
+  .modularize-contact-page-area {
     padding: 40px 0 70px; } }
 @media (max-width: 767px) {
-  .infetech-contact-page-area {
+  .modularize-contact-page-area {
     padding: 40px 0 70px; } }
-.infetech-contact-page-area .conatct-info .item {
+.modularize-contact-page-area .conatct-info .item {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-bottom: 20px; }
-  .infetech-contact-page-area .conatct-info .item .icon {
+  .modularize-contact-page-area .conatct-info .item .icon {
     height: 90px;
     width: 90px;
     text-align: center;
@@ -6330,7 +6336,7 @@ p {
     position: relative;
     z-index: 10;
     min-width: 90px; }
-    .infetech-contact-page-area .conatct-info .item .icon::before {
+    .modularize-contact-page-area .conatct-info .item .icon::before {
       position: absolute;
       content: '';
       left: 50%;
@@ -6341,17 +6347,17 @@ p {
       height: 75px;
       width: 75px;
       z-index: -1; }
-  .infetech-contact-page-area .conatct-info .item .content span {
+  .modularize-contact-page-area .conatct-info .item .content span {
     font-size: 15px;
     font-weight: 500;
     color: #6c6a72;
     margin-bottom: 2px; }
-  .infetech-contact-page-area .conatct-info .item .content .title {
+  .modularize-contact-page-area .conatct-info .item .content .title {
     font-size: 20px;
     font-weight: 600;
     color: #1d1729;
     line-height: 30px; }
-    .infetech-contact-page-area .conatct-info .item .content .title a {
+    .modularize-contact-page-area .conatct-info .item .content .title a {
       color: #1d1729; }
 
 .contact-form-page-box {
@@ -6402,11 +6408,11 @@ p {
     20.BENEFITS css 
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .infetech-benefits-area.infetech-benefits-services-area {
+  .modularize-benefits-area.modularize-benefits-services-area {
     padding-top: 70px;
     padding-bottom: 70px; } }
 @media (max-width: 767px) {
-  .infetech-benefits-area.infetech-benefits-services-area {
+  .modularize-benefits-area.modularize-benefits-services-area {
     padding-top: 70px;
     padding-bottom: 70px; } }
 
@@ -6503,14 +6509,14 @@ p {
 /*===========================
     21.SERVING css 
 ===========================*/
-.infetech-serving-area {
+.modularize-serving-area {
   background-image: url(../images/serving-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 113px;
   padding-bottom: 180px; }
-  .infetech-serving-area .section-title {
+  .modularize-serving-area .section-title {
     margin-bottom: 55px; }
 
 .single-serving-item {
@@ -6591,7 +6597,7 @@ p {
 /*===========================
     21.SOLUTIONS css 
 ===========================*/
-.infetech-solutions-area {
+.modularize-solutions-area {
   background: #1d1729;
   padding-top: 112px;
   padding-bottom: 116px;
@@ -6600,7 +6606,7 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative; }
-  .infetech-solutions-area::before {
+  .modularize-solutions-area::before {
     position: absolute;
     content: '';
     left: 0;
@@ -6612,10 +6618,10 @@ p {
     background-position: center;
     background-repeat: no-repeat; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .infetech-solutions-area::before {
+      .modularize-solutions-area::before {
         display: none; } }
     @media (max-width: 767px) {
-      .infetech-solutions-area::before {
+      .modularize-solutions-area::before {
         display: none; } }
 
 .solutions-content .section-title span {
@@ -6673,12 +6679,12 @@ p {
 /*===========================
     22.PRICING css 
 ===========================*/
-.infetech-pricing-area {
+.modularize-pricing-area {
   padding-top: 112px;
   padding-bottom: 113px;
   position: relative;
   z-index: 10; }
-  .infetech-pricing-area::before {
+  .modularize-pricing-area::before {
     position: absolute;
     content: '';
     left: 0;

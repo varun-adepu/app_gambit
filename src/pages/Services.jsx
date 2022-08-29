@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -13,7 +14,7 @@ const Services = () => {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="#">Home</a>
+                      <Link to="#">Home</Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Services
@@ -28,7 +29,7 @@ const Services = () => {
 
       {/* Services 2 Cloud Based Services for Mobile Apps  */}
 
-      <section className="infetech-about-area infetech-about-service-area pt-120">
+      <section className="modularize-about-area modularize-about-service-area pt-120">
         <div className="container">
           <div className="row align-items-center pb-120">
             <div
@@ -36,7 +37,7 @@ const Services = () => {
               data-wow-duration="1500ms"
               data-wow-delay="0ms"
             >
-              <div className="infetech-about-thumb">
+              <div className="modularize-about-thumb">
                 <img
                   className="main-thumb"
                   src="assets/images/service-thumb-4.png"
@@ -55,7 +56,7 @@ const Services = () => {
               data-wow-duration="1500ms"
               data-wow-delay="300ms"
             >
-              <div className="infetech-about-content">
+              <div className="modularize-about-content">
                 <div className="icon">
                   <img src="assets/images/icon/service-icon-4.png" alt="" />
                 </div>
@@ -79,9 +80,9 @@ const Services = () => {
                     Velit esse cillum dolore eu fugiat nulla pariatur.
                   </li>
                 </ul>
-                <a href="#" className="main-btn">
+                <Link to="#" className="main-btn">
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -90,7 +91,7 @@ const Services = () => {
 
       {/* Discover Tools for your Web Developement */}
 
-      <section className="infetech-about-4-area">
+      <section className="modularize-about-4-area">
         <div className="container">
           <div className="row">
             <div
@@ -136,9 +137,9 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-                <a className="main-btn mt-55" href="#">
+                <Link className="main-btn mt-55" to="#">
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -147,7 +148,7 @@ const Services = () => {
 
       {/* Technology Path */}
 
-      <section className="infetech-technology-area infetech-technology-service-area pb-120">
+      <section className="modularize-technology-area modularize-technology-service-area pb-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

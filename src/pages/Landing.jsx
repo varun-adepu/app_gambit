@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const Landing = () => {
@@ -49,14 +50,14 @@ const Landing = () => {
 
   return (
     <>
-      <section className="infetech-banner-area infetech-banner-slide">
+      <section className="modularize-banner-area modularize-banner-slide">
         <Slider {...bannerSettings}>
-          <div className="infetech-banner-slide-active item-1">
+          <div className="modularize-banner-slide-active item-1">
             <div className="item-1"></div>
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
-                  <div className="infetech-banner-content">
+                  <div className="modularize-banner-content">
                     <h4
                       className="title"
                       data-animation="fadeInDown"
@@ -93,11 +94,11 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="infetech-banner-slide-active item-2">
+          <div className="modularize-banner-slide-active item-2">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
-                  <div className="infetech-banner-content">
+                  <div className="modularize-banner-content">
                     <h4
                       className="title"
                       data-animation="fadeInDown"
@@ -134,11 +135,11 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="infetech-banner-slide-active item-3">
+          <div className="modularize-banner-slide-active item-3">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
-                  <div className="infetech-banner-content">
+                  <div className="modularize-banner-content">
                     <h4
                       className="title"
                       data-animation="fadeInDown"
@@ -178,12 +179,12 @@ const Landing = () => {
         </Slider>
       </section>
 
-      <section className="infetech-about-area">
+      <section className="modularize-about-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
               <div
-                className="infetech-about-thumb animated wow fadeInLeft"
+                className="modularize-about-thumb animated wow fadeInLeft"
                 data-wow-duration="1000ms"
                 data-wow-delay="0ms"
               >
@@ -207,7 +208,7 @@ const Landing = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="infetech-about-content">
+              <div className="modularize-about-content">
                 <span>About Our Company</span>
                 <h3 className="title">We’re Partner of Your Innovations</h3>
                 <p>
@@ -252,9 +253,9 @@ const Landing = () => {
                     lorem sagittis sem nibh.
                   </li>
                 </ul>
-                <a href="#" className="main-btn">
+                <Link to="#" className="main-btn">
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -263,12 +264,12 @@ const Landing = () => {
 
       {/* Services Three Cards */}
 
-      <section className="infetech-service-area">
+      <section className="modularize-service-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6">
               <div
-                className="single-infetech-serice-item animated wow fadeInUp"
+                className="single-modularize-serice-item animated wow fadeInUp"
                 data-wow-duration="1000ms"
                 data-wow-delay="0ms"
               >
@@ -287,7 +288,7 @@ const Landing = () => {
             </div>
             <div className="col-lg-4 col-md-6">
               <div
-                className="single-infetech-serice-item animated wow fadeInUp"
+                className="single-modularize-serice-item animated wow fadeInUp"
                 data-wow-duration="1000ms"
                 data-wow-delay="300ms"
               >
@@ -306,7 +307,7 @@ const Landing = () => {
             </div>
             <div className="col-lg-4 col-md-6">
               <div
-                className="single-infetech-serice-item animated wow fadeInUp"
+                className="single-modularize-serice-item animated wow fadeInUp"
                 data-wow-duration="1000ms"
                 data-wow-delay="600ms"
               >
@@ -329,7 +330,7 @@ const Landing = () => {
 
       {/* Dealing in all Professional IT Services */}
 
-      <section className="infetech-feature-area">
+      <section className="modularize-feature-area">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -350,10 +351,10 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="row infetech-feature-slide">
+          <div className="row modularize-feature-slide">
             <Slider {...serviceSettings}>
               <div className="col-lg-2">
-                <div className="single-infetech-feature-item">
+                <div className="single-modularize-feature-item">
                   <div className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -383,7 +384,7 @@ const Landing = () => {
                 </div>
               </div>
               <div className="col-lg-2">
-                <div className="single-infetech-feature-item">
+                <div className="single-modularize-feature-item">
                   <div className="icon">
                     <svg
                       id="Layer_1_1_"
@@ -436,7 +437,7 @@ const Landing = () => {
                 </div>
               </div>
               <div className="col-lg-2">
-                <div className="single-infetech-feature-item">
+                <div className="single-modularize-feature-item">
                   <div className="icon">
                     <svg
                       id="_x33_0"
@@ -482,7 +483,7 @@ const Landing = () => {
                 </div>
               </div>
               <div className="col-lg-2">
-                <div className="single-infetech-feature-item">
+                <div className="single-modularize-feature-item">
                   <div className="icon">
                     <svg
                       id="Capa_1"
@@ -519,7 +520,7 @@ const Landing = () => {
                 </div>
               </div>
               <div className="col-lg-2">
-                <div className="single-infetech-feature-item">
+                <div className="single-modularize-feature-item">
                   <div className="icon">
                     <svg
                       fill="#b882fc"
@@ -564,7 +565,7 @@ const Landing = () => {
                 </div>
               </div>
               <div className="col-lg-2">
-                <div className="single-infetech-feature-item">
+                <div className="single-modularize-feature-item">
                   <div className="icon">
                     <svg
                       id="Layer_1_1_"
@@ -623,12 +624,12 @@ const Landing = () => {
 
       {/* We’re Ready Develop Your Site! */}
 
-      <div className="infetech-cta-area">
+      <div className="modularize-cta-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div
-                className="infetech-cta-box animated wow fadeIn"
+                className="modularize-cta-box animated wow fadeIn"
                 data-wow-duration="1000ms"
                 data-wow-delay="300ms"
               >
@@ -675,7 +676,7 @@ const Landing = () => {
 
       {/* Our Completed Projects */}
 
-      <section className="infetech-project-area pt-115 ">
+      <section className="modularize-project-area pt-115 ">
         <div className="container">
           <div className="row align-items-center mb-55">
             <div className="col-lg-6">
@@ -696,7 +697,7 @@ const Landing = () => {
           </div>
         </div>
         <div className="container-fluid pl-160 pr-160">
-          <div className="row infetech-project-slide">
+          <div className="row modularize-project-slide">
             <Slider {...serviceSettings}>
               <div className="col-lg-3">
                 <div className="single-project-item">

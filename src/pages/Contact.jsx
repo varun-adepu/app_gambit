@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
     <>
       {/* BreadCrum  */}
+      
       <section className="breadcrumb-area">
         <div className="container">
           <div className="row">
@@ -13,7 +15,7 @@ const Contact = () => {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="#">Home</a>
+                      <Link to="#">Home</Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Contact
@@ -28,7 +30,7 @@ const Contact = () => {
 
       {/* Contact With Us */}
 
-      <section className="infetech-contact-page-area pt-90 pb-120">
+      <section className="modularize-contact-page-area pt-90 pb-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
@@ -44,7 +46,7 @@ const Contact = () => {
                   <div className="content">
                     <span>Call Anytime</span>
                     <h5 className="title">
-                      <a href="tel:+8898006802">+ 88 ( 9800 ) 6802</a>
+                      <a href="tel:+8898006802">( + 91 ) 99252 00545</a>
                     </h5>
                   </div>
                 </div>
@@ -55,8 +57,8 @@ const Contact = () => {
                   <div className="content">
                     <span>Send Email</span>
                     <h5 className="title">
-                      <a href="mailto:needhelp@company.com">
-                        needhelp@company.com
+                      <a href="mailto:hello@appgambit.com">
+                      hello@appgambit.com
                       </a>
                     </h5>
                   </div>
@@ -68,7 +70,7 @@ const Contact = () => {
                   <div className="content">
                     <span>Visit Now</span>
                     <h5 className="title">
-                      88 Broklyn Golden Street. New York, USA
+                    408-409, SNS Platina, Someshwara Enclave, Vesu, Surat, Gujarat 395007
                     </h5>
                   </div>
                 </div>

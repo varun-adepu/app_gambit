@@ -1,98 +1,99 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
-      <footer class="infetech-footer-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="footer-about">
-                <a href="#">
+      <footer className="modularize-footer-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-6">
+              <div className="footer-about">
+                <Link to="#">
                   <img src="assets/images/logo-white.png" alt="" />
-                </a>
+                </Link>
                 <p>
                   We work with a passion of taking challenges and creating new
                   ones in advertising sector.
                 </p>
                 <ul>
                   <li>
-                    <a href="#">
-                      <i class="fab fa-twitter"></i>
-                    </a>
+                    <Link to="#">
+                      <i className="fab fa-twitter"></i>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
+                    <Link to="#">
+                      <i className="fab fa-facebook-f"></i>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="fab fa-pinterest-p"></i>
-                    </a>
+                    <Link to="#">
+                      <i className="fab fa-pinterest-p"></i>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <i class="fab fa-instagram"></i>
-                    </a>
+                    <Link to="#">
+                      <i className="fab fa-instagram"></i>
+                    </Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-2 col-md-6">
-              <div class="footer-nav">
-                <h4 class="title">Links</h4>
+            <div className="col-lg-2 col-md-6">
+              <div className="footer-nav">
+                <h4 className="title">Links</h4>
                 <ul>
                   <li>
-                    <a href="#">About us</a>
+                    <Link to="#">About us</Link>
                   </li>
                   <li>
-                    <a href="#">Meet our Team</a>
+                    <Link to="#">Meet our Team</Link>
                   </li>
                   <li>
-                    <a href="#">News & Media</a>
+                    <Link to="#">News & Media</Link>
                   </li>
                   <li>
-                    <a href="#">Our Projects</a>
+                    <Link to="#">Our Projects</Link>
                   </li>
                   <li>
-                    <a href="#">Contacts</a>
+                    <Link to="#">Contacts</Link>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="footer-newsletter">
-                <h4 class="title">Newsletter</h4>
+            <div className="col-lg-4 col-md-6">
+              <div className="footer-newsletter">
+                <h4 className="title">Newsletter</h4>
                 <p>
                   Signup for our latest news & articles. We won’t give you spam
                   mails.
                 </p>
                 <form action="#">
-                  <div class="input-box">
+                  <div className="input-box">
                     <input type="text" placeholder="Email Address" />
                     <button>
-                      <i class="far fa-paper-plane"></i>
+                      <i className="far fa-paper-plane"></i>
                     </button>
                   </div>
                 </form>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="footer-info">
-                <h4 class="title">Contact</h4>
+            <div className="col-lg-3 col-md-6">
+              <div className="footer-info">
+                <h4 className="title">Contact</h4>
                 <ul>
                   <li>
-                    <i class="fas fa-phone"></i>
-                    <span>+ 88 ( 9800 ) 6802</span>
+                    <i className="fas fa-phone"></i>
+                    <span>( + 91 )  99252 00545</span>
                   </li>
                   <li>
-                    <i class="fas fa-envelope"></i>
-                    <span>needhelp@company.com</span>
+                    <i className="fas fa-envelope"></i>
+                    <span>hello@appgambit.com</span>
                   </li>
                   <li>
-                    <i class="fas fa-map-marker"></i>
-                    <span>88 Broklyn Golden Road Street New York. USA</span>
+                    <i className="fas fa-map-marker"></i>
+                    <span>408-409, SNS Platina, Someshwara Enclave, Vesu, Surat, Gujarat 395007</span>
                   </li>
                 </ul>
               </div>
@@ -100,10 +101,10 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div class="footer-copyright text-center">
+      <div className="footer-copyright text-center">
         <p>
           © All Copyright 2022 by{" "}
-          <a href="mailto:pixydrops@gmail.com">Pixydrops</a>{" "}
+          <Link to="mailto:hello@appgambit.com">Modularize</Link>{" "}
         </p>
       </div>
     </>

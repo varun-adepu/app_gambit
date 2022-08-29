@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <a href="#">Home</a>
+                      <Link to="#">Home</Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       About
@@ -29,7 +30,7 @@ const About = () => {
 
       {/* About Our Company We’re Partner of Your Innovations */}
 
-      <section className="infetech-company-about-area">
+      <section className="modularize-company-about-area">
         <div className="container">
           <div className="row align-items-center">
             <div
@@ -45,7 +46,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="infetech-about-content">
+              <div className="modularize-about-content">
                 <span>About Our Company</span>
                 <h3 className="title">We’re Partner of Your Innovations</h3>
                 <p>
@@ -70,9 +71,9 @@ const About = () => {
                     <i className="fal fa-check"></i> Trusted Professionals
                   </li>
                 </ul>
-                <a href="#" className="main-btn">
+                <Link to="#" className="main-btn">
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
