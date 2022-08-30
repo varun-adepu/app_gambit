@@ -88,37 +88,7 @@ const Header = () => {
                     {/* <p>Welcome to IT Solutions & Services WordPress Theme </p> */}
                   </div>
                 </div>
-                <div className="col-lg-6">
-                  <div className="header-topbar-info-wrapper">
-                    <div className="header-topbar-info">
-                      <ul>
-                        <li>
-                          <i className="fas fa-envelope"></i> hello@appgambit.com
-                        </li>
-                        <li>
-                          <i className="fas fa-clock"></i> Mon - Sat: 8.00 am - 7.00
-                          pm
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="header-topbar-social">
-                      <ul>
-                        <li>
-                          <i className="fab fa-twitter"></i>
-                        </li>
-                        <li>
-                          <i className="fab fa-facebook-f"></i>
-                        </li>
-                        <li>
-                          <i className="fab fa-pinterest-p"></i>
-                        </li>
-                        <li>
-                          <i className="fab fa-instagram"></i>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+               
               </div>
             </div>
             <div className="header-main-nav">
@@ -126,94 +96,16 @@ const Header = () => {
                 <ul>
                   <li>
                     <Link to="/">Home</Link>
-                    {/* <ul className="sub-menu">
-                      <li>
-                        <a href="index.html">Home 1</a>
-                      </li>
-                      <li>
-                        <a href="index-2.html">Home 2</a>
-                      </li>
-                      <li>
-                        <a href="index-3.html">Home 3</a>
-                      </li>
-                      <li>
-                        <a href="index-4.html">Home 4</a>
-                      </li>
-                      <li>
-                        <a href="index-5.html">Home 5</a>
-                      </li>
-                      <li>
-                        <a href="#">Header Versions</a>
-                        <ul className="sub-menu">
-                          <li>
-                            <a href="index.html">Header Style 1</a>
-                          </li>
-                          <li>
-                            <a href="index-2.html">Header Style 2</a>
-                          </li>
-                          <li>
-                            <a href="index-3.html">Header Style 3</a>
-                          </li>
-                          <li>
-                            <a href="index-4.html">Header Style 4</a>
-                          </li>
-                          <li>
-                            <a href="index-5.html">Header Style 5</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul> */}
                   </li>
                   <li>
                     <Link to="about">About</Link>
                   </li>
-                  {/* <li>
-                    <a href="#">Pages</a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="our-team.html">Our Team</a>
-                      </li>
-                      <li>
-                        <a href="team-details.html">Team Details</a>
-                      </li>
-                    </ul>
-                  </li> */}
                   <li>
                     <Link to="services">Services</Link>
-                    {/* <ul className="sub-menu">
-                      <li>
-                        <a href="service-1.html">Service 1</a>
-                      </li>
-                      <li>
-                        <a href="service-2.html">Service 2</a>
-                      </li>
-                      <li>
-                        <a href="service-3.html">Service 3</a>
-                      </li>
-                    </ul> */}
                   </li>
                   <li>
                     <Link to="project">Projects</Link>
-                    {/* <ul className="sub-menu">
-                      <li>
-                        <a href="projects.html">Projects</a>
-                      </li>
-                      <li>
-                        <a href="projects-details.html">Project Details</a>
-                      </li>
-                    </ul> */}
                   </li>
-                  {/* <li>
-                    <a href="#">Blog</a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="blog.html">Blog</a>
-                      </li>
-                      <li>
-                        <a href="blog-details.html">Blog Details</a>
-                      </li>
-                    </ul>
-                  </li> */}
                   <li>
                     <Link to="contact">Contact</Link>
                   </li>
@@ -222,16 +114,6 @@ const Header = () => {
               <div className="header-main-info">
                 <div className="header-mini-btn">
                   <ul>
-                    {/* <li>
-                      <a className="search-box-btn" href="#">
-                        <i className="fal fa-search"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fal fa-shopping-cart"></i>
-                      </a>
-                    </li> */}
                     <li>
                       <Link
                         className="toggle-bar canvas_open"
@@ -250,6 +132,7 @@ const Header = () => {
                   <div className="content">
                     <span>Call Anytime</span>
                     <a href="tel:+919925200545">( + 91 )  99252 00545</a>
+                    <a href="tel:+919925200545">( + 91 )  99041 57241</a>
                   </div>
                 </div>
               </div>

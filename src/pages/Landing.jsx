@@ -47,6 +47,40 @@ const Landing = () => {
       },
     ],
   };
+  const testimonialSettings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,  
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <>
@@ -71,7 +105,8 @@ const Landing = () => {
                       data-delay=".3s"
                     >
                       IT Solutions{" "}
-                      <img src="assets/images/banner-icon.png" alt="" /> <br />{" "}
+                      {/* <img src="assets/images/banner-icon.png" alt="" /> {" "} */}{" "}
+                      & <br />
                       Services
                     </h1>
                     <a
@@ -112,7 +147,8 @@ const Landing = () => {
                       data-delay=".3s"
                     >
                       IT Solutions{" "}
-                      <img src="assets/images/banner-icon.png" alt="" /> <br />{" "}
+                      {/* <img src="assets/images/banner-icon.png" alt="" /> <br />{" "} */}
+                      & <br />
                       Services
                     </h1>
                     <a
@@ -153,7 +189,8 @@ const Landing = () => {
                       data-delay=".3s"
                     >
                       IT Solutions{" "}
-                      <img src="assets/images/banner-icon.png" alt="" /> <br />{" "}
+                      {/* <img src="assets/images/banner-icon.png" alt="" /> <br />{" "} */}
+                      & <br />
                       Services
                     </h1>
                     <a
@@ -217,7 +254,7 @@ const Landing = () => {
                   form, by injected humour, or randomised words which don't look
                   even.
                 </p>
-                <div className="row">
+                {/* <div className="row">
                   <div className="col-md-6">
                     <div className="about-card">
                       <div className="icon">
@@ -238,7 +275,7 @@ const Landing = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <ul>
                   <li>
                     <i className="fas fa-check-circle"></i> Exploring version
@@ -756,6 +793,142 @@ const Landing = () => {
                     <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
                     </a>
+                  </div>
+                </div>
+              </div>
+            </Slider>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial Starts  */}
+
+      <section class="modularize-testimonial-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center mb-55">
+                <span>Client Testimonials</span>
+                <h3 class="title">What They’re Talking?</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row modularize-testimonial-slide">
+            <Slider {...testimonialSettings}>
+              <div class="col-lg-6">
+                <div class="single-testimonial-box">
+                  <div class="single-testimonial-user">
+                    <div class="thumb">
+                      <img src="assets/images/testimonial-thumb-1.png" alt="" />
+                    </div>
+                    <div class="user-content">
+                      <h5 class="title">Mike Hardson</h5>
+                      <span>Senior Designer</span>
+                      <img src="assets/images/testimonial-shape.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="single-testimonial-item">
+                    <ul>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                    </ul>
+                    <p>
+                      This is due to their excellent service, competitive
+                      pricing and customer support. It’s refresing to get such a
+                      personal touch. Duis aute lorem ipsum is simply free text
+                      reprehen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="single-testimonial-box">
+                  <div class="single-testimonial-user">
+                    <div class="thumb">
+                      <img src="assets/images/testimonial-thumb-2.png" alt="" />
+                    </div>
+                    <div class="user-content">
+                      <h5 class="title">Aleesha Smith</h5>
+                      <span>Senior Developer</span>
+                      <img src="assets/images/testimonial-shape.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="single-testimonial-item">
+                    <ul>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                    </ul>
+                    <p>
+                      This is due to their excellent service, competitive
+                      pricing and customer support. It’s refresing to get such a
+                      personal touch. Duis aute lorem ipsum is simply free text
+                      reprehen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="single-testimonial-box">
+                  <div class="single-testimonial-user">
+                    <div class="thumb">
+                      <img src="assets/images/testimonial-thumb-1.png" alt="" />
+                    </div>
+                    <div class="user-content">
+                      <h5 class="title">Mike Hardson</h5>
+                      <span>Senior Designer</span>
+                      <img src="assets/images/testimonial-shape.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="single-testimonial-item">
+                    <ul>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                      <li>
+                        <i class="fas fa-star"></i>
+                      </li>
+                    </ul>
+                    <p>
+                      This is due to their excellent service, competitive
+                      pricing and customer support. It’s refresing to get such a
+                      personal touch. Duis aute lorem ipsum is simply free text
+                      reprehen.
+                    </p>
                   </div>
                 </div>
               </div>
