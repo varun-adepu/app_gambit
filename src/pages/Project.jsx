@@ -33,7 +33,7 @@ const Project = () => {
       <section className="modularize-projects-grid-area pt-120 pb-90">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-project-item">
                 <img src="assets/images/project-1.jpg" alt="" />
                 <div className="single-project-overlay">
@@ -45,7 +45,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-project-item">
                 <img src="assets/images/project-2.jpg" alt="" />
                 <div className="single-project-overlay">
@@ -57,7 +57,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-project-item">
                 <img src="assets/images/project-3.jpg" alt="" />
                 <div className="single-project-overlay">
@@ -69,7 +69,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-project-item">
                 <img src="assets/images/project-4.jpg" alt="" />
                 <div className="single-project-overlay">
@@ -81,7 +81,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-project-item">
                 <img src="assets/images/project-5.jpg" alt="" />
                 <div className="single-project-overlay">
@@ -90,10 +90,10 @@ const Project = () => {
                   <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
                   </Link>
-             </div>
+                </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-project-item">
                 <img src="assets/images/project-6.jpg" alt="" />
                 <div className="single-project-overlay">

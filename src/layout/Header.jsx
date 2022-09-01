@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isToggal, setIsToggal] = useState(false);
+
+  const scrolltoTop = () => {
+    console.log("heyy");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       {isToggal && (
@@ -52,6 +60,10 @@ const Header = () => {
                         <Link to="services">Services</Link>
                       </li>
                       <li className="menu-item-has-children active">
+                        <Link to="team">Our Team</Link>
+                      </li>
+
+                      <li className="menu-item-has-children active">
                         <Link to="project">Projects</Link>
                       </li>
                       <li className="menu-item-has-children active">
@@ -88,25 +100,31 @@ const Header = () => {
                     {/* <p>Welcome to IT Solutions & Services WordPress Theme </p> */}
                   </div>
                 </div>
-               
               </div>
             </div>
             <div className="header-main-nav">
               <div className="header-main-nav-box">
                 <ul>
-                  <li>
+                  <li onClick={scrolltoTop}>
                     <Link to="/">Home</Link>
                   </li>
-                  <li>
+                  <li onClick={scrolltoTop}>
                     <Link to="about">About</Link>
                   </li>
-                  <li>
+                  <li onClick={scrolltoTop}>
                     <Link to="services">Services</Link>
                   </li>
-                  <li>
+                  <li onClick={scrolltoTop}>
+                    <Link to="team">Our Team</Link>
+                  </li>
+
+                  <li onClick={scrolltoTop}>
                     <Link to="project">Projects</Link>
                   </li>
-                  <li>
+                  <li className="menu-item-has-children active">
+                    <Link to="blog">Blog</Link>
+                  </li>
+                  <li onClick={scrolltoTop}>
                     <Link to="contact">Contact</Link>
                   </li>
                 </ul>
@@ -131,8 +149,8 @@ const Header = () => {
                   </div>
                   <div className="content">
                     <span>Call Anytime</span>
-                    <a href="tel:+919925200545">( + 91 )  99252 00545</a>
-                    <a href="tel:+919925200545">( + 91 )  99041 57241</a>
+                    <a href="tel:+919925200545">( + 91 ) 99252 00545</a>
+                    <a href="tel:+919925200545">( + 91 ) 99041 57241</a>
                   </div>
                 </div>
               </div>

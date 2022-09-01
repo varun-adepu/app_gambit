@@ -54,7 +54,42 @@ const Landing = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    arrows: false,  
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  const ourValiableClients = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -231,15 +266,15 @@ const Landing = () => {
                   src="assets/images/about-thumb-2.jpg"
                   alt=""
                 />
-                <div className="about-box">
+                {/* <div className="about-box">
                   <h4 className="title">
                     6800 <sup>+</sup>
                   </h4>
                   <span>Satisfied Clients</span>
-                </div>
+                </div> */}
                 <img
                   className="about-logo"
-                  src="assets/images/about-logo.png"
+                  src="assets/images/cloudPartner-footer.png"
                   alt=""
                 />
               </div>
@@ -290,7 +325,7 @@ const Landing = () => {
                     lorem sagittis sem nibh.
                   </li>
                 </ul>
-                <Link to="#" className="main-btn">
+                <Link to="/about" className="main-btn">
                   Learn More
                 </Link>
               </div>
@@ -659,58 +694,6 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* We’re Ready Develop Your Site! */}
-
-      <div className="modularize-cta-area">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="modularize-cta-box animated wow fadeIn"
-                data-wow-duration="1000ms"
-                data-wow-delay="300ms"
-              >
-                <div className="row">
-                  <div className="col-lg-3">
-                    <div className="cta-thumb">
-                      <img src="assets/images/cta-thumb.png" alt="" />
-                    </div>
-                  </div>
-                  <div className="col-lg-9">
-                    <div className="cta-content">
-                      <h2 className="title">We’re Ready Develop Your Site!</h2>
-                      <div className="row align-items-center">
-                        <div className="col-lg-8">
-                          <ul>
-                            <li>
-                              <i className="fas fa-check-circle"></i> Exploring
-                              version oflorem veritatis proin
-                            </li>
-                            <li>
-                              <i className="fas fa-check-circle"></i> Auctor
-                              aliquet aenean simply free text veritatis quis
-                            </li>
-                            <li>
-                              <i className="fas fa-check-circle"></i> Consequat
-                              ipsum nec lorem sagittis sem nibh.
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-lg-4">
-                          <a href="#" className="main-btn ml-30">
-                            Learn More
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Our Completed Projects */}
 
       <section className="modularize-project-area pt-115 ">
@@ -801,6 +784,282 @@ const Landing = () => {
         </div>
       </section>
 
+      {/* Our valuable Clients */}
+
+      {/* <div className="modularize-valuable-clients">
+        <div className="modularize-clients-area">
+          <div className="modularize-clients">
+            <span>Our Valuable Clients!</span>
+          </div>
+          <div className="container">
+            <div className="row modularize-clients-area-slide slick-initialized slick-slider">
+              <div className="slick-list draggable">
+                <div
+                  className="slick-track"
+                  style={{
+                    opacity: "1",
+                    width: "4080px",
+                    transform: "translate3d(-1200px, 0px, 0px)",
+                  }}
+                >
+                  <div
+                    className="col-lg-3 slick-slide slick-cloned"
+                    tabindex="-1"
+                    style={{ width: "240px" }}
+                    data-slick-index="-5"
+                    aria-hidden="true"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 slick-slide slick-cloned"
+                    tabindex="-1"
+                    style={{ width: "240px" }}
+                    data-slick-index="-4"
+                    aria-hidden="true"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 slick-slide slick-cloned"
+                    tabindex="-1"
+                    style={{ width: "240px" }}
+                    data-slick-index="-3"
+                    aria-hidden="true"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 slick-slide slick-cloned"
+                    tabindex="-1"
+                    style={{ width: "240px" }}
+                    data-slick-index="-2"
+                    aria-hidden="true"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 slick-slide slick-cloned"
+                    tabindex="-1"
+                    style={{ width: "240px" }}
+                    data-slick-index="-1"
+                    aria-hidden="true"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 slick-slide slick-current slick-active"
+                    tabindex="0"
+                    style={{ width: "240px" }}
+                    data-slick-index="0"
+                    aria-hidden="false"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 slick-slide slick-active"
+                    tabindex="0"
+                    style={{ width: "240px" }}
+                    data-slick-index="1"
+                    aria-hidden="false"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 slick-slide slick-active"
+                    tabindex="0"
+                    style={{ width: "240px" }}
+                    data-slick-index="2"
+                    aria-hidden="false"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 slick-slide slick-active"
+                    tabindex="0"
+                    style={{ width: "240px" }}
+                    data-slick-index="3"
+                    aria-hidden="false"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+
+                  <div
+                    className="col-lg-3 slick-slide slick-active"
+                    tabindex="0"
+                    style={{ width: "240px" }}
+                    data-slick-index="8"
+                    aria-hidden="false"
+                  >
+                    <div className="modularize-clients-area-item">
+                      <img src="assets/images/brand-logo.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row modularize-sponser-slide">
+            <Slider {...ourValiableClients}>
+              <div class="col-lg-3">
+                <div class="modularize-sponser-item">
+                  <img src="assets/images/brand-logo.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="modularize-sponser-item">
+                  <img src="assets/images/brand-logo.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="modularize-sponser-item">
+                  <img src="assets/images/brand-logo.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="modularize-sponser-item">
+                  <img src="assets/images/brand-logo.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="modularize-sponser-item">
+                  <img src="assets/images/brand-logo.png" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="modularize-sponser-item">
+                  <img src="assets/images/brand-logo.png" alt="" />
+                </div>
+              </div>
+            </Slider>
+          </div>
+        </div>
+      </div> */}
+
+      {/* We’re Ready Develop Your Site! */}
+
+      <div className="modularize-cta-area pt-60">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div
+                className="modularize-cta-box animated wow fadeIn"
+                data-wow-duration="1000ms"
+                data-wow-delay="300ms"
+              >
+                <div className="row">
+                  <div className="col-lg-3">
+                    <div className="cta-thumb">
+                      <img src="assets/images/cta-thumb.png" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-lg-9">
+                    <div className="cta-content">
+                      <h2 className="title">We’re Ready Develop Your Site!</h2>
+                      <div className="row align-items-center">
+                        <div className="col-lg-8">
+                          <ul>
+                            <li>
+                              <i className="fas fa-check-circle"></i> Exploring
+                              version oflorem veritatis proin
+                            </li>
+                            <li>
+                              <i className="fas fa-check-circle"></i> Auctor
+                              aliquet aenean simply free text veritatis quis
+                            </li>
+                            <li>
+                              <i className="fas fa-check-circle"></i> Consequat
+                              ipsum nec lorem sagittis sem nibh.
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="col-lg-4">
+                          <a href="#" className="main-btn ml-30">
+                            Learn More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Our Valuable Clients  */}
+
+      <div className="modularize-valuable-clients">
+        <div class="modularize-sponser-area modularize-sponser-about-area">
+          <div className="modularize-clients mb-3">
+            <span>Our Valuable Clients!</span>
+          </div>
+          <div class="container">
+            <div class="row modularize-sponser-slide">
+              <Slider {...ourValiableClients}>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Testimonial Starts  */}
 
       <section class="modularize-testimonial-area">
@@ -824,7 +1083,7 @@ const Landing = () => {
                     <div class="user-content">
                       <h5 class="title">Mike Hardson</h5>
                       <span>Senior Designer</span>
-                      <img src="assets/images/testimonial-shape.png" alt="" />
+                      {/* <img src="assets/images/testimonial-shape.png" alt="" /> */}
                     </div>
                   </div>
                   <div class="single-testimonial-item">
@@ -863,7 +1122,7 @@ const Landing = () => {
                     <div class="user-content">
                       <h5 class="title">Aleesha Smith</h5>
                       <span>Senior Developer</span>
-                      <img src="assets/images/testimonial-shape.png" alt="" />
+                      {/* <img src="assets/images/testimonial-shape.png" alt="" /> */}
                     </div>
                   </div>
                   <div class="single-testimonial-item">
@@ -902,7 +1161,7 @@ const Landing = () => {
                     <div class="user-content">
                       <h5 class="title">Mike Hardson</h5>
                       <span>Senior Designer</span>
-                      <img src="assets/images/testimonial-shape.png" alt="" />
+                      {/* <img src="assets/images/testimonial-shape.png" alt="" /> */}
                     </div>
                   </div>
                   <div class="single-testimonial-item">

@@ -2,19 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const scrolltoTop = () => {
+    console.log("heyy");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
-      <footer className="modularize-footer-area">   
+      <footer className="modularize-footer-area">
         <div className="wrapper">
           <div className="row">
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-5 col-md-6">
               <div className="footer-about">
                 <Link to="#">
                   <img src="assets/images/logo-white2.png" alt="" />
                 </Link>
                 <p>
-                  We work with a passion of taking challenges and creating new
-                  ones in advertising sector.
+                  We provide all-around services to help you convert your idea
+                  into a successful product. Our business strategy is quite
+                  simple, whether you are boostraping or already a successful
+                  business.
                 </p>
                 <ul>
                   <li>
@@ -44,52 +53,64 @@ const Footer = () => {
               <div className="footer-nav">
                 <h4 className="title">Links</h4>
                 <ul>
-                  <li>
-                    <Link to="#">About us</Link>
+                  <li onClick={scrolltoTop}>
+                    <Link to="/about">About us</Link>
                   </li>
-                  <li>
-                    <Link to="#">Meet our Team</Link>
+
+                  <li onClick={scrolltoTop}>
+                    <Link to="/team">Meet our Team</Link>
                   </li>
-                  <li>
-                    <Link to="#">News & Media</Link>
+                  <li onClick={scrolltoTop}>
+                    <Link to="/project">Our Projects</Link>
                   </li>
-                  <li>
-                    <Link to="#">Our Projects</Link>
-                  </li>
-                  <li>
-                    <Link to="#">Contacts</Link>
+                  <li onClick={scrolltoTop}>
+                    <Link to="/contact">Contact us</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <div className="footer-info">
                 <h4 className="title">Contact</h4>
                 <ul>
                   <li>
                     <i class="fa-solid fa-phone"></i>
-                    <span><a href="tel:+919925200545">( + 91 )  99252 00545</a></span>
+                    <span>
+                      <a href="tel:+919925200545">( + 91 ) 99252 00545</a>
+                    </span>
                   </li>
                   <li>
                     <i class="fa-solid fa-phone"></i>
-                    <span><a href="tel:+919925200545">( + 91 )  99041 57241</a></span>
+                    <span>
+                      <a href="tel:+919925200545">( + 91 ) 99041 57241</a>
+                    </span>
                   </li>
                   <li>
                     <i className="fas fa-envelope"></i>
-                    <span><a href="mailto:hello@appgambit.com">hello@appgambit.com</a></span>
+                    <span>
+                      <a href="mailto:hello@appgambit.com">
+                        hello@appgambit.com
+                      </a>
+                    </span>
                   </li>
                   <li>
                     <i className="fas fa-map-marker"></i>
                     <span>
-                      408-409, SNS Platina, Someshwara Enclave, Vesu, Surat,
-                      Gujarat 395007
+                      <a
+                        href="https://www.google.com/maps?ll=21.149136,72.77547&z=19&t=m&hl=en-GB&gl=US&mapclient=embed&cid=12303973327296003894"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        408-409, SNS Platina, Someshwara Enclave, Vesu, Surat,
+                        Gujarat 395007
+                      </a>
                     </span>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            {/* <div className="col-lg-4 col-md-6">
               <div className="footer-newsletter">
                 <div className="gmap_canvas">
                   <iframe
@@ -101,8 +122,8 @@ const Footer = () => {
                     style={{ border: "0" }}
                     allowfullscreen
                   ></iframe>
-                </div>
-                {/* <h4 className="title">Newsletter</h4>
+                </div> */}
+            {/* <h4 className="title">Newsletter</h4>
                 <p>
                   Signup for our latest news & articles. We won’t give you spam
                   mails.
@@ -115,7 +136,7 @@ const Footer = () => {
                     </button>
                   </div>
                 </form> */}
-                {/* <div className="col-lg-4 col-lg-6">
+            {/* <div className="col-lg-4 col-lg-6">
                     <div className="map mt-30">
                         <div className="mapouter">
                             <div className="gmap_canvas">
@@ -125,8 +146,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div> */}
-              </div>
-            </div>
+            {/* </div>
+            </div> */}
           </div>
         </div>
       </footer>

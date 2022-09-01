@@ -945,7 +945,7 @@
 
 
 
-.infetech-banner-area-layout-2 .slick-arrow {
+.modularize-banner-area-layout-2 .slick-arrow {
     position: absolute;
     right: 17%;
     height: 0;
@@ -962,17 +962,17 @@
     opacity: 0.3; }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
-	.infetech-banner-area-layout-2 .slick-arrow {
+	.modularize-banner-area-layout-2 .slick-arrow {
 	  right: 10%; } }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	.infetech-banner-area-layout-2 .slick-arrow {
+	.modularize-banner-area-layout-2 .slick-arrow {
 	  right: 40px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.infetech-banner-area-layout-2 .slick-arrow {
+	.modularize-banner-area-layout-2 .slick-arrow {
 	  right: 30px; } }
-	  .infetech-banner-area-layout-2 .slick-arrow.prev {
+	  .modularize-banner-area-layout-2 .slick-arrow.prev {
 	top: 46%; }
-	.infetech-banner-area-layout-2 .slick-arrow.next {
+	.modularize-banner-area-layout-2 .slick-arrow.next {
 	top: 54%; }
-	.infetech-banner-area-layout-2 .slick-arrow:hover {
+	.modularize-banner-area-layout-2 .slick-arrow:hover {
 	opacity: 1; }

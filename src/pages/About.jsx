@@ -40,8 +40,11 @@ const About = () => {
             >
               <div className="company-about-thumb">
                 <img src="assets/images/company-thumb-2.png" alt="" />
-                <div className="icon">
-                  <img src="assets/images/about-logo.png" alt="" />
+                <div
+                  className="icon"
+                  style={{ width: "230px", height: "200px" }}
+                >
+                  <img src="assets/images/cloudPartner-footer.png" alt="" />
                 </div>
               </div>
             </div>
@@ -75,6 +78,24 @@ const About = () => {
                   Learn More
                 </Link>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="modularize-company-about-area pt-0">
+        <div className="row">
+          <div className="col-lg-12">
+            <div class="modularize-map">
+              <iframe
+                title="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465.1359181428402!2d72.776026!3d21.148922000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaac07e8d4b5bff36!2sSNS+Platina!5e0!3m2!1sen!2sus!4v1543994223146"
+                width="600"
+                height="450"
+                style={{ border: "0" }}
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>

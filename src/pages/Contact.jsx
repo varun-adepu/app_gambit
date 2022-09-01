@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       {/* BreadCrum  */}
-      
+
       <section className="breadcrumb-area">
         <div className="container">
           <div className="row">
@@ -41,36 +41,40 @@ const Contact = () => {
               <div className="conatct-info">
                 <div className="item">
                   <div className="icon">
-                    <img src="assets/images/icon/phone-icon.png" alt="" />
+                    {/* <img src="assets/images/icon/phone-icon.png" alt="" /> */}
+                    <i className="fa-solid fa-phone"></i>
                   </div>
                   <div className="content">
                     <span>Call Anytime</span>
                     <h5 className="title">
-                      <a href="tel:+8898006802">( + 91 ) 99252 00545</a>
+                      <a href="tel:+919925200545">( + 91 ) 99252 00545</a>
                     </h5>
                   </div>
                 </div>
                 <div className="item">
                   <div className="icon">
-                    <img src="assets/images/icon/mail-icon.png" alt="" />
+                    {/* <img src="assets/images/icon/mail-icon.png" alt="" /> */}
+                    <i class="fa-solid fa-envelope"></i>
                   </div>
                   <div className="content">
                     <span>Send Email</span>
                     <h5 className="title">
                       <a href="mailto:hello@appgambit.com">
-                      hello@appgambit.com
+                        hello@appgambit.com
                       </a>
                     </h5>
                   </div>
                 </div>
                 <div className="item">
                   <div className="icon">
-                    <img src="assets/images/icon/map-icon.png" alt="" />
+                    {/* <img src="assets/images/icon/map-icon.png" alt="" /> */}
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
                   </div>
                   <div className="content">
                     <span>Visit Now</span>
                     <h5 className="title">
-                    408-409, SNS Platina, Someshwara Enclave, Vesu, Surat, Gujarat 395007
+                      408-409, SNS Platina, Someshwara Enclave, Vesu, Surat,
+                      Gujarat 395007
                     </h5>
                   </div>
                 </div>
