@@ -67,6 +67,9 @@ const Header = () => {
                         <Link to="project">Projects</Link>
                       </li>
                       <li className="menu-item-has-children active">
+                        <Link to="blog">Blog</Link>
+                      </li>
+                      <li className="menu-item-has-children active">
                         <Link to="contact">Contact</Link>
                       </li>
                     </ul>
@@ -126,6 +129,9 @@ const Header = () => {
                   </li>
                   <li onClick={scrolltoTop}>
                     <Link to="contact">Contact</Link>
+                  </li>
+                  <li onClick={scrolltoTop}>
+                    <Link to="carrier">Carrier</Link>
                   </li>
                 </ul>
               </div>

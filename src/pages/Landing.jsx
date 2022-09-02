@@ -223,9 +223,7 @@ const Landing = () => {
                       data-animation="fadeInLeft"
                       data-delay=".3s"
                     >
-                      IT Solutions{" "}
-                      {/* <img src="assets/images/banner-icon.png" alt="" /> <br />{" "} */}
-                      & <br />
+                      IT Solutions & <br />
                       Services
                     </h1>
                     <a
@@ -266,12 +264,6 @@ const Landing = () => {
                   src="assets/images/about-thumb-2.jpg"
                   alt=""
                 />
-                {/* <div className="about-box">
-                  <h4 className="title">
-                    6800 <sup>+</sup>
-                  </h4>
-                  <span>Satisfied Clients</span>
-                </div> */}
                 <img
                   className="about-logo"
                   src="assets/images/cloudPartner-footer.png"
@@ -289,28 +281,7 @@ const Landing = () => {
                   form, by injected humour, or randomised words which don't look
                   even.
                 </p>
-                {/* <div className="row">
-                  <div className="col-md-6">
-                    <div className="about-card">
-                      <div className="icon">
-                        <img src="assets/images/icon/icon-1.png" alt="" />
-                      </div>
-                      <div className="content">
-                        <h4 className="title">Website Development</h4>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="about-card">
-                      <div className="icon">
-                        <img src="assets/images/icon/icon-2.png" alt="" />
-                      </div>
-                      <div className="content">
-                        <h4 className="title">Website Development</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+
                 <ul>
                   <li>
                     <i className="fas fa-check-circle"></i> Exploring version
@@ -725,9 +696,9 @@ const Landing = () => {
                   <div className="single-project-overlay">
                     <h4 className="title">Tech Solutions</h4>
                     <span>DESIGN / IDEAS</span>
-                    <a href="#">
+                    {/* <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -737,9 +708,9 @@ const Landing = () => {
                   <div className="single-project-overlay">
                     <h4 className="title">Smart Visions</h4>
                     <span>DESIGN / IDEAS</span>
-                    <a href="#">
+                    {/* <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -749,9 +720,9 @@ const Landing = () => {
                   <div className="single-project-overlay">
                     <h4 className="title">Platform Integration</h4>
                     <span>DESIGN / IDEAS</span>
-                    <a href="#">
+                    {/* <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -761,9 +732,9 @@ const Landing = () => {
                   <div className="single-project-overlay">
                     <h4 className="title">Web Development</h4>
                     <span>DESIGN / IDEAS</span>
-                    <a href="#">
+                    {/* <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -773,9 +744,7 @@ const Landing = () => {
                   <div className="single-project-overlay">
                     <h4 className="title">Smart Visions</h4>
                     <span>DESIGN / IDEAS</span>
-                    <a href="#">
-                      <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                    {/*   */}
                   </div>
                 </div>
               </div>

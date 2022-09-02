@@ -68,15 +68,15 @@ const Services = () => {
                 </p>
                 <ul>
                   <li>
-                    <img src="assets/images/icon/arrow-icon-2.png" alt="" />{" "}
+                    <i className="fas fa-check-circle"></i>
                     Refresing to get such a personal touch.{" "}
                   </li>
                   <li>
-                    <img src="assets/images/icon/arrow-icon-2.png" alt="" />{" "}
+                    <i className="fas fa-check-circle"></i>
                     Duis aute irure dolor in reprehenderit in voluptate.
                   </li>
                   <li>
-                    <img src="assets/images/icon/arrow-icon-2.png" alt="" />{" "}
+                    <i className="fas fa-check-circle"></i>
                     Velit esse cillum dolore eu fugiat nulla pariatur.
                   </li>
                 </ul>

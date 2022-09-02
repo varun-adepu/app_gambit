@@ -41,8 +41,13 @@ const OurTeam = () => {
                   <h5 className="title">Christine Eve</h5>
                   <span>Web Developer</span>
                   <div className="share-icon">
-                    <i className="fas fa-share-alt"></i>
-                    <ul>
+                    <a href="#">
+                      <i
+                        style={{ color: "#fff" }}
+                        className="fa-brands fa-linkedin-in"
+                      ></i>
+                    </a>
+                    {/* <ul>
                       <li>
                         <a href="#">
                           <i className="fab fa-facebook-f"></i>
@@ -63,7 +68,7 @@ const OurTeam = () => {
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -78,8 +83,13 @@ const OurTeam = () => {
                   <h5 className="title">Mike Hardson</h5>
                   <span>UI/UX Designer</span>
                   <div className="share-icon">
-                    <i className="fas fa-share-alt"></i>
-                    <ul>
+                    <a href="#">
+                      <i
+                        style={{ color: "#fff" }}
+                        className="fa-brands fa-linkedin-in"
+                      ></i>
+                    </a>
+                    {/* <ul>
                       <li>
                         <a href="#">
                           <i className="fab fa-facebook-f"></i>
@@ -100,7 +110,7 @@ const OurTeam = () => {
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -115,8 +125,13 @@ const OurTeam = () => {
                   <h5 className="title">Jessica Brown</h5>
                   <span>Web Designer</span>
                   <div className="share-icon">
-                    <i className="fas fa-share-alt"></i>
-                    <ul>
+                    <a href="#">
+                      <i
+                        style={{ color: "#fff" }}
+                        className="fa-brands fa-linkedin-in"
+                      ></i>
+                    </a>
+                    {/* <ul>
                       <li>
                         <a href="#">
                           <i className="fab fa-facebook-f"></i>
@@ -137,7 +152,7 @@ const OurTeam = () => {
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -152,8 +167,13 @@ const OurTeam = () => {
                   <h5 className="title">Christine Eve</h5>
                   <span>Web Developer</span>
                   <div className="share-icon">
-                    <i className="fas fa-share-alt"></i>
-                    <ul>
+                    <a href="#">
+                      <i
+                        style={{ color: "#fff" }}
+                        className="fa-brands fa-linkedin-in"
+                      ></i>
+                    </a>
+                    {/* <ul>
                       <li>
                         <a href="#">
                           <i className="fab fa-facebook-f"></i>
@@ -174,7 +194,7 @@ const OurTeam = () => {
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -189,8 +209,13 @@ const OurTeam = () => {
                   <h5 className="title">Mike Hardson</h5>
                   <span>UI/UX Designer</span>
                   <div className="share-icon">
-                    <i className="fas fa-share-alt"></i>
-                    <ul>
+                    <a href="#">
+                      <i
+                        style={{ color: "#fff" }}
+                        className="fa-brands fa-linkedin-in"
+                      ></i>
+                    </a>
+                    {/* <ul>
                       <li>
                         <a href="#">
                           <i className="fab fa-facebook-f"></i>
@@ -211,7 +236,7 @@ const OurTeam = () => {
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -226,8 +251,13 @@ const OurTeam = () => {
                   <h5 className="title">Jessica Brown</h5>
                   <span>Web Designer</span>
                   <div className="share-icon">
-                    <i className="fas fa-share-alt"></i>
-                    <ul>
+                    <a href="#">
+                      <i
+                        style={{ color: "#fff" }}
+                        className="fa-brands fa-linkedin-in"
+                      ></i>
+                    </a>
+                    {/* <ul>
                       <li>
                         <a href="#">
                           <i className="fab fa-facebook-f"></i>
@@ -248,7 +278,7 @@ const OurTeam = () => {
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
