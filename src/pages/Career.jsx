@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Carrier = () => {
+const Career = () => {
   return (
     <>
       <section className="breadcrumb-area mb-5">
@@ -80,4 +80,4 @@ const Carrier = () => {
   );
 };
 
-export default Carrier;
+export default Career;

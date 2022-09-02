@@ -131,7 +131,7 @@ const Header = () => {
                     <Link to="contact">Contact</Link>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="carrier">Carrier</Link>
+                    <Link to="carrier">Career</Link>
                   </li>
                 </ul>
               </div>
