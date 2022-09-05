@@ -38,11 +38,6 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link to="#">
-                      <i className="fab fa-pinterest-p"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
                       <i className="fab fa-instagram"></i>
                     </Link>
                   </li>

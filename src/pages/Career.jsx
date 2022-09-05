@@ -29,7 +29,7 @@ const Career = () => {
       <section className="modularize-carrier-page-area pt-120 pb-90">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-6 mb-5">
+            <div className="col-lg-12 col-md-12 mb-5">
               <div className="modularize-carrier-job-card">
                 <div className="modularize-carrier-item">
                   <div>
@@ -51,7 +51,7 @@ const Career = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-12 col-md-6 mb-5">
+            <div className="col-lg-12 col-md-12 mb-5">
               <div className="modularize-carrier-job-card">
                 <div className="modularize-carrier-item">
                   <div>

@@ -206,7 +206,7 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="modularize-banner-slide-active item-3">
+          {/* <div className="modularize-banner-slide-active item-3">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
@@ -245,7 +245,7 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </section>
 

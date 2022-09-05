@@ -4,21 +4,18 @@ import { Link } from "react-router-dom";
 const Blog = () => {
   return (
     <>
-      <section classNameName="breadcrumb-area mb-5">
-        <div classNameName="container">
-          <div classNameName="row">
-            <div classNameName="col-lg-12">
-              <div classNameName="breadcrumb-item">
-                <h2 classNameName="title">Blogs</h2>
+      <section className="breadcrumb-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="breadcrumb-item">
+                <h2 className="title">Blog</h2>
                 <nav aria-label="breadcrumb">
-                  <ol classNameName="breadcrumb">
-                    <li classNameName="breadcrumb-item">
+                  <ol className="breadcrumb">
+                    <li className="breadcrumb-item">
                       <Link to="#">Home</Link>
                     </li>
-                    <li
-                      classNameName="breadcrumb-item active"
-                      aria-current="page"
-                    >
+                    <li className="breadcrumb-item active" aria-current="page">
                       Blog
                     </li>
                   </ol>
@@ -28,7 +25,6 @@ const Blog = () => {
           </div>
         </div>
       </section>
-
       <section className="modularize-blog-page-area pt-120 pb-90">
         <div className="container">
           <div className="row">
