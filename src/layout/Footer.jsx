@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FooterLogo from "../../src/assets/img/logo-white2.png";
 
 const Footer = () => {
   const scrolltoTop = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
             <div className="col-lg-5 col-md-6">
               <div className="footer-about">
                 <Link to="#">
-                  <img src="assets/images/logo-white2.png" alt="" />
+                  <img src={FooterLogo} alt="" />
                 </Link>
                 <p>
                   We provide all-around services to help you convert your idea
@@ -38,7 +39,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link to="#">
-                      <i className="fab fa-instagram"></i>
+                      <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
                   </li>
                 </ul>

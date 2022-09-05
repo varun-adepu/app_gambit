@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import HeaderLogo from "../../src/assets/img/logo-white.png";
 
 const Header = () => {
   const [isToggal, setIsToggal] = useState(false);
@@ -72,6 +73,9 @@ const Header = () => {
                       <li className="menu-item-has-children active">
                         <Link to="contact">Contact</Link>
                       </li>
+                      <li className="menu-item-has-children active">
+                        <Link to="career">Career</Link>
+                      </li>
                     </ul>
                   </div>
                   <div className="offcanvas_footer">
@@ -92,7 +96,7 @@ const Header = () => {
         <div className="header-wrapper">
           <div className="templates-logo">
             <Link to="/">
-              <img src="assets/images/logo-white.png" alt="logo" />
+              <img src={HeaderLogo} alt="logo" />
             </Link>
           </div>
           <div className="header-box">
@@ -131,7 +135,7 @@ const Header = () => {
                     <Link to="contact">Contact</Link>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="carrier">Career</Link>
+                    <Link to="career">Career</Link>
                   </li>
                 </ul>
               </div>
@@ -151,7 +155,8 @@ const Header = () => {
                 </div>
                 <div className="header-main-info-contact">
                   <div className="icon">
-                    <img src="assets/images/icon/phone.svg" alt="" />
+                    {/* <img src="assets/images/icon/phone.svg" alt="" /> */}
+                    <i className="fa-solid fa-phone"></i>
                   </div>
                   <div className="content">
                     <span>Call Anytime</span>
