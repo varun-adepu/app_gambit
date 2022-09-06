@@ -1030,7 +1030,7 @@ const Landing = () => {
 
       <div className="modularize-valuable-clients">
         <div class="modularize-sponser-area modularize-sponser-about-area">
-          <div className="modularize-clients mb-3">
+          <div className="modularize-clients mb-5">
             <span>Our Valuable Clients!</span>
           </div>
           <div class="container">
@@ -1433,6 +1433,16 @@ const Landing = () => {
                 </div>
                 <div className="techno-content">
                   <h4>DevOps</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fa-brands fa-docker"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Docker</h4>
                 </div>
               </div>
             </div>
