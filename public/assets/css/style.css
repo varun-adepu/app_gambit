@@ -9774,6 +9774,9 @@ h4 {
   align-items: center;
   justify-content: center;
 }
+.modularize-technologies-area .icon-techno img{
+  width: 65px;
+}
 
 
 

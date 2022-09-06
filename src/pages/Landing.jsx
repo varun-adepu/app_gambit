@@ -967,6 +967,48 @@ const Landing = () => {
                 </div>
               </div>
             </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <img
+                    src="assets/images/Serverless.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
+                </div>
+                <div className="techno-content">
+                  <h4>Serverless</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <img
+                    src="assets/images/flutter.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
+                </div>
+                <div className="techno-content">
+                  <h4>Flutter</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <img
+                    style={{ width: "90px" }}
+                    src="assets/images/Kubernetes_logo.png"
+                    alt=""
+                  />
+                </div>
+                <div className="techno-content">
+                  <h4>Kubernates</h4>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
