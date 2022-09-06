@@ -271,6 +271,9 @@ p {
   background: #000;
   width: 16px;
 }
+.modularize-feature-area .section-title span {
+  color: #fff;
+}
 .section-title .title {
   font-size: 45px;
   color: #1d1729;
@@ -2675,7 +2678,7 @@ p {
 }
 .modularize-about-area .modularize-about-thumb .about-logo {
   position: absolute;
-  top: 110px;
+  top: 40px;
   right: -63px;
   width: 230px;
   height: 200px;
@@ -3633,7 +3636,6 @@ p {
   padding-top: 180px;
   padding-bottom: 120px;
   position: relative;
-  position: relative;
   z-index: 10;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4198,7 +4200,7 @@ p {
   opacity: 0.6;
 }
 .modularize-sponser-area .modularize-sponser-item:hover {
-  background: #f4f2f9;
+  background: #bbb9be;
 }
 .modularize-sponser-area .modularize-sponser-item:hover img {
   opacity: 1;
@@ -4692,7 +4694,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 115px;
-  padding-bottom: 133px;
+  padding-bottom: 115px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .modularize-testimonial-area {
@@ -8129,8 +8131,8 @@ single-tema-item .content .share-icon > a {
   }
 }
 .modularize-company-about-area .modularize-about-content ul li {
-  font-size: 13px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
 }
 .modularize-company-about-area .modularize-about-content ul li i {
   font-size: 13px;
@@ -9307,13 +9309,14 @@ single-tema-item .content .share-icon > a {
 /*# sourceMappingURL=style.css.map */
 
 .modularize-valuable-clients {
-  background-image: url(../images/testimonial-bg.jpg);
+  /* background-image: url(../images/information-bg-dot.png); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 80px;
-  margin-top: 115px;
+  margin-top: 115px;    
 }
+
 
 @media (max-width: 767px) {
   .modularize-sponser-area .modularize-clients > span {
@@ -9601,68 +9604,64 @@ single-tema-item .content .share-icon > a {
   }
 }
 
-
 /* checking */
 
 :root {
-    --red: hsl(0, 78%, 62%);
-    --cyan: hsl(180, 62%, 55%);
-    --orange: hsl(34, 97%, 64%);
-    --blue: hsl(212, 86%, 64%);
-    --varyDarkBlue: hsl(234, 12%, 34%);
-    --grayishBlue: hsl(229, 6%, 66%);
-    --veryLightGray: hsl(0, 0%, 98%);
-    --weight1: 200;
-    --weight2: 400;
-    --weight3: 600;
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
 }
 
 .modularize-career-third {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--veryLightGray);
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--veryLightGray);
 }
 
-
 h1:first-of-type {
-    font-weight: var(--weight1);
-    color: var(--varyDarkBlue);
-
+  font-weight: var(--weight1);
+  color: var(--varyDarkBlue);
 }
 
 h1:last-of-type {
-    color: var(--varyDarkBlue);
+  color: var(--varyDarkBlue);
 }
 
 @media (max-width: 400px) {
-    h1 {
-        font-size: 1.5rem;
-    }
+  h1 {
+    font-size: 1.5rem;
+  }
 }
 
 .header-career-main {
-    text-align: center;
-    line-height: 0.8;
-    margin-bottom: 50px;
-    margin-top: 100px;
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 .header-career-main p {
-    margin: 0 auto;
-    line-height: 2;
-    color: var(--grayishBlue);
+  margin: 0 auto;
+  line-height: 2;
+  color: var(--grayishBlue);
 }
 
-
 .box1 p {
-    color: var(--grayishBlue);
+  color: var(--grayishBlue);
 }
 
 .box1 {
-    border-radius: 5px;
-    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
-    padding: 30px;
-    margin: 20px;  
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+  padding: 30px;
+  margin: 20px;
 }
 
 .box1 h4 {
@@ -9670,63 +9669,108 @@ h1:last-of-type {
 }
 
 .modularize-career-third img {
-    float: right;
+  float: right;
 }
 
 @media (max-width: 450px) {
-    .box1 {
-        height: 200px;
-    }
+  .box1 {
+    height: 200px;
+  }
 }
 
 @media (max-width: 950px) and (min-width: 450px) {
-    .box1 {
-        text-align: center;
-        height: 180px;
-    }
+  .box1 {
+    text-align: center;
+    height: 180px;
+  }
 }
 
 .cyan-career {
-    border-top: 3px solid var(--cyan);
+  border-top: 3px solid var(--cyan);
 }
 .red-career {
-    border-top: 3px solid var(--red);
+  border-top: 3px solid var(--red);
 }
 .blue-career {
-    border-top: 3px solid var(--blue);
+  border-top: 3px solid var(--blue);
 }
 .orange-career {
-    border-top: 3px solid var(--orange);
+  border-top: 3px solid var(--orange);
 }
 
 h4 {
-    color: var(--varyDarkBlue);
-    font-weight: var(--weight3);
+  color: var(--varyDarkBlue);
+  font-weight: var(--weight3);
 }
-
 
 @media (min-width: 950px) {
-    .row1-container-career {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .row2-container-career {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .box1-down {
-        position: relative;
-        top: 150px;
-    }
-    .box1 {
-        width: 20%;
-     
-    }
-    .header-career-main p {
-        width: 30%;
-    }
-    
+  .row1-container-career {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row2-container-career {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1-down {
+    position: relative;
+    top: 150px;
+  }
+  .box1 {
+    width: 20%;
+  }
+  .header-career-main p {
+    width: 30%;
+  }
 }
+
+/* Technology */
+
+.modularize-technologies-area {
+  padding: 100px;
+  background-color: #343434;
+}
+
+.modularize-technologies-area .section-title span,
+.modularize-technologies-area .section-title h4,
+.modularize-technologies-area .section-title p,
+.modularize-technologies-area .techno-content h4 {
+  color: #fff;
+}
+
+.modularize-technologies-area .icon-techno i {
+  font-size: 80px;
+  color: #fff;
+}
+
+.modularize-technologies-area .section-title span::before ,.modularize-feature-new .section-title span::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  background: #fff;
+  width: 16px;
+}
+
+@media (max-width: 767px) {
+  .modularize-technologies-area .icon-techno,.modularize-technologies-area .techno-content{
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .modularize-technologies-area{
+    padding: 10px;
+  }
+}
+
+
+
+
+/* .modularize-technologies-area .techno-content {
+  text-align: left;
+} */

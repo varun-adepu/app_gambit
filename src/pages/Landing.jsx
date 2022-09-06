@@ -3,6 +3,14 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
 const Landing = () => {
+  const scrolltoTop = () => {
+    console.log("heyy");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const bannerSettings = {
     dots: false,
     infinite: true,
@@ -87,6 +95,41 @@ const Landing = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  const Technologies = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
@@ -373,7 +416,7 @@ const Landing = () => {
 
       {/* Dealing in all Professional IT Services */}
 
-      <section className="modularize-feature-area">
+      <section className="modularize-feature-area modularize-feature-new">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -933,7 +976,7 @@ const Landing = () => {
 
       {/* We’re Ready Develop Your Site! */}
 
-      <div className="modularize-cta-area pt-60">
+      <div className="modularize-cta-area pt-60 ">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -1161,6 +1204,223 @@ const Landing = () => {
                 </div>
               </div>
             </Slider>
+          </div>
+        </div>
+      </section>
+
+      {/* Blogs  */}
+
+      <section className="modularize-blog-area pb-115">
+        <div className="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center mb-55">
+                <span>Our Blogs</span>
+                <h3 class="title">What We Write </h3>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-item">
+                <div className="thumb">
+                  <a href="#">
+                    <img
+                      src="https://cdn-images-1.medium.com/max/1024/1*xGEzFVEESz1SfF-KSvSAjg.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div className="content">
+                  <div className="blog-meta">
+                    <ul>
+                      <li>
+                        <i className="fal fa-user-circle"></i> Prashant
+                        Bhatasana
+                      </li>
+                      <li>
+                        <i className="fa-regular fa-calendar-days"></i> 28 Jun
+                        2022
+                      </li>
+                    </ul>
+                    <h4 className="title">
+                      <a href="#">
+                        Provisioning a Jenkins Server on AWS With Terraform.
+                      </a>
+                    </h4>
+                    <Link onClick={scrolltoTop} to="blog">
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-item">
+                <div className="thumb">
+                  <a href="#">
+                    <img
+                      src="https://cdn-images-1.medium.com/max/1024/1*KZixg7VK_dF1b046QdDOHQ.jpeg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div className="content">
+                  <div className="blog-meta">
+                    <ul>
+                      <li>
+                        <i className="fal fa-user-circle"></i> Dhaval Nagar
+                      </li>
+                      <li>
+                        <i className="fa-regular fa-calendar-days"></i> 18 Dec
+                        2020
+                      </li>
+                    </ul>
+                    <h4 className="title">
+                      <a href="#">
+                        PAY per USE can derail your Serverless (dream) Budget
+                      </a>
+                    </h4>
+                    <Link onClick={scrolltoTop} to="blog">
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="single-blog-item">
+                <div className="thumb">
+                  <a href="#">
+                    <img
+                      src="https://cdn-images-1.medium.com/max/1024/1*q296DIiygo9qYYBeLJsJag.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div className="content">
+                  <div className="blog-meta">
+                    <ul>
+                      <li>
+                        <i className="fal fa-user-circle"></i> Prashant
+                        Bhatasana
+                      </li>
+                      <li>
+                        <i className="fa-regular fa-calendar-days"></i> 01 Apr
+                        2021
+                      </li>
+                    </ul>
+                    <h4 className="title">
+                      <a href="#">
+                        Terraform — Deploy AWS Inspector A cloud-based
+                        Vulnerability Assessment Tools.
+                      </a>
+                    </h4>
+                    <Link onClick={scrolltoTop} to="blog">
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Technologies */}
+
+      <section className="modularize-technologies-area mb-115">
+        <div className="container">
+          <div className="row align-items-center mb-55">
+            <div className="col-lg-6">
+              <div className="section-title">
+                <span>Technologies</span>
+                <h4 className="title">What we can do for you?</h4>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="section-title pl-100">
+                <p>
+                  We believe technology is just a carrier to help build a
+                  solution, there is no one right way if the execution is done
+                  properly. These are some of the current technologies we use to
+                  build solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-2 col-md-6">
+              <div className="icon-techno pb-20">
+                <i className="fab fa-node"></i>
+              </div>
+
+              <div className="techno-content">
+                <h4>Node Js</h4>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="icon-techno pb-20">
+                <i className="fab fa-angular"></i>
+              </div>
+              <div className="techno-content">
+                <h4>Angular</h4>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="icon-techno pb-20">
+                <i className="fab fa-react"></i>
+              </div>
+              <div className="techno-content">
+                <h4>React</h4>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="icon-techno pb-20">
+                <i className="fab fa-react"></i>
+              </div>
+              <div className="techno-content">
+                <h4>React-Native</h4>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="icon-techno pb-20">
+                <i className="fab fa-android"></i>
+              </div>
+              <div className="techno-content">
+                <h4>Android</h4>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="icon-techno pb-20">
+                <i className="fas fa-quidditch"></i>
+              </div>
+              <div className="techno-content">
+                <h4>Node Js</h4>
+              </div>
+            </div>
+          </div>
+
+          <div className="row align-items-center mt-5 ">
+            <div className="col-lg-2 col-md-6">
+              <div className="icon-techno pb-20">
+                <i className="fab fa-aws"></i>
+              </div>
+              <div className="techno-content">
+                <h4>AWS</h4>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="icon-techno pb-20">
+                <i className="fas fa-infinity"></i>
+              </div>
+              <div className="techno-content">
+                <h4>DevOps</h4>
+              </div>
+            </div>
           </div>
         </div>
       </section>
