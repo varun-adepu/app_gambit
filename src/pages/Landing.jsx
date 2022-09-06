@@ -877,6 +877,16 @@ const Landing = () => {
             <div className="col-lg-2 col-md-6">
               <div className="technologies-justify-center">
                 <div className="icon-techno pb-20">
+                  <i className="fab fa-react"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>React</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
                   <i className="fab fa-node"></i>
                 </div>
                 <div className="techno-content">
@@ -894,16 +904,7 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fab fa-react"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>React</h4>
-                </div>
-              </div>
-            </div>
+
             <div className="col-lg-2 col-md-6">
               <div className="technologies-justify-center">
                 <div className="icon-techno pb-20">
@@ -930,7 +931,7 @@ const Landing = () => {
                   <i className="fas fa-quidditch"></i>
                 </div>
                 <div className="techno-content">
-                  <h4>Node Js</h4>
+                  <h4>UI & UX Design</h4>
                 </div>
               </div>
             </div>
@@ -1006,6 +1007,162 @@ const Landing = () => {
                 </div>
                 <div className="techno-content">
                   <h4>Kubernates</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Certifications  */}
+
+      <section className="modularize-certifications-area">
+        <div className="container">
+          <div className="row mb-55">
+            <div className="col-lg-6">
+              <div className="section-title">
+                <span>Certifications</span>
+                <h4 className="title">Certified Professionals</h4>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="section-title pl-100">
+                <p>
+                  We have a team of engineers who believe in continuous learning
+                  as part of their job. Here are some of the industry standard
+                  certifications that our engineers hold currently.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/0.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/2.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/3.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/4.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/5.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row mt-3">
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/6.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/7.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/8.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/9.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/10.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/11.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row mt-3">
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img src="assets/images/certifications/docker.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img
+                    src="assets/images/certifications/google associate.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img
+                    src="assets/images/certifications/google professional.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="certifications-justify-center">
+                <div className="certification-image-1 pb-20">
+                  <img
+                    src="assets/images/certifications/kubernetes-ckad-color.png"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>

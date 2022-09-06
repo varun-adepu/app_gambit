@@ -3657,7 +3657,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  /* background-image: url(../images/dot-bg.png); */
+  background-image: url(../images/Sky-abstract-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -9774,8 +9774,32 @@ h4 {
   align-items: center;
   justify-content: center;
 }
-.modularize-technologies-area .icon-techno img{
-  width: 65px;
+
+
+.modularize-certifications-area .section-title p {
+  color: #6c6a72
+}
+
+/* certifications */
+
+
+.modularize-certifications-area .certifications-justify-center .certification-image-1 {
+  width: 85%;
+  overflow: hidden;
+}
+.modularize-certifications-area .certifications-justify-center .certification-image-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .modularize-certifications-area .certifications-justify-center{
+    text-align: center;
+  }
+  .modularize-certifications-area .certifications-justify-center .certification-image-1 {
+    width: 100%;
+  }
 }
 
 
