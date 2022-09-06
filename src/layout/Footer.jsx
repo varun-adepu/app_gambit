@@ -149,8 +149,7 @@ const Footer = () => {
       </footer>
       <div className="footer-copyright text-center">
         <p>
-          © All Copyright 2022 by{" "}
-          <Link to="mailto:hello@appgambit.com">Modularize</Link>{" "}
+          © All Copyright 2022 by <Link to="/">Modularize</Link>{" "}
         </p>
       </div>
     </>

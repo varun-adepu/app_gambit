@@ -1354,71 +1354,86 @@ const Landing = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-2 col-md-6">
-              <div className="icon-techno pb-20">
-                <i className="fab fa-node"></i>
-              </div>
-
-              <div className="techno-content">
-                <h4>Node Js</h4>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="icon-techno pb-20">
-                <i className="fab fa-angular"></i>
-              </div>
-              <div className="techno-content">
-                <h4>Angular</h4>
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-node"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Node Js</h4>
+                </div>
               </div>
             </div>
             <div className="col-lg-2 col-md-6">
-              <div className="icon-techno pb-20">
-                <i className="fab fa-react"></i>
-              </div>
-              <div className="techno-content">
-                <h4>React</h4>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="icon-techno pb-20">
-                <i className="fab fa-react"></i>
-              </div>
-              <div className="techno-content">
-                <h4>React-Native</h4>
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-angular"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Angular</h4>
+                </div>
               </div>
             </div>
             <div className="col-lg-2 col-md-6">
-              <div className="icon-techno pb-20">
-                <i className="fab fa-android"></i>
-              </div>
-              <div className="techno-content">
-                <h4>Android</h4>
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-react"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>React</h4>
+                </div>
               </div>
             </div>
             <div className="col-lg-2 col-md-6">
-              <div className="icon-techno pb-20">
-                <i className="fas fa-quidditch"></i>
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-react"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>React-Native</h4>
+                </div>
               </div>
-              <div className="techno-content">
-                <h4>Node Js</h4>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-android"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Android</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fas fa-quidditch"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Node Js</h4>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="row align-items-center mt-5 ">
+          <div className="row align-items-center mt-5">
             <div className="col-lg-2 col-md-6">
-              <div className="icon-techno pb-20">
-                <i className="fab fa-aws"></i>
-              </div>
-              <div className="techno-content">
-                <h4>AWS</h4>
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-aws"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>AWS</h4>
+                </div>
               </div>
             </div>
             <div className="col-lg-2 col-md-6">
-              <div className="icon-techno pb-20">
-                <i className="fas fa-infinity"></i>
-              </div>
-              <div className="techno-content">
-                <h4>DevOps</h4>
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fas fa-infinity"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>DevOps</h4>
+                </div>
               </div>
             </div>
           </div>
