@@ -9313,7 +9313,7 @@ single-tema-item .content .share-icon > a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 80px;
+  /* padding: 80px; */
   margin-top: 115px;    
 }
 

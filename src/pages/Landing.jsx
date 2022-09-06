@@ -708,6 +708,58 @@ const Landing = () => {
         </div>
       </section>
 
+      {/* We’re Ready Develop Your Site! */}
+
+      <div className="modularize-cta-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div
+                className="modularize-cta-box animated wow fadeIn"
+                data-wow-duration="1000ms"
+                data-wow-delay="300ms"
+              >
+                <div className="row">
+                  <div className="col-lg-3">
+                    <div className="cta-thumb">
+                      <img src="assets/images/cta-thumb.png" alt="" />
+                    </div>
+                  </div>
+                  <div className="col-lg-9">
+                    <div className="cta-content">
+                      <h2 className="title">We’re Ready Develop Your Site!</h2>
+                      <div className="row align-items-center">
+                        <div className="col-lg-8">
+                          <ul>
+                            <li>
+                              <i className="fas fa-check-circle"></i> Exploring
+                              version oflorem veritatis proin
+                            </li>
+                            <li>
+                              <i className="fas fa-check-circle"></i> Auctor
+                              aliquet aenean simply free text veritatis quis
+                            </li>
+                            <li>
+                              <i className="fas fa-check-circle"></i> Consequat
+                              ipsum nec lorem sagittis sem nibh.
+                            </li>
+                          </ul>
+                        </div>
+                        <div className="col-lg-4">
+                          <a href="#" className="main-btn ml-30">
+                            Learn More
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Our Completed Projects */}
 
       <section className="modularize-project-area pt-115 ">
@@ -795,6 +847,175 @@ const Landing = () => {
           </div>
         </div>
       </section>
+
+      {/* Technologies */}
+
+      <section className="modularize-technologies-area mb-115">
+        <div className="container">
+          <div className="row align-items-center mb-55">
+            <div className="col-lg-6">
+              <div className="section-title">
+                <span>Technologies</span>
+                <h4 className="title">What we can do for you?</h4>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="section-title pl-100">
+                <p>
+                  We believe technology is just a carrier to help build a
+                  solution, there is no one right way if the execution is done
+                  properly. These are some of the current technologies we use to
+                  build solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-node"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Node Js</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-angular"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Angular</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-react"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>React</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-react"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>React-Native</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-android"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Android</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fas fa-quidditch"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Node Js</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row align-items-center mt-5">
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fab fa-aws"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>AWS</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fas fa-infinity"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>DevOps</h4>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="technologies-justify-center">
+                <div className="icon-techno pb-20">
+                  <i className="fa-brands fa-docker"></i>
+                </div>
+                <div className="techno-content">
+                  <h4>Docker</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Valuable Clients  */}
+
+      <div className="modularize-valuable-clients">
+        <div class="modularize-sponser-area modularize-sponser-about-area">
+          <div className="modularize-clients mb-5">
+            <span>Our Valuable Clients!</span>
+          </div>
+          <div class="container">
+            <div class="row modularize-sponser-slide">
+              <Slider {...ourValiableClients}>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="modularize-sponser-item">
+                    <img src="assets/images/brand-logo.png" alt="" />
+                  </div>
+                </div>
+              </Slider>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Our valuable Clients */}
 
@@ -973,104 +1194,6 @@ const Landing = () => {
           </div>
         </div>
       </div> */}
-
-      {/* We’re Ready Develop Your Site! */}
-
-      <div className="modularize-cta-area pt-60 ">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="modularize-cta-box animated wow fadeIn"
-                data-wow-duration="1000ms"
-                data-wow-delay="300ms"
-              >
-                <div className="row">
-                  <div className="col-lg-3">
-                    <div className="cta-thumb">
-                      <img src="assets/images/cta-thumb.png" alt="" />
-                    </div>
-                  </div>
-                  <div className="col-lg-9">
-                    <div className="cta-content">
-                      <h2 className="title">We’re Ready Develop Your Site!</h2>
-                      <div className="row align-items-center">
-                        <div className="col-lg-8">
-                          <ul>
-                            <li>
-                              <i className="fas fa-check-circle"></i> Exploring
-                              version oflorem veritatis proin
-                            </li>
-                            <li>
-                              <i className="fas fa-check-circle"></i> Auctor
-                              aliquet aenean simply free text veritatis quis
-                            </li>
-                            <li>
-                              <i className="fas fa-check-circle"></i> Consequat
-                              ipsum nec lorem sagittis sem nibh.
-                            </li>
-                          </ul>
-                        </div>
-                        <div className="col-lg-4">
-                          <a href="#" className="main-btn ml-30">
-                            Learn More
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Our Valuable Clients  */}
-
-      <div className="modularize-valuable-clients">
-        <div class="modularize-sponser-area modularize-sponser-about-area">
-          <div className="modularize-clients mb-5">
-            <span>Our Valuable Clients!</span>
-          </div>
-          <div class="container">
-            <div class="row modularize-sponser-slide">
-              <Slider {...ourValiableClients}>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
-                  </div>
-                </div>
-              </Slider>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Testimonial Starts  */}
 
@@ -1320,129 +1443,6 @@ const Landing = () => {
                       Read More
                     </Link>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Technologies */}
-
-      <section className="modularize-technologies-area mb-115">
-        <div className="container">
-          <div className="row align-items-center mb-55">
-            <div className="col-lg-6">
-              <div className="section-title">
-                <span>Technologies</span>
-                <h4 className="title">What we can do for you?</h4>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="section-title pl-100">
-                <p>
-                  We believe technology is just a carrier to help build a
-                  solution, there is no one right way if the execution is done
-                  properly. These are some of the current technologies we use to
-                  build solutions.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fab fa-node"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>Node Js</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fab fa-angular"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>Angular</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fab fa-react"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>React</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fab fa-react"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>React-Native</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fab fa-android"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>Android</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fas fa-quidditch"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>Node Js</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row align-items-center mt-5">
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fab fa-aws"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>AWS</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fas fa-infinity"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>DevOps</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-6">
-              <div className="technologies-justify-center">
-                <div className="icon-techno pb-20">
-                  <i className="fa-brands fa-docker"></i>
-                </div>
-                <div className="techno-content">
-                  <h4>Docker</h4>
                 </div>
               </div>
             </div>
