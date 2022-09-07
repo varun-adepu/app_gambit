@@ -3732,7 +3732,7 @@ p {
     7.CTA css 
 ===========================*/
 .modularize-cta-box {
-  background-image: url(../images/cta-bg.jpg);
+  /* background-image: url(../images/cta-bg.jpg); */
   position: relative;
   z-index: 10;
   padding: 80px 100px;
@@ -4194,13 +4194,14 @@ p {
 .modularize-sponser-area .modularize-sponser-item {
   text-align: center;
   padding: 35px 0;
+  background-color: #343434;
 }
 .modularize-sponser-area .modularize-sponser-item img {
   display: inline-block;
   opacity: 0.6;
 }
 .modularize-sponser-area .modularize-sponser-item:hover {
-  background: #bbb9be;
+  background: #fff;
 }
 .modularize-sponser-area .modularize-sponser-item:hover img {
   opacity: 1;
@@ -5932,7 +5933,7 @@ single-tema-item .content .share-icon > a {
   }
 }
 .single-blog-item {
-  border: 1px solid black;
+  box-shadow: 0px 2px 5px 5px rgb(240, 238, 238);
   height: 380px;
   overflow: hidden;
 }
@@ -9309,11 +9310,11 @@ single-tema-item .content .share-icon > a {
 /*# sourceMappingURL=style.css.map */
 
 .modularize-valuable-clients {
-  /* background-image: url(../images/information-bg-dot.png); */
+  background-image: url(../images/client-bg-black.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* padding: 80px; */
+  padding: 80px;
   margin-top: 115px;    
 }
 
@@ -9328,7 +9329,7 @@ single-tema-item .content .share-icon > a {
   text-align: center;
   font-size: 45px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
 }
 
 /* .container{
@@ -9731,7 +9732,7 @@ h4 {
 
 .modularize-technologies-area {
   padding: 100px;
-  background-color: #343434;
+  background-color: #131212;
 }
 
 .modularize-technologies-area .section-title span,

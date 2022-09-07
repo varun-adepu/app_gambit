@@ -61,20 +61,20 @@ const Header = () => {
                         <Link to="services">Services</Link>
                       </li>
                       <li className="menu-item-has-children active">
+                        <Link to="project">Projects</Link>
+                      </li>
+                      <li className="menu-item-has-children active">
                         <Link to="team">Our Team</Link>
                       </li>
 
                       <li className="menu-item-has-children active">
-                        <Link to="project">Projects</Link>
-                      </li>
-                      <li className="menu-item-has-children active">
                         <Link to="blog">Blog</Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link to="contact">Contact</Link>
+                        <Link to="career">Career</Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link to="career">Career</Link>
+                        <Link to="contact">Contact</Link>
                       </li>
                     </ul>
                   </div>
@@ -122,20 +122,23 @@ const Header = () => {
                     <Link to="services">Services</Link>
                   </li>
                   <li onClick={scrolltoTop}>
+                    <Link to="project">Projects</Link>
+                  </li>
+                  <li onClick={scrolltoTop}>
                     <Link to="team">Our Team</Link>
                   </li>
 
-                  <li onClick={scrolltoTop}>
-                    <Link to="project">Projects</Link>
-                  </li>
-                  <li className="menu-item-has-children active">
+                  <li
+                    onClick={scrolltoTop}
+                    className="menu-item-has-children active"
+                  >
                     <Link to="blog">Blog</Link>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="contact">Contact</Link>
+                    <Link to="career">Career</Link>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="career">Career</Link>
+                    <Link to="contact">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -160,8 +163,8 @@ const Header = () => {
                   </div>
                   <div className="content">
                     <span>Call Anytime</span>
-                    <a href="tel:+919925200545">( + 91 ) 99252 00545</a>
-                    <a href="tel:+919925200545">( + 91 ) 99041 57241</a>
+                    <a href="tel:+919925200545">( +91 ) 99252 00545</a>
+                    <a href="tel:+919925200545">( +91 ) 99041 57241</a>
                   </div>
                 </div>
               </div>
