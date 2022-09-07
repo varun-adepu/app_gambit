@@ -782,7 +782,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid pl-160 pr-160">
+        <div className="container">
           <div className="row modularize-project-slide">
             <Slider {...serviceSettings}>
               <div className="col-lg-3">
@@ -1177,7 +1177,7 @@ const Landing = () => {
           <div className="modularize-clients mb-5">
             <span>Our Valuable Clients!</span>
           </div>
-          <div class="container">
+          <div class="container-fluid">
             <div class="row modularize-sponser-slide">
               <Slider {...ourValiableClients}>
                 <div class="col-lg-3">
@@ -1543,7 +1543,7 @@ const Landing = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
                   <a href="#">
@@ -1570,14 +1570,18 @@ const Landing = () => {
                         Provisioning a Jenkins Server on AWS With Terraform.
                       </a>
                     </h4>
-                    <Link onClick={scrolltoTop} to="blog">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://medium.com/appgambit/provisioning-a-jenkins-server-on-aws-with-terraform-bf04a6a6ef7f"
+                    >
                       Read More
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
                   <a href="#">
@@ -1603,14 +1607,18 @@ const Landing = () => {
                         PAY per USE can derail your Serverless (dream) Budget
                       </a>
                     </h4>
-                    <Link onClick={scrolltoTop} to="blog">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://medium.com/appgambit/pay-per-use-can-derail-your-serverless-dream-budget-6884a8de0b75"
+                    >
                       Read More
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
                   <a href="#">
@@ -1635,15 +1643,64 @@ const Landing = () => {
                     <h4 className="title">
                       <a href="#">
                         Terraform — Deploy AWS Inspector A cloud-based
-                        Vulnerability Assessment Tools.
+                        Vulnerability...
                       </a>
                     </h4>
-                    <Link onClick={scrolltoTop} to="blog">
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://medium.com/appgambit/terraform-deploy-aws-inspector-a-cloud-based-vulnerability-assessment-tools-a4e2f5987e48"
+                    >
                       Read More
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <div className="single-blog-item">
+                <div className="thumb">
+                  <a href="#">
+                    <img
+                      src="https://cdn-images-1.medium.com/max/1024/1*uYrJjNqPJ6uvGIuZds5W_w.png"
+                      alt=""
+                    />
+                  </a>
+                  {/* <span>18 mar</span> */}
+                </div>
+                <div className="content">
+                  <div className="blog-meta">
+                    <ul>
+                      <li>
+                        <i className="fal fa-user-circle"></i> Prashant
+                        Bhatasana
+                      </li>
+                      <li>
+                        <i className="fa-regular fa-calendar-days"></i> 03 Feb
+                        2021
+                      </li>
+                    </ul>
+                    <h4 className="title">
+                      <a href="#">
+                        AWS CodePipeline — Alexa Skill Deployment Pipeline.
+                      </a>
+                    </h4>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://medium.com/appgambit/aws-codepipeline-alexa-skill-deployment-pipeline-a77d1e6a8da5"
+                    >
+                      Read More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-12 text-center pt-30">
+              <Link onClick={scrolltoTop} to="/blog" className="main-btn">
+                View More
+              </Link>
             </div>
           </div>
         </div>

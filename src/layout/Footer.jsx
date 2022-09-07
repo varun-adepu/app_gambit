@@ -106,44 +106,6 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            {/* <div className="col-lg-4 col-md-6">
-              <div className="footer-newsletter">
-                <div className="gmap_canvas">
-                  <iframe
-                    title="map"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465.1359181428402!2d72.776026!3d21.148922000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaac07e8d4b5bff36!2sSNS+Platina!5e0!3m2!1sen!2sus!4v1543994223146"
-                    width="100% "
-                    height="350"
-                    frameborder="0"
-                    style={{ border: "0" }}
-                    allowfullscreen
-                  ></iframe>
-                </div> */}
-            {/* <h4 className="title">Newsletter</h4>
-                <p>
-                  Signup for our latest news & articles. We won’t give you spam
-                  mails.
-                </p>
-                <form action="#">
-                  <div className="input-box">
-                    <input type="text" placeholder="Email Address" />
-                    <button>
-                      <i className="far fa-paper-plane"></i>
-                    </button>
-                  </div>
-                </form> */}
-            {/* <div className="col-lg-4 col-lg-6">
-                    <div className="map mt-30">
-                        <div className="mapouter">
-                            <div className="gmap_canvas">
-                                <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465.1359181428402!2d72.776026!3d21.148922000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaac07e8d4b5bff36!2sSNS+Platina!5e0!3m2!1sen!2sus!4v1543994223146"
-                                    width="500px" height="350" frameborder="0" style={{border :"0"}} allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-            {/* </div>
-            </div> */}
           </div>
         </div>
       </footer>

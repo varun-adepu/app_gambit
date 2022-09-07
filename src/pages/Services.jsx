@@ -40,7 +40,7 @@ const Services = () => {
               <div className="modularize-about-thumb">
                 <img
                   className="main-thumb"
-                  src="assets/images/service-thumb-4.png"
+                  src="assets/images/project-slider-2.png"
                   alt=""
                 />
                 <div className="item-1">
@@ -100,7 +100,7 @@ const Services = () => {
               data-wow-delay="0ms"
             >
               <div className="about-thumb-4">
-                <img src="assets/images/about-thumb-6.png" alt="" />
+                <img src="assets/images/project-item-4.png" alt="" />
               </div>
             </div>
             <div
