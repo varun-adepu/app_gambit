@@ -28,6 +28,25 @@ const Footer = () => {
                 </p>
                 <ul>
                   <li>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://www.linkedin.com/company/appgambit/"
+                    >
+                      <i className="fa-brands fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://medium.com/appgambit"
+                    >
+                      <i class="fab fa-medium-m"></i>
+                    </a>
+                  </li>
+
+                  <li>
                     <Link to="#">
                       <i className="fab fa-twitter"></i>
                     </Link>
@@ -35,11 +54,6 @@ const Footer = () => {
                   <li>
                     <Link to="#">
                       <i className="fab fa-facebook-f"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="fa-brands fa-linkedin-in"></i>
                     </Link>
                   </li>
                 </ul>

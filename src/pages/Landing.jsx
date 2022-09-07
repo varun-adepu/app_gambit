@@ -187,14 +187,14 @@ const Landing = () => {
                       & <br />
                       Services
                     </h1>
-                    <a
+                    <Link
                       className="main-btn"
                       data-animation="fadeInUp"
                       data-delay=".6s"
-                      href="#"
+                      to="/about"
                     >
                       Learn More
-                    </a>
+                    </Link>
                     <img
                       className="banner-arrow"
                       data-animation="fadeInRight"
@@ -229,14 +229,14 @@ const Landing = () => {
                       & <br />
                       Services
                     </h1>
-                    <a
+                    <Link
                       className="main-btn"
                       data-animation="fadeInUp"
                       data-delay=".6s"
-                      href="#"
+                      to="/contact"
                     >
                       Learn More
-                    </a>
+                    </Link>
                     <img
                       className="banner-arrow"
                       data-animation="fadeInRight"
