@@ -339,7 +339,11 @@ const Landing = () => {
                     lorem sagittis sem nibh.
                   </li>
                 </ul>
-                <Link to="/about" className="main-btn">
+                <Link
+                  style={{ border: "1px solid #000" }}
+                  to="/about"
+                  className="main-btn"
+                >
                   Learn More
                 </Link>
               </div>
@@ -1530,9 +1534,102 @@ const Landing = () => {
         </div>
       </section>
 
+      {/* SDLC  */}
+
+      <section className="modularize-sdlc-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center mb-55">
+                <span>Our Process</span>
+                <h3 className="title">What We Follow </h3>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12 col-md-12">
+              <div className="main-timeline">
+                <div className="timeline">
+                  <Link
+                    style={{ cursor: "default" }}
+                    to=""
+                    className="timeline-content"
+                  >
+                    <div className="timeline-icon">
+                      <i className="fa-sharp fa-solid fa-pen-to-square"></i>
+                    </div>
+                    <h3 className="title">Analysis</h3>
+                    <p className="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer males uada tellus lorem, et condimentum neque
+                      commodo Integer males uada tellus lorem, et condimentum
+                      neque commodo
+                    </p>
+                  </Link>
+                </div>
+                <div className="timeline">
+                  <Link
+                    style={{ cursor: "default" }}
+                    to=""
+                    className="timeline-content"
+                  >
+                    <div className="timeline-icon">
+                      <i className="fa-solid fa-palette"></i>
+                    </div>
+                    <h3 className="title">Design</h3>
+                    <p className="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer males uada tellus lorem, et condimentum neque
+                      commodo Integer males uada tellus lorem, et condimentum
+                      neque commodo
+                    </p>
+                  </Link>
+                </div>
+                <div className="timeline">
+                  <Link
+                    style={{ cursor: "default" }}
+                    to=""
+                    className="timeline-content"
+                  >
+                    <div className="timeline-icon">
+                      <i className="fa-solid fa-code"></i>
+                    </div>
+                    <h3 className="title">Development</h3>
+                    <p className="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer males uada tellus lorem, et condimentum neque
+                      commodo Integer males uada tellus lorem, et condimentum
+                      neque commodo
+                    </p>
+                  </Link>
+                </div>
+                <div className="timeline">
+                  <Link
+                    style={{ cursor: "default" }}
+                    to=""
+                    className="timeline-content"
+                  >
+                    <div className="timeline-icon">
+                      <i className="fas fa-truck-loading"></i>
+                    </div>
+                    <h3 className="title">Delivery</h3>
+                    <p className="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Integer males uada tellus lorem, et condimentum neque
+                      commodo Integer males uada tellus lorem, et condimentum
+                      neque commodo
+                    </p>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Blogs  */}
 
-      <section className="modularize-blog-area pb-115">
+      <section className="modularize-blog-area pt-115 pb-115">
         <div className="container">
           <div class="row">
             <div class="col-lg-12">
@@ -1698,9 +1795,83 @@ const Landing = () => {
             </div>
 
             <div className="col-lg-12 text-center pt-30">
-              <Link onClick={scrolltoTop} to="/blog" className="main-btn">
+              <Link
+                style={{ border: "1px solid #000" }}
+                onClick={scrolltoTop}
+                to="/blog"
+                className="main-btn"
+              >
                 View More
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Get in Touch With Us  */}
+
+      <section className="modularize-get-in-touch-area">
+        <div className="container">
+          <div className="row align-items-center mb-55">
+            <div className="col-lg-6">
+              <div className="section-title">
+                <span>Contact Us</span>
+                <h4 className="title"> Get in touch</h4>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="section-title pl-100">
+                <p>
+                  We are always looking for great ideas to work on. If you think
+                  you have good idea and need help either on the validation,
+                  execution or analytics side. Please do connect with us and we
+                  can surely help you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="contact-form-page-box mt-30">
+                <form action="#">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="input-box">
+                        <input type="text" placeholder="Your Name" />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="input-box">
+                        <input type="email" placeholder="Email Address" />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="input-box">
+                        <input type="text" placeholder="Phone Number" />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="input-box">
+                        <input type="text" placeholder="Subject" />
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="input-box">
+                        <textarea
+                          name="#"
+                          id="#"
+                          cols="30"
+                          rows="10"
+                          placeholder="Write a Message"
+                        ></textarea>
+                        <button type="submit" className="main-btn">
+                          Send a message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>

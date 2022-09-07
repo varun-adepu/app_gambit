@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import HeaderLogo from "../../src/assets/img/logo-white.png";
 
 const Header = () => {
@@ -113,32 +113,90 @@ const Header = () => {
               <div className="header-main-nav-box">
                 <ul>
                   <li onClick={scrolltoTop}>
-                    <Link to="/">Home</Link>
+                    {/* <Link to="/">Home</Link> */}
+
+                    <NavLink
+                      to="/"
+                      style={({ isActive }) => ({
+                        color: isActive ? "#343434" : "#6c6a72",
+                      })}
+                    >
+                      Home
+                    </NavLink>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="about">About</Link>
+                    <NavLink
+                      to="about"
+                      style={({ isActive }) => ({
+                        color: isActive ? "#343434" : "#6c6a72",
+                      })}
+                    >
+                      About
+                    </NavLink>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="services">Services</Link>
+                    <NavLink
+                      to="services"
+                      style={({ isActive }) => ({
+                        color: isActive ? "#343434" : "#6c6a72",
+                      })}
+                    >
+                      Services
+                    </NavLink>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="project">Projects</Link>
+                    <NavLink
+                      to="project"
+                      style={({ isActive }) => ({
+                        color: isActive ? "#343434" : "#6c6a72",
+                      })}
+                    >
+                      Projects
+                    </NavLink>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="team">Our Team</Link>
+                    <NavLink
+                      style={({ isActive }) => ({
+                        color: isActive ? "#343434" : "#6c6a72",
+                      })}
+                      to="team"
+                    >
+                      Our Team
+                    </NavLink>
                   </li>
 
                   <li
                     onClick={scrolltoTop}
                     className="menu-item-has-children active"
                   >
-                    <Link to="blog">Blog</Link>
+                    <NavLink
+                      to="blog"
+                      style={({ isActive }) => ({
+                        color: isActive ? "#343434" : "#6c6a72",
+                      })}
+                    >
+                      Blog
+                    </NavLink>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="career">Career</Link>
+                    <NavLink
+                      to="career"
+                      style={({ isActive }) => ({
+                        color: isActive ? "#343434" : "#6c6a72",
+                      })}
+                    >
+                      Career
+                    </NavLink>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="contact">Contact</Link>
+                    <NavLink
+                      to="contact"
+                      style={({ isActive }) => ({
+                        color: isActive ? "#343434" : "#6c6a72",
+                      })}
+                    >
+                      Contact
+                    </NavLink>
                   </li>
                 </ul>
               </div>
