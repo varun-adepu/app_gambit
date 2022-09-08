@@ -1176,10 +1176,19 @@ const Landing = () => {
 
       {/* Our Valuable Clients  */}
 
-      <div className="modularize-valuable-clients">
+      <section className="modularize-valuable-clients">
         <div class="modularize-sponser-area modularize-sponser-about-area">
-          <div className="modularize-clients mb-5">
+          {/* <div className="modularize-clients mb-5">
             <span>Our Valuable Clients!</span>
+            <h3 className="title">Who They're</h3>
+          </div> */}
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center mt-55 mb-55">
+                <span>Our Clients</span>
+                <h3 class="title">Who They’re</h3>
+              </div>
+            </div>
           </div>
           <div class="container-fluid">
             <div class="row modularize-sponser-slide">
@@ -1218,7 +1227,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Our valuable Clients */}
 

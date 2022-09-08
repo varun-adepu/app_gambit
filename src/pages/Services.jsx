@@ -16,6 +16,7 @@ const Services = () => {
                     <li className="breadcrumb-item">
                       <Link to="#">Home</Link>
                     </li>
+                    <li className="breadcrumb-item active">/</li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Services
                     </li>
@@ -29,7 +30,7 @@ const Services = () => {
 
       {/* Services 2 Cloud Based Services for Mobile Apps  */}
 
-      <section className="modularize-about-area modularize-about-service-area pt-120">
+      {/* <section className="modularize-about-area modularize-about-service-area pt-120">
         <div className="container">
           <div className="row align-items-center pb-120">
             <div
@@ -87,9 +88,123 @@ const Services = () => {
             </div>
           </div>
         </div>
+      </section> */}
+
+      {/* Cloud Computing */}
+
+      <section className="modularize-about-4-area">
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-lg-6 animated wow fadeInLeft "
+              data-wow-duration="1500ms"
+              data-wow-delay="0ms"
+            >
+              <div className="about-thumb-4 pr-50">
+                <img src="assets/images/cloud-computing.jpg" alt="" />
+              </div>
+            </div>
+            <div
+              className="col-lg-6 animated wow fadeInUp"
+              data-wow-duration="1500ms"
+              data-wow-delay="300ms"
+            >
+              <div className="about-thumb-content">
+                <div className="section-title">
+                  <span>We Do More For Your Business</span>
+                  <h3>Cloud Consulting </h3>
+                </div>
+                <div className="about-sub-item mt-25">
+                  <div className="number">
+                    <span>01</span>
+                  </div>
+                  <div className="content">
+                    <p>
+                      We have years of experience working around Cloud
+                      Technologies.
+                    </p>
+                  </div>
+                </div>
+                <div className="about-sub-item mt-45">
+                  <div className="number">
+                    <span>02</span>
+                  </div>
+                  <div className="content">
+                    <p>
+                      Our core skills include Evaluation, Migration,
+                      Docker/Kubernetes, Serverless, DevOps, and
+                      Well-Architected Cloud Environment.
+                    </p>
+                  </div>
+                </div>
+                <Link className="main-btn mt-55" to="#">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Discover Tools for your Web Developement */}
+
+      <section className="modularize-about-4-area">
+        <div className="container">
+          <div className="row">
+            <div
+              className="col-lg-6 animated wow fadeInUp"
+              data-wow-duration="1500ms"
+              data-wow-delay="300ms"
+            >
+              <div className="about-thumb-content pr-50">
+                <div className="section-title">
+                  <span>We Do More For Your Business</span>
+                  <h3>Web Development </h3>
+                </div>
+                <div className="about-sub-item mt-25">
+                  <div className="number">
+                    <span>01</span>
+                  </div>
+                  <div className="content">
+                    <p>JavaScript and NodeJS is our core skills.</p>
+                  </div>
+                </div>
+                <div className="about-sub-item mt-45">
+                  <div className="number">
+                    <span>02</span>
+                  </div>
+                  <div className="content">
+                    <p>
+                      From server-based applications to server-less
+                      applications, we have done it all.
+                    </p>
+                  </div>
+                </div>
+                <Link className="main-btn mt-55" to="#">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+            <div
+              className="col-lg-6 animated wow fadeInLeft"
+              data-wow-duration="1500ms"
+              data-wow-delay="0ms"
+            >
+              <div className="about-thumb-4">
+                <img
+                  style={{
+                    boxShadow: "0px 2px 2px 1px rgb(227 227 227)",
+                  }}
+                  src="assets/images/web-development.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mobile App Developement */}
 
       <section className="modularize-about-4-area">
         <div className="container">
@@ -99,8 +214,8 @@ const Services = () => {
               data-wow-duration="1500ms"
               data-wow-delay="0ms"
             >
-              <div className="about-thumb-4">
-                <img src="assets/images/project-item-4.png" alt="" />
+              <div className="about-thumb-4 pr-50">
+                <img src="assets/images/mobile-development.jpg" alt="" />
               </div>
             </div>
             <div
@@ -108,32 +223,31 @@ const Services = () => {
               data-wow-duration="1500ms"
               data-wow-delay="300ms"
             >
-              <div className="about-thumb-content pl-70">
+              <div className="about-thumb-content">
                 <div className="section-title">
                   <span>We Do More For Your Business</span>
-                  <h3>Discover Tools for your Web Developement</h3>
+                  <h3>Mobile Development </h3>
                 </div>
-                <div className="about-sub-item mt-45">
+                <div className="about-sub-item mt-25">
                   <div className="number">
                     <span>01</span>
                   </div>
                   <div className="content">
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry when an unknown printer took a galley
-                      of type and scrambled it to make.{" "}
+                      From Native iOS and Android to using hybrid technologies
+                      like Ionic and React Native
                     </p>
                   </div>
                 </div>
-                <div className="about-sub-item mt-70">
+                <div className="about-sub-item mt-45">
                   <div className="number">
                     <span>02</span>
                   </div>
                   <div className="content">
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry when an unknown printer took a galley
-                      of type and scrambled it to make.{" "}
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Dolorem, repellendus libero molestiae id ratione minus
+                      reprehenderit hic, aut, cumque esse?
                     </p>
                   </div>
                 </div>

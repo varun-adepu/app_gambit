@@ -17,6 +17,7 @@ const Project = () => {
                     <li className="breadcrumb-item">
                       <Link to="#">Home</Link>
                     </li>
+                    <li className="breadcrumb-item active">/</li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Projects
                     </li>

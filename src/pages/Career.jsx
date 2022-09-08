@@ -25,6 +25,7 @@ const Career = () => {
                     <li className="breadcrumb-item">
                       <Link to="/">Home</Link>
                     </li>
+                    <li className="breadcrumb-item active">/</li>
                     <li className="breadcrumb-item active" aria-current="page">
                       Carrier
                     </li>
@@ -97,15 +98,6 @@ const Career = () => {
       </section>
 
       <section className="modularize-career-third pt-120">
-        {/* <div className="header-career-main">
-          <h1>Reliable, efficient delivery</h1>
-          <h1>Powered by Technology</h1>
-
-          <p>
-            Our Artificial Intelligence powered tools use millions of project
-            data points to ensure that your project is successful
-          </p>
-        </div> */}
         <div className="row1-container-career">
           <div className="box1 box1-down cyan-career">
             <h4>Competive & On-time Salary</h4>

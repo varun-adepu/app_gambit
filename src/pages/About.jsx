@@ -1,7 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Slider from "react-slick/lib/slider";
 
 const About = () => {
+  const TeamReview = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
       {/* BreadCrum Starts */}
@@ -15,8 +50,9 @@ const About = () => {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link to="#">Home</Link>
+                      <Link to="#">Home </Link>
                     </li>
+                    <li className="breadcrumb-item active">/</li>
                     <li className="breadcrumb-item active" aria-current="page">
                       About
                     </li>
@@ -74,11 +110,191 @@ const About = () => {
                     <i className="fal fa-check"></i> Trusted Professionals
                   </li>
                 </ul>
-                <Link to="#" className="main-btn">
+                {/* <Link to="#" className="main-btn">
                   Learn More
-                </Link>
+                </Link> */}
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* History */}
+
+      <section className="modularize-company-history">
+        <div className="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center mb-55">
+                <span>Our History</span>
+                <h3 class="title">It Started Like This</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="row pb-20">
+            <div className="col-lg-12">
+              <div className="modularize-company-history-paragraphs">
+                <div className="para-1">
+                  <span className="pb-10">What is Lorem Ipsum?</span>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining
+                    essentially unchanged. It was popularised in the 1960s with
+                    the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently with desktop publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="modularize-company-history-paragraphs">
+                <div className="para-1">
+                  <span className="pb-10">What is Lorem Ipsum?</span>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining
+                    essentially unchanged. It was popularised in the 1960s with
+                    the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently with desktop publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Review About Company */}
+
+      <section className="modularize-company-team-review pt-80 pb-115">
+        <div className="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center mb-30">
+                <span>Response</span>
+                <h3 class="title">What They Say</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <Slider {...TeamReview}>
+              <div className="col-lg-6 col-md-12">
+                <div className="innerdiv">
+                  <div className="div5 eachdiv">
+                    <div className="userdetails">
+                      <div className="imgbox">
+                        <img
+                          src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="detbox">
+                        <p className="name">Patrick Abrams</p>
+                        <p className="designation">Verified Graduate</p>
+                      </div>
+                    </div>
+                    <div className="review">
+                      <h4>
+                        Awesome teaching support from TAs who did the bootcamp
+                        themselves. Getting guidance from them and learning from
+                        their experiences was easy.
+                      </h4>
+                      <p>
+                        “ The staff seem genuinely concerned about my progress
+                        which I find really refreshing. The program gave me the
+                        confidence necessary to be able to go out in the world
+                        and present myself as a capable junior developer. The
+                        standard is above the rest. You will get the personal
+                        attention you need from an incredible community of smart
+                        and amazing people. ”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-12">
+                <div className="innerdiv">
+                  <div className="div5 eachdiv">
+                    <div className="userdetails">
+                      <div className="imgbox">
+                        <img
+                          src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="detbox">
+                        <p className="name">Patrick Abrams</p>
+                        <p className="designation">Verified Graduate</p>
+                      </div>
+                    </div>
+                    <div className="review">
+                      <h4>
+                        Awesome teaching support from TAs who did the bootcamp
+                        themselves. Getting guidance from them and learning from
+                        their experiences was easy.
+                      </h4>
+                      <p>
+                        “ The staff seem genuinely concerned about my progress
+                        which I find really refreshing. The program gave me the
+                        confidence necessary to be able to go out in the world
+                        and present myself as a capable junior developer. The
+                        standard is above the rest. You will get the personal
+                        attention you need from an incredible community of smart
+                        and amazing people. ”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-12">
+                <div className="innerdiv">
+                  <div className="div5 eachdiv">
+                    <div className="userdetails">
+                      <div className="imgbox">
+                        <img
+                          src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div className="detbox">
+                        <p className="name">Patrick Abrams</p>
+                        <p className="designation">Verified Graduate</p>
+                      </div>
+                    </div>
+                    <div className="review">
+                      <h4>
+                        Awesome teaching support from TAs who did the bootcamp
+                        themselves. Getting guidance from them and learning from
+                        their experiences was easy.
+                      </h4>
+                      <p>
+                        “ The staff seem genuinely concerned about my progress
+                        which I find really refreshing. The program gave me the
+                        confidence necessary to be able to go out in the world
+                        and present myself as a capable junior developer. The
+                        standard is above the rest. You will get the personal
+                        attention you need from an incredible community of smart
+                        and amazing people. ”
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Slider>
           </div>
         </div>
       </section>
@@ -86,7 +302,7 @@ const About = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12">
-              <div class="modularize-map">
+              <div className="modularize-map">
                 <iframe
                   title="map"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465.1359181428402!2d72.776026!3d21.148922000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaac07e8d4b5bff36!2sSNS+Platina!5e0!3m2!1sen!2sus!4v1543994223146"
