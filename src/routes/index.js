@@ -10,6 +10,7 @@ import OurTeam from "../pages/OurTeam";
 import Blog from "../pages/Blog";
 import Career from "../pages/Career";
 import CareerDetail from "../pages/CareerDetail";
+import ServiceDetails1 from "../pages/ServiceDetails1";
 
 const AppRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const AppRoutes = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/career" element={<Career />} />
         <Route path="/career/careerDetail/:id" element={<CareerDetail />} />
+        <Route path="/services/serviceDetail1" element={<ServiceDetails1 />} />
       </Route>
     </Routes>
   );

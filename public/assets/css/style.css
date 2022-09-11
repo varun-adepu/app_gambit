@@ -3110,7 +3110,6 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .modularize-about-4-area {
@@ -9544,6 +9543,8 @@ single-tema-item .content .share-icon > a {
   justify-content: center;
   width: 100%;
   height: 100vh;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .modularize-career-detail-page-area .career-info-details {
@@ -9591,7 +9592,8 @@ single-tema-item .content .share-icon > a {
 }
 
 .modularize-career-environment .environment-title span {
-  font-size: 38px;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .modularize-career-area-environment .career-environment-thumb {
@@ -9856,6 +9858,11 @@ h4 {
   background-image: url("../../assets/images/sdlc-black-bg.jpg");
   padding: 80px;
 }
+@media (max-width: 767px) {
+  .modularize-sdlc-area {
+  padding: 0;
+  }
+}
 
 .main-timeline:after {
   content: "";
@@ -10005,6 +10012,12 @@ h4 {
   padding: 80px;
 }
 
+@media (max-width: 767px) {
+  .modularize-get-in-touch-area {
+  padding: 0;
+  }
+}
+
 .modularize-get-in-touch-area .section-title span,
 .modularize-get-in-touch-area .section-title h4,
 .modularize-get-in-touch-area .section-title p {
@@ -10103,4 +10116,84 @@ h4 {
   font-size: 20px;
   font-weight: 600;
   color: #323232;
+}
+
+
+/* Sevices Details */
+
+.bgfixed{
+  background-image: url("../../assets/images/cloud-computing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+@media screen and (min-width:0) and (max-width:568px){
+  .bgfixed{
+    background-position: center;
+    padding: 60px;
+  }
+  .bgfixed .bgheading{
+    width: 100%;
+  }
+  .bgfixed .bgheading p {
+    font-size: 30px;
+  }
+}
+.bgfixed p{
+  color: #ffffff;
+}
+.bgpara p{
+  font-size: 13px;
+  font-weight: 900;
+}
+.bgheading {
+  width: 50%;
+}
+.bgheading p{
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.modularize-servicesDetail-1 .services-image-style {
+  width: 100px;
+}
+.modularize-servicesDetail-1 .section-title span {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.modularize-servicesDetail-1 .services-benefits {
+  margin-bottom: 15px;
+}
+.modularize-servicesDetail-1 .services-benefits span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #343434;
+}
+
+.modularize-servicesDetail-1 i {
+  padding-right: 9px;
+}
+
+.modularize-servicesDetail-1 .services-tools-slider i {
+  font-size: 100px;
+}
+
+.modularize-servicesDetail-1 .services-tools-slider .tool-item {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+@media (max-width: 767px) {
+  .modularize-servicesDetail-1 .services-tools-slider i {
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
 }

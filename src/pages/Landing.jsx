@@ -249,46 +249,6 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          {/* <div className="modularize-banner-slide-active item-3">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="modularize-banner-content">
-                    <h4
-                      className="title"
-                      data-animation="fadeInDown"
-                      data-delay=".1s"
-                    >
-                      Experience the best IT Solutions
-                    </h4>
-                    <h1
-                      className=""
-                      data-animation="fadeInLeft"
-                      data-delay=".3s"
-                    >
-                      IT Solutions & <br />
-                      Services
-                    </h1>
-                    <a
-                      className="main-btn"
-                      data-animation="fadeInUp"
-                      data-delay=".6s"
-                      href="#"
-                    >
-                      Learn More
-                    </a>
-                    <img
-                      className="banner-arrow"
-                      data-animation="fadeInRight"
-                      data-delay=".9s"
-                      src="assets/images/banner-arrow.png"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </Slider>
       </section>
 

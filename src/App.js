@@ -3,6 +3,7 @@ import AppRoutes from "./routes";
 import ScrollToTop from "react-scroll-to-top";
 import { useState, useEffect } from "react";
 import { BeatLoader } from "react-spinners";
+import Image from "./assets/img/logo-white.png";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -18,7 +19,8 @@ function App() {
       {loading ? (
         <>
           <div className="modularize-loader">
-            <BeatLoader size={20} loading={loading} color="#000" />
+            <img style={{ width: "150px" }} src={Image} />
+            <BeatLoader size={10} loading={loading} color="#000" />
           </div>
         </>
       ) : (

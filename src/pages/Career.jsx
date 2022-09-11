@@ -52,7 +52,7 @@ const Career = () => {
             <div className="col-lg-6 col-md-12 pt-5">
               <div className="modularize-career-environment">
                 <div className="environment-title">
-                  <span style={{ color: "#343434" }}>
+                  <span style={{ color: "#000" }}>
                     Come and Celebrate Success
                   </span>
                 </div>

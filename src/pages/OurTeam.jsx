@@ -31,6 +31,15 @@ const OurTeam = () => {
 
       <section className="modularize-team-area modularize-team-area-page">
         <div className="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center mb-55">
+                <span style={{ fontSize: "32px", fontWeight: "700" }}>
+                  Our Team
+                </span>
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="single-tema-item">

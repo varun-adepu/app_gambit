@@ -94,6 +94,15 @@ const Services = () => {
 
       <section className="modularize-about-4-area">
         <div className="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-title text-center mb-55">
+                <span style={{ fontSize: "32px", fontWeight: "700" }}>
+                  Our Services
+                </span>
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div
               className="col-lg-6 animated wow fadeInLeft "
@@ -137,7 +146,7 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-                <Link className="main-btn mt-55" to="#">
+                <Link className="main-btn mt-55" to="serviceDetail1">
                   Learn More
                 </Link>
               </div>
@@ -262,7 +271,7 @@ const Services = () => {
 
       {/* Technology Path */}
 
-      <section className="modularize-technology-area modularize-technology-service-area pb-120">
+      <section className="modularize-technology-area modularize-technology-service-area pt-120 pb-120">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
