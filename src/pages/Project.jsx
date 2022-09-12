@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { scrolltoTop } from "./Landing";
 
 const Project = () => {
   return (
@@ -47,9 +48,9 @@ const Project = () => {
               <div className="single-project-item">
                 <img src="assets/images/project-1.jpg" alt="" />
                 <div className="single-project-overlay">
-                  <h4 className="title">Tech Solutions</h4>
+                  <h4 className="title">BALANCE IT</h4>
                   <span>DESIGN / IDEAS</span>
-                  <Link to="#">
+                  <Link onClick={scrolltoTop} to="balance-it">
                     <i className="fal fa-long-arrow-right"></i>
                   </Link>
                 </div>
@@ -59,7 +60,7 @@ const Project = () => {
               <div className="single-project-item">
                 <img src="assets/images/project-2.jpg" alt="" />
                 <div className="single-project-overlay">
-                  <h4 className="title">Smart Visions</h4>
+                  <h4 className="title">INVESTLOOP</h4>
                   <span>DESIGN / IDEAS</span>
                   <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
@@ -71,7 +72,7 @@ const Project = () => {
               <div className="single-project-item">
                 <img src="assets/images/project-3.jpg" alt="" />
                 <div className="single-project-overlay">
-                  <h4 className="title">Platform Integration</h4>
+                  <h4 className="title">CONTENTBIN</h4>
                   <span>DESIGN / IDEAS</span>
                   <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
@@ -83,7 +84,7 @@ const Project = () => {
               <div className="single-project-item">
                 <img src="assets/images/project-4.jpg" alt="" />
                 <div className="single-project-overlay">
-                  <h4 className="title">Web Development</h4>
+                  <h4 className="title">ANOMALY</h4>
                   <span>DESIGN / IDEAS</span>
                   <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>
@@ -95,7 +96,7 @@ const Project = () => {
               <div className="single-project-item">
                 <img src="assets/images/project-5.jpg" alt="" />
                 <div className="single-project-overlay">
-                  <h4 className="title">Virtual Reality</h4>
+                  <h4 className="title">STAR OIL</h4>
                   <span>DESIGN / IDEAS</span>
                   <Link to="#">
                     <i className="fal fa-long-arrow-right"></i>

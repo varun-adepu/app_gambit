@@ -4,7 +4,6 @@ import FooterLogo from "../../src/assets/img/logo-white2.png";
 
 const Footer = () => {
   const scrolltoTop = () => {
-    console.log("heyy");
     window.scrollTo({
       top: 0,
       behavior: "smooth",

@@ -2,15 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
-const Landing = () => {
-  const scrolltoTop = () => {
-    console.log("heyy");
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
+export const scrolltoTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
 
+const Landing = () => {
   const bannerSettings = {
     dots: false,
     infinite: true,
@@ -438,7 +437,7 @@ const Landing = () => {
                   <div className="icon">
                     <svg
                       id="Layer_1_1_"
-                      enable-background="new 0 0 64 64"
+                      enableBackground="new 0 0 64 64"
                       height="60px"
                       viewBox="0 0 64 64"
                       width="60px"
@@ -491,7 +490,7 @@ const Landing = () => {
                   <div className="icon">
                     <svg
                       id="_x33_0"
-                      enable-background="new 0 0 64 64"
+                      enableBackground="new 0 0 64 64"
                       height="60px"
                       viewBox="0 0 64 64"
                       width="60px"
@@ -538,7 +537,7 @@ const Landing = () => {
                     <svg
                       id="Capa_1"
                       fill="#b882fc"
-                      enable-background="new 0 0 512 512"
+                      enableBackground="new 0 0 512 512"
                       height="60px"
                       viewBox="0 0 512 512"
                       width="60px"
@@ -575,7 +574,7 @@ const Landing = () => {
                     <svg
                       fill="#b882fc"
                       id="Layer_5"
-                      enable-background="new 0 0 62 62"
+                      enableBackground="new 0 0 62 62"
                       height="60px"
                       viewBox="0 0 62 62"
                       width="60px"
@@ -619,7 +618,7 @@ const Landing = () => {
                   <div className="icon">
                     <svg
                       id="Layer_1_1_"
-                      enable-background="new 0 0 64 64"
+                      enableBackground="new 0 0 64 64"
                       height="60px"
                       viewBox="0 0 64 64"
                       width="60px"
@@ -750,22 +749,24 @@ const Landing = () => {
           <div className="row modularize-project-slide">
             <Slider {...serviceSettings}>
               <div className="col-lg-3">
-                <div className="single-project-item">
-                  <img src="assets/images/project-1.jpg" alt="" />
-                  <div className="single-project-overlay">
-                    <h4 className="title">Tech Solutions</h4>
-                    <span>DESIGN / IDEAS</span>
-                    {/* <a href="#">
+                <Link onClick={scrolltoTop} to="project/balance-it">
+                  <div className="single-project-item">
+                    <img src="assets/images/project-1.jpg" alt="" />
+                    <div className="single-project-overlay">
+                      <h4 className="title">BALANCE IT</h4>
+                      <span>DESIGN / IDEAS</span>
+                      {/* <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
                     </a> */}
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               <div className="col-lg-3">
                 <div className="single-project-item">
                   <img src="assets/images/project-2.jpg" alt="" />
                   <div className="single-project-overlay">
-                    <h4 className="title">Smart Visions</h4>
+                    <h4 className="title">INVESTLOOP</h4>
                     <span>DESIGN / IDEAS</span>
                     {/* <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
@@ -777,7 +778,7 @@ const Landing = () => {
                 <div className="single-project-item">
                   <img src="assets/images/project-3.jpg" alt="" />
                   <div className="single-project-overlay">
-                    <h4 className="title">Platform Integration</h4>
+                    <h4 className="title">CONTENTBIN</h4>
                     <span>DESIGN / IDEAS</span>
                     {/* <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
@@ -789,7 +790,7 @@ const Landing = () => {
                 <div className="single-project-item">
                   <img src="assets/images/project-4.jpg" alt="" />
                   <div className="single-project-overlay">
-                    <h4 className="title">Web Development</h4>
+                    <h4 className="title">ANOMALY</h4>
                     <span>DESIGN / IDEAS</span>
                     {/* <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
@@ -801,7 +802,7 @@ const Landing = () => {
                 <div className="single-project-item">
                   <img src="assets/images/project-2.jpg" alt="" />
                   <div className="single-project-overlay">
-                    <h4 className="title">Smart Visions</h4>
+                    <h4 className="title">STAR OIL</h4>
                     <span>DESIGN / IDEAS</span>
                     {/*   */}
                   </div>
@@ -1137,49 +1138,47 @@ const Landing = () => {
       {/* Our Valuable Clients  */}
 
       <section className="modularize-valuable-clients">
-        <div class="modularize-sponser-area modularize-sponser-about-area">
-          {/* <div className="modularize-clients mb-5">
-            <span>Our Valuable Clients!</span>
-            <h3 className="title">Who They're</h3>
-          </div> */}
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section-title text-center mt-55 mb-55">
-                <span>Our Clients</span>
-                <h3 class="title">Who They’re</h3>
+        <div className="modularize-sponser-area modularize-sponser-about-area">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-title text-center mt-55 mb-55">
+                  <span>Our Clients</span>
+                  <h3 className="title">Who They’re</h3>
+                </div>
               </div>
             </div>
           </div>
-          <div class="container-fluid">
-            <div class="row modularize-sponser-slide">
+          <div className="container-fluid">
+            <div className="row modularize-sponser-slide">
               <Slider {...ourValiableClients}>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
                     <img src="assets/images/brand-logo.png" alt="" />
                   </div>
                 </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
                     <img src="assets/images/brand-logo.png" alt="" />
                   </div>
                 </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
                     <img src="assets/images/brand-logo.png" alt="" />
                   </div>
                 </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
                     <img src="assets/images/brand-logo.png" alt="" />
                   </div>
                 </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
                     <img src="assets/images/brand-logo.png" alt="" />
                   </div>
                 </div>
-                <div class="col-lg-3">
-                  <div class="modularize-sponser-item">
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
                     <img src="assets/images/brand-logo.png" alt="" />
                   </div>
                 </div>
@@ -1330,35 +1329,35 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div class="row modularize-sponser-slide">
+          <div className="row modularize-sponser-slide">
             <Slider {...ourValiableClients}>
-              <div class="col-lg-3">
-                <div class="modularize-sponser-item">
+              <div className="col-lg-3">
+                <div className="modularize-sponser-item">
                   <img src="assets/images/brand-logo.png" alt="" />
                 </div>
               </div>
-              <div class="col-lg-3">
-                <div class="modularize-sponser-item">
+              <div className="col-lg-3">
+                <div className="modularize-sponser-item">
                   <img src="assets/images/brand-logo.png" alt="" />
                 </div>
               </div>
-              <div class="col-lg-3">
-                <div class="modularize-sponser-item">
+              <div className="col-lg-3">
+                <div className="modularize-sponser-item">
                   <img src="assets/images/brand-logo.png" alt="" />
                 </div>
               </div>
-              <div class="col-lg-3">
-                <div class="modularize-sponser-item">
+              <div className="col-lg-3">
+                <div className="modularize-sponser-item">
                   <img src="assets/images/brand-logo.png" alt="" />
                 </div>
               </div>
-              <div class="col-lg-3">
-                <div class="modularize-sponser-item">
+              <div className="col-lg-3">
+                <div className="modularize-sponser-item">
                   <img src="assets/images/brand-logo.png" alt="" />
                 </div>
               </div>
-              <div class="col-lg-3">
-                <div class="modularize-sponser-item">
+              <div className="col-lg-3">
+                <div className="modularize-sponser-item">
                   <img src="assets/images/brand-logo.png" alt="" />
                 </div>
               </div>
@@ -1369,46 +1368,46 @@ const Landing = () => {
 
       {/* Testimonial Starts  */}
 
-      <section class="modularize-testimonial-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section-title text-center mb-55">
+      <section className="modularize-testimonial-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center mb-55">
                 <span>Client Testimonials</span>
-                <h3 class="title">What They’re Talking?</h3>
+                <h3 className="title">What They’re Talking?</h3>
               </div>
             </div>
           </div>
-          <div class="row modularize-testimonial-slide">
+          <div className="row modularize-testimonial-slide">
             <Slider {...testimonialSettings}>
-              <div class="col-lg-6">
-                <div class="single-testimonial-box">
-                  <div class="single-testimonial-user">
-                    <div class="thumb">
+              <div className="col-lg-6">
+                <div className="single-testimonial-box">
+                  <div className="single-testimonial-user">
+                    <div className="thumb">
                       <img src="assets/images/testimonial-thumb-1.png" alt="" />
                     </div>
-                    <div class="user-content">
-                      <h5 class="title">Mike Hardson</h5>
+                    <div className="user-content">
+                      <h5 className="title">Mike Hardson</h5>
                       <span>Senior Designer</span>
                       {/* <img src="assets/images/testimonial-shape.png" alt="" /> */}
                     </div>
                   </div>
-                  <div class="single-testimonial-item">
+                  <div className="single-testimonial-item">
                     <ul>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                     </ul>
                     <p>
@@ -1420,34 +1419,34 @@ const Landing = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="single-testimonial-box">
-                  <div class="single-testimonial-user">
-                    <div class="thumb">
+              <div className="col-lg-6">
+                <div className="single-testimonial-box">
+                  <div className="single-testimonial-user">
+                    <div className="thumb">
                       <img src="assets/images/testimonial-thumb-2.png" alt="" />
                     </div>
-                    <div class="user-content">
-                      <h5 class="title">Aleesha Smith</h5>
+                    <div className="user-content">
+                      <h5 className="title">Aleesha Smith</h5>
                       <span>Senior Developer</span>
                       {/* <img src="assets/images/testimonial-shape.png" alt="" /> */}
                     </div>
                   </div>
-                  <div class="single-testimonial-item">
+                  <div className="single-testimonial-item">
                     <ul>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                     </ul>
                     <p>
@@ -1459,34 +1458,34 @@ const Landing = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="single-testimonial-box">
-                  <div class="single-testimonial-user">
-                    <div class="thumb">
+              <div className="col-lg-6">
+                <div className="single-testimonial-box">
+                  <div className="single-testimonial-user">
+                    <div className="thumb">
                       <img src="assets/images/testimonial-thumb-1.png" alt="" />
                     </div>
-                    <div class="user-content">
-                      <h5 class="title">Mike Hardson</h5>
+                    <div className="user-content">
+                      <h5 className="title">Mike Hardson</h5>
                       <span>Senior Designer</span>
                       {/* <img src="assets/images/testimonial-shape.png" alt="" /> */}
                     </div>
                   </div>
-                  <div class="single-testimonial-item">
+                  <div className="single-testimonial-item">
                     <ul>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                       <li>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                       </li>
                     </ul>
                     <p>
@@ -1600,11 +1599,11 @@ const Landing = () => {
 
       <section className="modularize-blog-area pt-115 pb-115">
         <div className="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section-title text-center mb-55">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center mb-55">
                 <span>Our Blogs</span>
-                <h3 class="title">What We Write </h3>
+                <h3 className="title">What We Write </h3>
               </div>
             </div>
           </div>
@@ -1732,7 +1731,6 @@ const Landing = () => {
                       alt=""
                     />
                   </a>
-                  {/* <span>18 mar</span> */}
                 </div>
                 <div className="content">
                   <div className="blog-meta">

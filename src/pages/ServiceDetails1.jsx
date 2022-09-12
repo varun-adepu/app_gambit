@@ -67,8 +67,8 @@ const ServiceDetails1 = () => {
       </section>
 
       <section className="modularize-servicesDetail-1 pt-65">
-        {/* <div class="bgfixed">
-          <div class="bgheading">
+        {/* <div className="bgfixed">
+          <div className="bgheading">
             <p>Cloud Consultant</p>
           </div>
         </div> */}
@@ -134,11 +134,11 @@ const ServiceDetails1 = () => {
             </div>
           </div>
           <div className="services-tools-slider mb-55">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="section-title text-center mb-55">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-title text-center mb-55">
                   <span>Our Tools</span>
-                  <h3 class="title">Which Tools We Use</h3>
+                  <h3 className="title">Which Tools We Use</h3>
                 </div>
               </div>
             </div>
@@ -146,32 +146,32 @@ const ServiceDetails1 = () => {
               <Slider {...serviceSettings}>
                 <div className="col-lg-3 col-md-12">
                   <div className="tool-item">
-                    <i class="fa-solid fa-cloud"></i>
+                    <i className="fa-solid fa-cloud"></i>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-12">
                   <div className="tool-item">
-                    <i class="fa-solid fa-cloud"></i>
+                    <i className="fa-solid fa-cloud"></i>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-12">
                   <div className="tool-item">
-                    <i class="fa-solid fa-cloud"></i>
+                    <i className="fa-solid fa-cloud"></i>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-12">
                   <div className="tool-item">
-                    <i class="fa-solid fa-cloud"></i>
+                    <i className="fa-solid fa-cloud"></i>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-12">
                   <div className="tool-item">
-                    <i class="fa-solid fa-cloud"></i>
+                    <i className="fa-solid fa-cloud"></i>
                   </div>
                 </div>
                 <div className="col-lg-3 col-md-12">
                   <div className="tool-item">
-                    <i class="fa-solid fa-cloud"></i>
+                    <i className="fa-solid fa-cloud"></i>
                   </div>
                 </div>
               </Slider>

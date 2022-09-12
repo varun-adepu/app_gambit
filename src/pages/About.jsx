@@ -123,11 +123,11 @@ const About = () => {
 
       <section className="modularize-company-history">
         <div className="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section-title text-center mb-55">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center mb-55">
                 <span>Our History</span>
-                <h3 class="title">It Started Like This</h3>
+                <h3 className="title">It Started Like This</h3>
               </div>
             </div>
           </div>
@@ -181,11 +181,11 @@ const About = () => {
 
       <section className="modularize-company-team-review pt-80 pb-115">
         <div className="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section-title text-center mb-30">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center mb-30">
                 <span>Response</span>
-                <h3 class="title">What They Say</h3>
+                <h3 className="title">What They Say</h3>
               </div>
             </div>
           </div>
@@ -309,9 +309,9 @@ const About = () => {
                   width="600"
                   height="450"
                   style={{ border: "0" }}
-                  allowfullscreen=""
+                  allowFullScreen=""
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
             </div>

@@ -19,13 +19,17 @@ function App() {
       {loading ? (
         <>
           <div className="modularize-loader">
-            <img style={{ width: "150px" }} src={Image} />
+            <img style={{ width: "150px" }} src={Image} alt="" />
             <BeatLoader size={10} loading={loading} color="#000" />
           </div>
         </>
       ) : (
         <>
-          <ScrollToTop smooth color="#000" />
+          <ScrollToTop
+            smooth
+            color="#fff"
+            style={{ backgroundColor: "#000", zIndex: "100" }}
+          />
           <Router>
             <AppRoutes />
           </Router>

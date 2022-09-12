@@ -5,13 +5,11 @@ import Frontend from "../../src/assets/img/frontend.jpg";
 
 const Career = () => {
   const scrolltoTop = () => {
-    console.log("heyy");
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   };
-  console.log(careersData, "careers");
   return (
     <>
       <section className="breadcrumb-area mb-5">
@@ -149,9 +147,9 @@ const Career = () => {
         </div>
         <div className="container">
           <div className="row">
-            {careersData?.map((i) => {
+            {careersData?.map((i, index) => {
               return (
-                <div className="col-lg-12 col-md-12 mb-5">
+                <div key={index} className="col-lg-12 col-md-12 mb-5">
                   <div className="modularize-carrier-job-card">
                     <div className="modularize-carrier-item">
                       <div className="modularize-career-img">

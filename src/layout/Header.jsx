@@ -6,7 +6,6 @@ const Header = () => {
   const [isToggal, setIsToggal] = useState(false);
 
   const scrolltoTop = () => {
-    console.log("heyy");
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -117,6 +116,9 @@ const Header = () => {
 
                     <NavLink
                       to="/"
+                      className={({ isActive }) =>
+                        isActive ? "header-nav-after" : ""
+                      }
                       style={({ isActive }) => ({
                         color: isActive ? "#343434" : "#6c6a72",
                       })}
@@ -127,6 +129,9 @@ const Header = () => {
                   <li onClick={scrolltoTop}>
                     <NavLink
                       to="about"
+                      className={({ isActive }) =>
+                        isActive ? "header-nav-after" : ""
+                      }
                       style={({ isActive }) => ({
                         color: isActive ? "#343434" : "#6c6a72",
                       })}
@@ -137,6 +142,9 @@ const Header = () => {
                   <li onClick={scrolltoTop}>
                     <NavLink
                       to="services"
+                      className={({ isActive }) =>
+                        isActive ? "header-nav-after" : ""
+                      }
                       style={({ isActive }) => ({
                         color: isActive ? "#343434" : "#6c6a72",
                       })}
@@ -147,6 +155,9 @@ const Header = () => {
                   <li onClick={scrolltoTop}>
                     <NavLink
                       to="project"
+                      className={({ isActive }) =>
+                        isActive ? "header-nav-after" : ""
+                      }
                       style={({ isActive }) => ({
                         color: isActive ? "#343434" : "#6c6a72",
                       })}
@@ -160,6 +171,9 @@ const Header = () => {
                         color: isActive ? "#343434" : "#6c6a72",
                       })}
                       to="team"
+                      className={({ isActive }) =>
+                        isActive ? "header-nav-after" : ""
+                      }
                     >
                       Our Team
                     </NavLink>
@@ -174,6 +188,9 @@ const Header = () => {
                       style={({ isActive }) => ({
                         color: isActive ? "#343434" : "#6c6a72",
                       })}
+                      className={({ isActive }) =>
+                        isActive ? "header-nav-after" : ""
+                      }
                     >
                       Blog
                     </NavLink>
@@ -184,6 +201,9 @@ const Header = () => {
                       style={({ isActive }) => ({
                         color: isActive ? "#343434" : "#6c6a72",
                       })}
+                      className={({ isActive }) =>
+                        isActive ? "header-nav-after" : ""
+                      }
                     >
                       Career
                     </NavLink>
@@ -194,6 +214,9 @@ const Header = () => {
                       style={({ isActive }) => ({
                         color: isActive ? "#343434" : "#6c6a72",
                       })}
+                      className={({ isActive }) =>
+                        isActive ? "header-nav-after" : ""
+                      }
                     >
                       Contact
                     </NavLink>
