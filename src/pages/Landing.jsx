@@ -1149,37 +1149,37 @@ const Landing = () => {
               </div>
             </div>
           </div>
-          <div className="container-fluid">
+          <div className="container">
             <div className="row modularize-sponser-slide">
               <Slider {...ourValiableClients}>
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
+                    <img src="assets/images/clients/coorworks.png" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
+                    <img src="assets/images/clients/mastermind.png" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
+                    <img src="assets/images/clients/moneyapp.png" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
+                    <img src="assets/images/clients/promenta.png" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
+                    <img src="assets/images/clients/skycreek.png" alt="" />
                   </div>
                 </div>
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/brand-logo.png" alt="" />
+                    <img src="assets/images/clients/swasth.png" alt="" />
                   </div>
                 </div>
               </Slider>
@@ -1504,7 +1504,76 @@ const Landing = () => {
 
       {/* SDLC  */}
 
-      <section className="modularize-sdlc-area">
+      <section>
+        <div className="container">
+          <div className="how-it-work-inner">
+            <img
+              width={834}
+              height={108}
+              className="hills-line entered lazyloaded"
+              src="assets/images/sdlc-overlay.png"
+              alt="alt"
+            />
+
+            <div className="row">
+              <div className="col-lg-3 col-md-12">
+                <div className="single-work-inner style-three text-center">
+                  <div className="count-inner">
+                    <i class="fa-solid fa-diagram-project"></i>
+                  </div>
+                  <div className="details-wrap">
+                    <div className="details-inner">
+                      <h4>Select a project</h4>
+                      <p>Vestibulum ante ipsumusn eratultrices posu world</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-12">
+                <div className="single-work-inner style-three text-center">
+                  <div className="count-inner">
+                    <i class="fa-solid fa-diagram-project"></i>
+                  </div>
+                  <div className="details-wrap">
+                    <div className="details-inner">
+                      <h4>Project analysis</h4>
+                      <p>Vestibulum ante ipsumusn eratultrices posu world</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-12">
+                <div className="single-work-inner style-three text-center">
+                  <div className="count-inner">
+                    <i class="fa-solid fa-diagram-project"></i>
+                  </div>
+                  <div className="details-wrap">
+                    <div className="details-inner">
+                      <h4>Execute</h4>
+                      <p>Vestibulum ante ipsumusn eratultrices posu world</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-12">
+                <div className="single-work-inner style-three text-center">
+                  <div className="count-inner">
+                    <i class="fa-solid fa-diagram-project"></i>
+                  </div>
+                  <div className="details-wrap">
+                    <div className="details-inner">
+                      <h4>Deliver result</h4>
+                      <p>Vestibulum ante ipsumusn eratultrices posu world</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="modularize-sdlc-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -1593,7 +1662,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Blogs  */}
 
@@ -1798,8 +1867,25 @@ const Landing = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-12">
-              <div className="contact-form-page-box mt-30">
+            <div className="col-lg-5">
+              <div className="modularize-map mt-30">
+                <iframe
+                  title="map"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465.1359181428402!2d72.776026!3d21.148922000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaac07e8d4b5bff36!2sSNS+Platina!5e0!3m2!1sen!2sus!4v1543994223146"
+                  width="600"
+                  height="450"
+                  style={{ border: "0" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col-lg-7">
+              <div
+                className="contact-form-page-box mt-30"
+                style={{ padding: "29px 28px 0px" }}
+              >
                 <form action="#">
                   <div className="row">
                     <div className="col-lg-6">
