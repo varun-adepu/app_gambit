@@ -84,7 +84,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 animated wow fadeInRight">
               <div className="modularize-about-content">
                 <span>About Our Company</span>
                 <h3 className="title">We’re Partner of Your Innovations</h3>
@@ -179,7 +179,7 @@ const About = () => {
 
       {/* Team Review About Company */}
 
-      <section className="modularize-company-team-review pt-80 pb-115">
+      <section className="modularize-company-team-review pt-80 pb-120  ">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -298,7 +298,79 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="modularize-company-about-area pt-0 ">
+
+      {/* Company Mission and Vision */}
+
+      <section className="modularize-about-ourmission">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 ">
+              <div className="section-title text-center mb-55">
+                <span>Our Motive</span>
+                <h3 className="title">What You Get</h3>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 col-md-6 animated wow fadeInLeft pb-20">
+              <div className="mission">
+                <div className="mission-icon pb-20">
+                  <span>Our Mission</span>
+                  <i class="fa-solid fa-bullseye"></i>
+                </div>
+                <div className="mission-details">
+                  <ul>
+                    <li>
+                      <i className="fal fa-check"></i> Best quality support
+                    </li>
+                    <li>
+                      <i className="fal fa-check"></i> Serve the best
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <i className="fal fa-check"></i> Client happiness
+                    </li>
+                    <li>
+                      <i className="fal fa-check"></i> World-class service
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-6 animated wow fadeInRight">
+              <div className="mission">
+                <div className="mission-icon pb-20">
+                  <span>Our Vision</span>
+                  <i class="fa-solid fa-crosshairs"></i>
+                </div>
+                <div className="mission-details">
+                  <ul>
+                    <li>
+                      <i className="fal fa-check"></i> Best quality support
+                    </li>
+                    <li>
+                      <i className="fal fa-check"></i> Serve the best
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <i className="fal fa-check"></i> Client happiness
+                    </li>
+                    <li>
+                      <i className="fal fa-check"></i> World-class service
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Map  */}
+
+      {/* <section className="modularize-company-about-area pt-0 ">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12">
@@ -313,6 +385,90 @@ const About = () => {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="modularize-about-get-in-touch pt-120 pb-115">
+        <div className="container">
+          <div className="row align-items-center mb-55">
+            <div className="col-lg-6">
+              <div className="section-title">
+                <span>Contact Us</span>
+                <h4 className="title"> Get in touch</h4>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="section-title pl-100">
+                <p style={{ color: "#6c6a72" }}>
+                  We are always looking for great ideas to work on. If you think
+                  you have good idea and need help either on the validation,
+                  execution or analytics side. Please do connect with us and we
+                  can surely help you.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-5">
+              <div className="modularize-map mt-30">
+                <iframe
+                  title="map"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465.1359181428402!2d72.776026!3d21.148922000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaac07e8d4b5bff36!2sSNS+Platina!5e0!3m2!1sen!2sus!4v1543994223146"
+                  width="600"
+                  height="450"
+                  style={{ border: "0" }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col-lg-7">
+              <div
+                className="contact-form-page-box mt-30"
+                style={{ padding: "29px 28px 0px" }}
+              >
+                <form action="#">
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="input-box">
+                        <input type="text" placeholder="Your Name" />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="input-box">
+                        <input type="email" placeholder="Email Address" />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="input-box">
+                        <input type="text" placeholder="Phone Number" />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="input-box">
+                        <input type="text" placeholder="Subject" />
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="input-box">
+                        <textarea
+                          name="#"
+                          id="#"
+                          cols="30"
+                          rows="10"
+                          placeholder="Write a Message"
+                        ></textarea>
+                        <button type="submit" className="main-btn">
+                          Send a message
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>

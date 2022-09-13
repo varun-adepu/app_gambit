@@ -66,8 +66,17 @@ const Landing = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
           dots: false,
         },
@@ -94,41 +103,6 @@ const Landing = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 1,
-    autoplay: true,
-    arrows: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: false,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-
-  const Technologies = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
@@ -1504,19 +1478,39 @@ const Landing = () => {
 
       {/* SDLC  */}
 
-      <section>
+      <section className="modularize-new-sdlc-area">
+        <div className="container">
+          <div className="row align-items-center mb-65">
+            <div className="col-lg-6">
+              <div className="section-title">
+                <span>Our Process</span>
+                <h4 className="title">Process We Follow</h4>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="section-title pl-100">
+                <p>
+                  We believe technology is just a carrier to help build a
+                  solution, there is no one right way if the execution is done
+                  properly. These are some of the current technologies we use to
+                  build solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="container">
           <div className="how-it-work-inner">
             <img
               width={834}
               height={108}
-              className="hills-line entered lazyloaded"
-              src="assets/images/sdlc-overlay.png"
+              className="hills-line"
+              src="assets/images/9.png"
               alt="alt"
             />
 
-            <div className="row">
-              <div className="col-lg-3 col-md-12">
+            <div className="row custom-row">
+              <div className="col custom-col">
                 <div className="single-work-inner style-three text-center">
                   <div className="count-inner">
                     <i class="fa-solid fa-diagram-project"></i>
@@ -1529,7 +1523,7 @@ const Landing = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-12">
+              <div className="col custom-col">
                 <div className="single-work-inner style-three text-center">
                   <div className="count-inner">
                     <i class="fa-solid fa-diagram-project"></i>
@@ -1542,7 +1536,7 @@ const Landing = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-12">
+              <div className="col custom-col">
                 <div className="single-work-inner style-three text-center">
                   <div className="count-inner">
                     <i class="fa-solid fa-diagram-project"></i>
@@ -1555,7 +1549,20 @@ const Landing = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-12">
+              <div className="col custom-col">
+                <div className="single-work-inner style-three text-center">
+                  <div className="count-inner">
+                    <i class="fa-solid fa-diagram-project"></i>
+                  </div>
+                  <div className="details-wrap">
+                    <div className="details-inner">
+                      <h4>Deliver result</h4>
+                      <p>Vestibulum ante ipsumusn eratultrices posu world</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col custom-col">
                 <div className="single-work-inner style-three text-center">
                   <div className="count-inner">
                     <i class="fa-solid fa-diagram-project"></i>
@@ -1925,6 +1932,63 @@ const Landing = () => {
                   </div>
                 </form>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="modularize-valuable-partners pt-115">
+        <div className="modularize-sponser-area modularize-sponser-about-area">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section-title text-center mb-55">
+                  <span>Our Partners</span>
+                  <h3 className="title">Who They’re</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row modularize-sponser-slide">
+              <Slider {...ourValiableClients}>
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
+                    <img
+                      src="assets/images/partners/cloudPartner-footer.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
+                    <img src="assets/images/clients/mastermind.png" alt="" />
+                  </div>
+                </div>
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
+                    <img
+                      src="assets/images/partners/cloudPartner-footer.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
+                    <img src="assets/images/clients/promenta.png" alt="" />
+                  </div>
+                </div>
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
+                    <img src="assets/images/clients/skycreek.png" alt="" />
+                  </div>
+                </div>
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
+                    <img src="assets/images/clients/swasth.png" alt="" />
+                  </div>
+                </div>
+              </Slider>
             </div>
           </div>
         </div>

@@ -35,7 +35,7 @@ const Career = () => {
         </div>
       </section>
 
-      <section className="modularize-career-area-environment pt-25">
+      <section className="modularize-career-area-environment pt-25 pb-115">
         <div className="container">
           <div className="row align-items-center">
             <div

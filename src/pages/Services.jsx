@@ -131,7 +131,8 @@ const Services = () => {
                 </div>
                 <div className="about-sub-item mt-25">
                   <div className="number">
-                    <span>01</span>
+                    {/* <span>01</span> */}
+                    <i class="fa-solid fa-circle"></i>
                   </div>
                   <div className="content">
                     <p>
@@ -142,7 +143,7 @@ const Services = () => {
                 </div>
                 <div className="about-sub-item mt-45">
                   <div className="number">
-                    <span>02</span>
+                    <i class="fa-solid fa-circle"></i>
                   </div>
                   <div className="content">
                     <p>
@@ -167,7 +168,7 @@ const Services = () => {
 
       {/* Discover Tools for your Web Developement */}
 
-      <section className="modularize-about-4-area">
+      <section className="modularize-about-5-area">
         <div className="container">
           <div className="row">
             <div
@@ -182,7 +183,10 @@ const Services = () => {
                 </div>
                 <div className="about-sub-item mt-25">
                   <div className="number">
-                    <span>01</span>
+                    <i
+                      style={{ color: "#fff", fontSize: "12px" }}
+                      class="fa-solid fa-circle"
+                    ></i>
                   </div>
                   <div className="content">
                     <p>JavaScript and NodeJS is our core skills.</p>
@@ -190,7 +194,10 @@ const Services = () => {
                 </div>
                 <div className="about-sub-item mt-45">
                   <div className="number">
-                    <span>02</span>
+                    <i
+                      style={{ color: "#fff", fontSize: "12px" }}
+                      class="fa-solid fa-circle"
+                    ></i>
                   </div>
                   <div className="content">
                     <p>
@@ -225,7 +232,7 @@ const Services = () => {
 
       {/* Mobile App Developement */}
 
-      <section className="modularize-about-4-area">
+      <section className="modularize-about-6-area pt-120">
         <div className="container">
           <div className="row">
             <div
@@ -249,7 +256,7 @@ const Services = () => {
                 </div>
                 <div className="about-sub-item mt-25">
                   <div className="number">
-                    <span>01</span>
+                    <i class="fa-solid fa-circle"></i>
                   </div>
                   <div className="content">
                     <p>
@@ -260,7 +267,7 @@ const Services = () => {
                 </div>
                 <div className="about-sub-item mt-45">
                   <div className="number">
-                    <span>02</span>
+                    <i class="fa-solid fa-circle"></i>
                   </div>
                   <div className="content">
                     <p>
