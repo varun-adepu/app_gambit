@@ -232,7 +232,7 @@ const Header = () => {
                         to="#"
                         onClick={() => setIsToggal(true)}
                       >
-                        <i className="fal fa-bars"></i>
+                        <i class="fa-solid fa-bars"></i>
                       </Link>
                     </li>
                   </ul>

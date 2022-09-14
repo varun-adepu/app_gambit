@@ -40,21 +40,21 @@ const Project = () => {
                 <span style={{ fontSize: "32px", fontWeight: "700" }}>
                   Our Projects
                 </span>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-3 col-md-6">
-              <div className="single-project-item">
-                <img src="assets/images/project-1.jpg" alt="" />
-                <div className="single-project-overlay">
-                  <h4 className="title">BALANCE IT</h4>
-                  <span>DESIGN / IDEAS</span>
-                  <Link onClick={scrolltoTop} to="balance-it">
-                    <i className="fal fa-long-arrow-right"></i>
-                  </Link>
+              <Link onClick={scrolltoTop} to="balance-it">
+                <div className="single-project-item">
+                  <img src="assets/images/project-1.jpg" alt="" />
+                  <div className="single-project-overlay">
+                    <h4 className="title">BALANCE IT</h4>
+                    <span>DESIGN / IDEAS</span>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="single-project-item">
@@ -62,9 +62,6 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">INVESTLOOP</h4>
                   <span>DESIGN / IDEAS</span>
-                  <Link to="#">
-                    <i className="fal fa-long-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -74,9 +71,6 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">CONTENTBIN</h4>
                   <span>DESIGN / IDEAS</span>
-                  <Link to="#">
-                    <i className="fal fa-long-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -86,9 +80,6 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">ANOMALY</h4>
                   <span>DESIGN / IDEAS</span>
-                  <Link to="#">
-                    <i className="fal fa-long-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -98,9 +89,6 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">STAR OIL</h4>
                   <span>DESIGN / IDEAS</span>
-                  <Link to="#">
-                    <i className="fal fa-long-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>
@@ -110,9 +98,6 @@ const Project = () => {
                 <div className="single-project-overlay">
                   <h4 className="title">Tech Solutions</h4>
                   <span>DESIGN / IDEAS</span>
-                  <Link to="#">
-                    <i className="fal fa-long-arrow-right"></i>
-                  </Link>
                 </div>
               </div>
             </div>

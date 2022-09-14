@@ -34,6 +34,7 @@ const Blog = () => {
                 <span style={{ fontSize: "32px", fontWeight: "700" }}>
                   Our Blogs
                 </span>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
               </div>
             </div>
           </div>

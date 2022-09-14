@@ -34,68 +34,6 @@ const Services = () => {
         </div>
       </section>
 
-      {/* Services 2 Cloud Based Services for Mobile Apps  */}
-
-      {/* <section className="modularize-about-area modularize-about-service-area pt-120">
-        <div className="container">
-          <div className="row align-items-center pb-120">
-            <div
-              className="col-lg-6 animated wow fadeInLeft"
-              data-wow-duration="1500ms"
-              data-wow-delay="0ms"
-            >
-              <div className="modularize-about-thumb">
-                <img
-                  className="main-thumb"
-                  src="assets/images/project-slider-2.png"
-                  alt=""
-                />
-                <div className="item-1">
-                  <img src="assets/images/bg-full-circle.png" alt="" />
-                </div>
-                <div className="item-2">
-                  <img src="assets/images/tech.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-6 animated wow fadeInRight"
-              data-wow-duration="1500ms"
-              data-wow-delay="300ms"
-            >
-              <div className="modularize-about-content">
-                <div className="icon">
-                  <img src="assets/images/icon/service-icon-4.png" alt="" />
-                </div>
-                <span>Discover More Now</span>
-                <h3 className="title">Cloud Based Services for Mobile Apps</h3>
-                <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur.
-                </p>
-                <ul>
-                  <li>
-                    <i className="fas fa-check-circle"></i>
-                    Refresing to get such a personal touch.{" "}
-                  </li>
-                  <li>
-                    <i className="fas fa-check-circle"></i>
-                    Duis aute irure dolor in reprehenderit in voluptate.
-                  </li>
-                  <li>
-                    <i className="fas fa-check-circle"></i>
-                    Velit esse cillum dolore eu fugiat nulla pariatur.
-                  </li>
-                </ul>
-                <Link to="#" className="main-btn">
-                  Learn More
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       {/* Cloud Computing */}
 
       <section className="modularize-about-4-area">
@@ -106,6 +44,7 @@ const Services = () => {
                 <span style={{ fontSize: "32px", fontWeight: "700" }}>
                   Our Services
                 </span>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
               </div>
             </div>
           </div>
@@ -141,7 +80,7 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-                <div className="about-sub-item mt-45">
+                <div className="about-sub-item mt-25">
                   <div className="number">
                     <i class="fa-solid fa-circle"></i>
                   </div>
@@ -192,7 +131,7 @@ const Services = () => {
                     <p>JavaScript and NodeJS is our core skills.</p>
                   </div>
                 </div>
-                <div className="about-sub-item mt-45">
+                <div className="about-sub-item mt-25">
                   <div className="number">
                     <i
                       style={{ color: "#fff", fontSize: "12px" }}
@@ -265,7 +204,7 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-                <div className="about-sub-item mt-45">
+                <div className="about-sub-item mt-25">
                   <div className="number">
                     <i class="fa-solid fa-circle"></i>
                   </div>

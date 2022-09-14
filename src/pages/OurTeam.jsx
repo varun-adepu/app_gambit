@@ -37,6 +37,7 @@ const OurTeam = () => {
                 <span style={{ fontSize: "32px", fontWeight: "700" }}>
                   Our Team
                 </span>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
               </div>
             </div>
           </div>

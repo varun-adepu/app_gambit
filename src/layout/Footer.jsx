@@ -9,6 +9,7 @@ const Footer = () => {
       behavior: "smooth",
     });
   };
+  let date = new Date().getFullYear();
   return (
     <>
       <footer className="modularize-footer-area">
@@ -21,9 +22,9 @@ const Footer = () => {
                 </Link>
                 <p>
                   We provide all-around services to help you convert your idea
-                  into a successful product. Our business strategy is quite
-                  simple, whether you are boostraping or already a successful
-                  business.
+                  into a <br /> successful product. Our business strategy is
+                  quite simple <br />
+                  whether you are boostraping or already a successful business.
                 </p>
                 <ul>
                   <li>
@@ -78,8 +79,25 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
+            <div className="col-lg-2 col-md-6">
+              <div className="footer-nav">
+                <h4 className="title">Services</h4>
+                <ul>
+                  <li onClick={scrolltoTop}>
+                    <Link to="/services">Cloud Consulting</Link>
+                  </li>
 
-            <div className="col-lg-4 col-md-6">
+                  <li onClick={scrolltoTop}>
+                    <Link to="/team">Web Development</Link>
+                  </li>
+                  <li onClick={scrolltoTop}>
+                    <Link to="/project">Mobile Development</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
               <div className="footer-info">
                 <h4 className="title">Contact</h4>
                 <ul>
@@ -111,8 +129,8 @@ const Footer = () => {
                         rel="noreferrer"
                         target="_blank"
                       >
-                        408-409, SNS Platina, Someshwara Enclave, Vesu, Surat,
-                        Gujarat 395007
+                        408-409, SNS Platina, Someshwara Enclave <br /> Vesu,
+                        Surat, Gujarat 395007
                       </a>
                     </span>
                   </li>
@@ -124,7 +142,7 @@ const Footer = () => {
       </footer>
       <div className="footer-copyright text-center">
         <p>
-          © All Copyright 2022 by <Link to="/">Modularize</Link>{" "}
+          All Copyright © {date} by <Link to="/">Modularize</Link>{" "}
         </p>
       </div>
     </>

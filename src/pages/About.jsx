@@ -96,18 +96,18 @@ const About = () => {
                 </p>
                 <ul>
                   <li>
-                    <i className="fal fa-check"></i> Best quality support
+                    <i class="fa-solid fa-check"></i> Best quality support
                   </li>
                   <li>
-                    <i className="fal fa-check"></i> Serve the best
+                    <i class="fa-solid fa-check"></i> Serve the best
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    <i className="fal fa-check"></i> Money back guarantee
+                    <i class="fa-solid fa-check"></i> Money back guarantee
                   </li>
                   <li>
-                    <i className="fal fa-check"></i> Trusted Professionals
+                    <i class="fa-solid fa-check"></i> Trusted Professionals
                   </li>
                 </ul>
                 {/* <Link to="#" className="main-btn">
@@ -321,18 +321,18 @@ const About = () => {
                 <div className="mission-details">
                   <ul>
                     <li>
-                      <i className="fal fa-check"></i> Best quality support
+                      <i class="fa-solid fa-check"></i> Best quality support
                     </li>
                     <li>
-                      <i className="fal fa-check"></i> Serve the best
+                      <i class="fa-solid fa-check"></i> Serve the best
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <i className="fal fa-check"></i> Client happiness
+                      <i class="fa-solid fa-check"></i> Client happiness
                     </li>
                     <li>
-                      <i className="fal fa-check"></i> World-class service
+                      <i class="fa-solid fa-check"></i> World-class service
                     </li>
                   </ul>
                 </div>
@@ -347,18 +347,18 @@ const About = () => {
                 <div className="mission-details">
                   <ul>
                     <li>
-                      <i className="fal fa-check"></i> Best quality support
+                      <i class="fa-solid fa-check"></i> Best quality support
                     </li>
                     <li>
-                      <i className="fal fa-check"></i> Serve the best
+                      <i class="fa-solid fa-check"></i> Serve the best
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <i className="fal fa-check"></i> Client happiness
+                      <i class="fa-solid fa-check"></i> Client happiness
                     </li>
                     <li>
-                      <i className="fal fa-check"></i> World-class service
+                      <i class="fa-solid fa-check"></i> World-class service
                     </li>
                   </ul>
                 </div>

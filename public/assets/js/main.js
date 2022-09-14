@@ -631,32 +631,6 @@
       wow.init();
     }
 
-    //====== Magnific Popup
-
-    $(".video-popup").magnificPopup({
-      type: "iframe",
-      // other options
-    });
-
-    //===== Magnific Popup
-
-    $(".image-popup").magnificPopup({
-      type: "image",
-      gallery: {
-        enabled: true,
-      },
-    });
-
-    $(".second.circle")
-      .circleProgress({
-        value: 0.6,
-      })
-      .on("circle-animation-progress", function (event, progress) {
-        $(this)
-          .find("strong")
-          .html(parseInt(80 * progress) + "<i>%</i>");
-      });
-
     //===== Back to top
 
     // Scroll Event
