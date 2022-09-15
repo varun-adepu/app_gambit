@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       <footer className="modularize-footer-area">
-        <div className="wrapper">
+        <div className="container">
           <div className="row">
             <div className="col-lg-5 col-md-6">
               <div className="footer-about">
@@ -22,9 +22,9 @@ const Footer = () => {
                 </Link>
                 <p>
                   We provide all-around services to help you convert your idea
-                  into a <br /> successful product. Our business strategy is
-                  quite simple <br />
-                  whether you are boostraping or already a successful business.
+                  into a successful product. Our business strategy is quite
+                  simple whether you are boostraping or already a successful
+                  business.
                 </p>
                 <ul>
                   <li>
@@ -80,7 +80,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-lg-2 col-md-6">
-              <div className="footer-nav">
+              <div className="footer-services">
                 <h4 className="title">Services</h4>
                 <ul>
                   <li onClick={scrolltoTop}>
@@ -129,8 +129,8 @@ const Footer = () => {
                         rel="noreferrer"
                         target="_blank"
                       >
-                        408-409, SNS Platina, Someshwara Enclave <br /> Vesu,
-                        Surat, Gujarat 395007
+                        408-409, SNS Platina, Someshwara Enclave Vesu, Surat,
+                        Gujarat 395007
                       </a>
                     </span>
                   </li>

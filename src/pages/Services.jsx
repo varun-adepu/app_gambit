@@ -123,7 +123,7 @@ const Services = () => {
                 <div className="about-sub-item mt-25">
                   <div className="number">
                     <i
-                      style={{ color: "#fff", fontSize: "12px" }}
+                      style={{ color: "#fff", fontSize: "11px" }}
                       class="fa-solid fa-circle"
                     ></i>
                   </div>
@@ -134,7 +134,7 @@ const Services = () => {
                 <div className="about-sub-item mt-25">
                   <div className="number">
                     <i
-                      style={{ color: "#fff", fontSize: "12px" }}
+                      style={{ color: "#fff", fontSize: "11px" }}
                       class="fa-solid fa-circle"
                     ></i>
                   </div>
@@ -145,7 +145,7 @@ const Services = () => {
                     </p>
                   </div>
                 </div>
-                <Link className="main-btn mt-55" to="#">
+                <Link className="main-btn mt-55 mb-55" to="#">
                   Learn More
                 </Link>
               </div>
@@ -227,7 +227,7 @@ const Services = () => {
 
       {/* Technology Path */}
 
-      <section className="modularize-technology-area modularize-technology-service-area pt-120 pb-120">
+      <section className="modularize-technology-area modularize-technology-service-area">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

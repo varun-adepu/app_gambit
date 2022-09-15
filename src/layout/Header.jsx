@@ -27,53 +27,77 @@ const Header = () => {
                   <div className="offcanvas-social">
                     <ul className="text-center">
                       <li>
-                        <a href="%24.html">
-                          <i className="fab fa-facebook-f"></i>
+                        <a
+                          rel="noreferrer"
+                          target="_blank"
+                          href="https://www.linkedin.com/company/appgambit/"
+                        >
+                          <i className="fa-brands fa-linkedin-in"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="%24.html">
+                        <a
+                          rel="noreferrer"
+                          target="_blank"
+                          href="https://medium.com/appgambit"
+                        >
+                          <i class="fab fa-medium-m"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <Link to="#">
                           <i className="fab fa-twitter"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="%24.html">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="%24.html">
-                          <i className="fab fa-dribbble"></i>
-                        </a>
+                        <Link to="#">
+                          <i className="fab fa-facebook-f"></i>
+                        </Link>
                       </li>
                     </ul>
                   </div>
                   <div id="menu" className="text-left ">
                     <ul className="offcanvas_main_menu">
                       <li className="menu-item-has-children active">
-                        <Link to="/">Home</Link>
+                        <Link onClick={() => setIsToggal(false)} to="/">
+                          Home
+                        </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link to="about">About</Link>
+                        <Link onClick={() => setIsToggal(false)} to="about">
+                          About
+                        </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link to="services">Services</Link>
+                        <Link onClick={() => setIsToggal(false)} to="services">
+                          Services
+                        </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link to="project">Projects</Link>
+                        <Link onClick={() => setIsToggal(false)} to="project">
+                          Projects
+                        </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link to="team">Our Team</Link>
+                        <Link onClick={() => setIsToggal(false)} to="team">
+                          Our Team
+                        </Link>
                       </li>
 
                       <li className="menu-item-has-children active">
-                        <Link to="blog">Blog</Link>
+                        <Link onClick={() => setIsToggal(false)} to="blog">
+                          Blog
+                        </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link to="career">Career</Link>
+                        <Link onClick={() => setIsToggal(false)} to="career">
+                          Career
+                        </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link to="contact">Contact</Link>
+                        <Link onClick={() => setIsToggal(false)} to="contact">
+                          Contact
+                        </Link>
                       </li>
                     </ul>
                   </div>
