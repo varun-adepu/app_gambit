@@ -57,13 +57,15 @@ const Project = () => {
               </Link>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="single-project-item">
-                <img src="assets/images/project-2.jpg" alt="" />
-                <div className="single-project-overlay">
-                  <h4 className="title">INVESTLOOP</h4>
-                  <span>DESIGN / IDEAS</span>
+              <Link onClick={scrolltoTop} to="investment-loop">
+                <div className="single-project-item">
+                  <img src="assets/images/project-2.jpg" alt="" />
+                  <div className="single-project-overlay">
+                    <h4 className="title">INVESTLOOP</h4>
+                    <span>DESIGN / IDEAS</span>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="single-project-item">

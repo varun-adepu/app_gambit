@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Fade from "react-reveal/Fade";
+import Slider from "react-slick/lib/slider";
 
 const Services = () => {
   const scrolltoTop = () => {
@@ -7,6 +9,42 @@ const Services = () => {
       top: 0,
       behavior: "smooth",
     });
+  };
+  const serviceTechTools = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     // BreadCrumer
@@ -110,61 +148,62 @@ const Services = () => {
       <section className="modularize-about-5-area">
         <div className="container">
           <div className="row">
-            <div
-              className="col-lg-6 animated wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="300ms"
-            >
-              <div className="about-thumb-content pr-50">
-                <div className="section-title">
-                  <span>We Do More For Your Business</span>
-                  <h3>Web Development </h3>
+            <Fade up>
+              <div className="col-lg-6">
+                <div className="about-thumb-content pr-50">
+                  <div className="section-title">
+                    <span>We Do More For Your Business</span>
+                    <h3>Web Development </h3>
+                  </div>
+                  <div className="about-sub-item mt-25">
+                    <div className="number">
+                      <i
+                        style={{ color: "#fff", fontSize: "11px" }}
+                        class="fa-solid fa-circle"
+                      ></i>
+                    </div>
+                    <div className="content">
+                      <p>JavaScript and NodeJS is our core skills.</p>
+                    </div>
+                  </div>
+                  <div className="about-sub-item mt-25">
+                    <div className="number">
+                      <i
+                        style={{ color: "#fff", fontSize: "11px" }}
+                        class="fa-solid fa-circle"
+                      ></i>
+                    </div>
+                    <div className="content">
+                      <p>
+                        From server-based applications to server-less
+                        applications, we have done it all.
+                      </p>
+                    </div>
+                  </div>
+                  <Link className="main-btn mt-55 mb-55" to="#">
+                    Learn More
+                  </Link>
                 </div>
-                <div className="about-sub-item mt-25">
-                  <div className="number">
-                    <i
-                      style={{ color: "#fff", fontSize: "11px" }}
-                      class="fa-solid fa-circle"
-                    ></i>
-                  </div>
-                  <div className="content">
-                    <p>JavaScript and NodeJS is our core skills.</p>
-                  </div>
-                </div>
-                <div className="about-sub-item mt-25">
-                  <div className="number">
-                    <i
-                      style={{ color: "#fff", fontSize: "11px" }}
-                      class="fa-solid fa-circle"
-                    ></i>
-                  </div>
-                  <div className="content">
-                    <p>
-                      From server-based applications to server-less
-                      applications, we have done it all.
-                    </p>
-                  </div>
-                </div>
-                <Link className="main-btn mt-55 mb-55" to="#">
-                  Learn More
-                </Link>
               </div>
-            </div>
-            <div
-              className="col-lg-6 animated wow fadeInLeft"
-              data-wow-duration="1500ms"
-              data-wow-delay="0ms"
-            >
-              <div className="about-thumb-4">
-                <img
-                  style={{
-                    boxShadow: "0px 2px 2px 1px rgb(227 227 227)",
-                  }}
-                  src="assets/images/web-development.jpg"
-                  alt=""
-                />
+            </Fade>
+
+            <Fade right>
+              <div
+                className="col-lg-6 animated wow fadeInLeft"
+                data-wow-duration="1500ms"
+                data-wow-delay="0ms"
+              >
+                <div className="about-thumb-4">
+                  <img
+                    style={{
+                      boxShadow: "0px 2px 2px 1px rgb(227 227 227)",
+                    }}
+                    src="assets/images/web-development.jpg"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
       </section>
@@ -174,53 +213,49 @@ const Services = () => {
       <section className="modularize-about-6-area pt-120">
         <div className="container">
           <div className="row">
-            <div
-              className="col-lg-6 animated wow fadeInLeft"
-              data-wow-duration="1500ms"
-              data-wow-delay="0ms"
-            >
-              <div className="about-thumb-4 pr-50">
-                <img src="assets/images/mobile-development.jpg" alt="" />
+            <Fade left>
+              <div className="col-lg-6">
+                <div className="about-thumb-4 pr-50">
+                  <img src="assets/images/mobile-development.jpg" alt="" />
+                </div>
               </div>
-            </div>
-            <div
-              className="col-lg-6 animated wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="300ms"
-            >
-              <div className="about-thumb-content">
-                <div className="section-title">
-                  <span>We Do More For Your Business</span>
-                  <h3>Mobile Development </h3>
+            </Fade>
+            <Fade up>
+              <div className="col-lg-6">
+                <div className="about-thumb-content">
+                  <div className="section-title">
+                    <span>We Do More For Your Business</span>
+                    <h3>Mobile Development </h3>
+                  </div>
+                  <div className="about-sub-item mt-25">
+                    <div className="number">
+                      <i class="fa-solid fa-circle"></i>
+                    </div>
+                    <div className="content">
+                      <p>
+                        From Native iOS and Android to using hybrid technologies
+                        like Ionic and React Native
+                      </p>
+                    </div>
+                  </div>
+                  <div className="about-sub-item mt-25">
+                    <div className="number">
+                      <i class="fa-solid fa-circle"></i>
+                    </div>
+                    <div className="content">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Dolorem, repellendus libero molestiae id ratione
+                        minus reprehenderit hic, aut, cumque esse?
+                      </p>
+                    </div>
+                  </div>
+                  <Link className="main-btn mt-55" to="#">
+                    Learn More
+                  </Link>
                 </div>
-                <div className="about-sub-item mt-25">
-                  <div className="number">
-                    <i class="fa-solid fa-circle"></i>
-                  </div>
-                  <div className="content">
-                    <p>
-                      From Native iOS and Android to using hybrid technologies
-                      like Ionic and React Native
-                    </p>
-                  </div>
-                </div>
-                <div className="about-sub-item mt-25">
-                  <div className="number">
-                    <i class="fa-solid fa-circle"></i>
-                  </div>
-                  <div className="content">
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Dolorem, repellendus libero molestiae id ratione minus
-                      reprehenderit hic, aut, cumque esse?
-                    </p>
-                  </div>
-                </div>
-                <Link className="main-btn mt-55" to="#">
-                  Learn More
-                </Link>
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
       </section>
@@ -426,6 +461,116 @@ const Services = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tools We Use */}
+
+      <section className="modularize-service-tools-area pb-50">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center mb-55">
+                <span>Our Tools</span>
+                <h3 className="title">What We Use</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <Slider {...serviceTechTools}>
+              <div className="col-lg-2">
+                <div className="service-techtool-icon">
+                  <div>
+                    <i className="fab fa-react"></i>
+                  </div>
+                  <div>
+                    <h4>React</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2">
+                <div className="service-techtool-icon">
+                  <div>
+                    <i className="fab fa-node"></i>
+                  </div>
+                  <div>
+                    <h4>Node</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2">
+                <div className="service-techtool-icon">
+                  <div>
+                    <i className="fab fa-angular"></i>
+                  </div>
+                  <div>
+                    <h4>Angular</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2">
+                <div className="service-techtool-icon">
+                  <div>
+                    <i className="fab fa-android"></i>
+                  </div>
+                  <div>
+                    <h4>Android</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2">
+                <div className="service-techtool-icon">
+                  <div>
+                    <i className="fas fa-quidditch"></i>
+                  </div>
+                  <div>
+                    <h4>UI & UX </h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2">
+                <div className="service-techtool-icon">
+                  <div>
+                    <i className="fab fa-aws"></i>
+                  </div>
+                  <div>
+                    <h4>AWS</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2">
+                <div className="service-techtool-icon">
+                  <div>
+                    <i className="fas fa-infinity"></i>
+                  </div>
+                  <div>
+                    <h4>DevOps</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2">
+                <div className="service-techtool-icon">
+                  <div>
+                    <i className="fab fa-react"></i>
+                  </div>
+                  <div>
+                    <h4>React-Native</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2">
+                <div className="service-techtool-icon">
+                  <div>
+                    <i className="fa-brands fa-docker"></i>
+                  </div>
+                  <div>
+                    <h4>Docker</h4>
+                  </div>
+                </div>
+              </div>
+            </Slider>
           </div>
         </div>
       </section>

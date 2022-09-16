@@ -6,7 +6,7 @@ const Footer = () => {
   const scrolltoTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: "instant",
     });
   };
   let date = new Date().getFullYear();

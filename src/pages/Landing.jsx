@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
@@ -235,59 +236,63 @@ const Landing = () => {
       <section className="modularize-about-area">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
-              <div
-                className="modularize-about-thumb animated wow fadeInLeft"
-                data-wow-duration="1000ms"
-                data-wow-delay="0ms"
-              >
-                <img src="assets/images/about-thumb-1.jpg" alt="" />
-                <img
-                  className="thumb"
-                  src="assets/images/about-thumb-2.jpg"
-                  alt=""
-                />
-                <img
-                  className="about-logo"
-                  src="assets/images/cloudPartner-footer.png"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="modularize-about-content">
-                <span>About Our Company</span>
-                <h3 className="title">We’re Partner of Your Innovations</h3>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even.
-                </p>
-
-                <ul>
-                  <li>
-                    <i className="fas fa-check-circle"></i> Exploring version
-                    oflorem veritatis proin
-                  </li>
-                  <li>
-                    <i className="fas fa-check-circle"></i> Auctor aliquet
-                    aenean simply free text veritatis quis
-                  </li>
-                  <li>
-                    <i className="fas fa-check-circle"></i> Consequat ipsum nec
-                    lorem sagittis sem nibh.
-                  </li>
-                </ul>
-                <Link
-                  style={{ border: "1px solid #000" }}
-                  to="/about"
-                  className="main-btn"
+            <Fade left>
+              <div className="col-lg-6">
+                <div
+                  className="modularize-about-thumb"
+                  data-wow-duration="1000ms"
+                  data-wow-delay="0ms"
                 >
-                  Learn More
-                </Link>
+                  <img src="assets/images/about-thumb-1.jpg" alt="" />
+                  <img
+                    className="thumb"
+                    src="assets/images/about-thumb-2.jpg"
+                    alt=""
+                  />
+                  <img
+                    className="about-logo"
+                    src="assets/images/cloudPartner-footer.png"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
+            </Fade>
+            <Fade right>
+              <div className="col-lg-6">
+                <div className="modularize-about-content">
+                  <span>About Our Company</span>
+                  <h3 className="title">We’re Partner of Your Innovations</h3>
+                  <p>
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form, by injected humour, or randomised words which don't
+                    look even.
+                  </p>
+
+                  <ul>
+                    <li>
+                      <i className="fas fa-check-circle"></i> Exploring version
+                      oflorem veritatis proin
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle"></i> Auctor aliquet
+                      aenean simply free text veritatis quis
+                    </li>
+                    <li>
+                      <i className="fas fa-check-circle"></i> Consequat ipsum
+                      nec lorem sagittis sem nibh.
+                    </li>
+                  </ul>
+                  <Link
+                    style={{ border: "1px solid #000" }}
+                    to="/about"
+                    className="main-btn"
+                  >
+                    Learn More
+                  </Link>
+                </div>
+              </div>
+            </Fade>
           </div>
         </div>
       </section>
@@ -297,63 +302,71 @@ const Landing = () => {
       <section className="modularize-service-area">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="single-modularize-serice-item animated wow fadeInUp"
-                data-wow-duration="1000ms"
-                data-wow-delay="0ms"
-              >
-                <div className="thumb">
-                  <img src="assets/images/service-1.jpg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="icon">
-                    <img src="assets/images/icon/service-icon-1.png" alt="" />
+            <Fade left>
+              <div className="col-lg-4 col-md-6">
+                <div
+                  className="single-modularize-serice-item animated wow fadeInUp"
+                  data-wow-duration="1000ms"
+                  data-wow-delay="0ms"
+                >
+                  <div className="thumb">
+                    <img src="assets/images/service-1.jpg" alt="" />
                   </div>
-                  <h3 className="title">
-                    <a href="#">Perfect solutions that business demands</a>
-                  </h3>
+                  <div className="content">
+                    <div className="icon">
+                      <img src="assets/images/icon/service-icon-1.png" alt="" />
+                    </div>
+                    <h3 className="title">
+                      <a href="#">Perfect solutions that business demands</a>
+                    </h3>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="single-modularize-serice-item animated wow fadeInUp"
-                data-wow-duration="1000ms"
-                data-wow-delay="300ms"
-              >
-                <div className="thumb">
-                  <img src="assets/images/service-2.jpg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="icon">
-                    <img src="assets/images/icon/service-icon-2.png" alt="" />
+            </Fade>
+            <Fade up>
+              <div className="col-lg-4 col-md-6">
+                <div
+                  className="single-modularize-serice-item animated wow fadeInUp"
+                  data-wow-duration="1000ms"
+                  data-wow-delay="300ms"
+                >
+                  <div className="thumb">
+                    <img src="assets/images/service-2.jpg" alt="" />
                   </div>
-                  <h3 className="title">
-                    <a href="#">Reduced Spending with IT Talent Sourcing</a>
-                  </h3>
+                  <div className="content">
+                    <div className="icon">
+                      <img src="assets/images/icon/service-icon-2.png" alt="" />
+                    </div>
+                    <h3 className="title">
+                      <a href="#">Reduced Spending with IT Talent Sourcing</a>
+                    </h3>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div
-                className="single-modularize-serice-item animated wow fadeInUp"
-                data-wow-duration="1000ms"
-                data-wow-delay="600ms"
-              >
-                <div className="thumb">
-                  <img src="assets/images/service-3.jpg" alt="" />
-                </div>
-                <div className="content">
-                  <div className="icon">
-                    <img src="assets/images/icon/service-icon-3.png" alt="" />
+            </Fade>
+            <Fade right>
+              <div className="col-lg-4 col-md-6">
+                <div
+                  className="single-modularize-serice-item animated wow fadeInUp"
+                  data-wow-duration="1000ms"
+                  data-wow-delay="600ms"
+                >
+                  <div className="thumb">
+                    <img src="assets/images/service-3.jpg" alt="" />
                   </div>
-                  <h3 className="title">
-                    <a href="#">Access to Experts and the Latest Technology</a>
-                  </h3>
+                  <div className="content">
+                    <div className="icon">
+                      <img src="assets/images/icon/service-icon-3.png" alt="" />
+                    </div>
+                    <h3 className="title">
+                      <a href="#">
+                        Access to Experts and the Latest Technology
+                      </a>
+                    </h3>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
       </section>
@@ -690,9 +703,9 @@ const Landing = () => {
                           </ul>
                         </div>
                         <div className="col-lg-4">
-                          <a href="#" className="main-btn ml-30">
+                          <Link to="/services" className="main-btn ml-30">
                             Learn More
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
