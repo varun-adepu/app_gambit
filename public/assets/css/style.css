@@ -4408,14 +4408,15 @@ p {
   margin-top: 25px;
 }
 .projects-details-content .small-text ul li {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  color: #323232;
+  color: #6c6a72;
   line-height: 38px;
 }
 .projects-details-content .small-text ul li i {
   padding-right: 8px;
   font-size: 15px;
+  color: #323232;
 }
 .projects-details-content .projects-details-page-changer {
   border-top: 1px solid #e4e0ee;
@@ -4465,7 +4466,7 @@ p {
 }
 
 .projects-details-thumb img {
-  width: 85%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -9486,6 +9487,7 @@ h1:last-of-type {
   }
 }
 
+
 .cyan-career {
   border-top: 3px solid #323232;
 }
@@ -9527,6 +9529,31 @@ h4 {
     width: 30%;
   }
 }
+/* @media screen and (min-width:1024px) and (max-width :1280px){
+  .row1-container-career {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row2-container-career {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .box1-down {
+    position: relative;
+    top: 200px;
+  }
+  .box1 {
+    width: 100%;
+  }
+  .header-career-main p {
+    width: 30%;
+  }
+} */
 
 /* Technology */
 
@@ -10033,14 +10060,22 @@ h4 {
   font-size: 22px;
   font-weight: 500;
 }
+.modularize-servicesDetail-1 .services-paragraphs p {
+  font-weight: 500;
+}
 
 .modularize-servicesDetail-1 .services-benefits {
   margin-bottom: 15px;
 }
+.modularize-servicesDetail-1 .service-benefits-main li {
+  line-height: 38px;
+  font-weight: 500;
+}
 .modularize-servicesDetail-1 .services-benefits span {
-  font-size: 20px;
   font-weight: 500;
   color: #343434;
+  font-size: 24px;
+  text-transform: capitalize;
 }
 
 .modularize-servicesDetail-1 i {
@@ -10119,7 +10154,7 @@ h4 {
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  width: 70%;
+  width: 85%;
 }
 .modularize-new-sdlc-area .how-it-work-inner h4 {
   color: #fff;

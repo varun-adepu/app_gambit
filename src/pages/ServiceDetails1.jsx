@@ -113,7 +113,7 @@ const ServiceDetails1 = () => {
               </div>
             </div>
 
-            <div className="col-lg-12">
+            <div className="col-lg-12 service-benefits-main">
               <div className="services-benefits">
                 <span>Benefits</span>
               </div>

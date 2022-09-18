@@ -7,7 +7,7 @@ const Services = () => {
   const scrolltoTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: "instant",
     });
   };
   const serviceTechTools = {
@@ -133,7 +133,7 @@ const Services = () => {
                 <Link
                   onClick={scrolltoTop}
                   className="main-btn mt-55"
-                  to="serviceDetail1"
+                  to="/services/cloud-consultant"
                 >
                   Learn More
                 </Link>

@@ -57,11 +57,11 @@ const Project = () => {
               </Link>
             </div>
             <div className="col-lg-3 col-md-6">
-              <Link onClick={scrolltoTop} to="investment-loop">
+              <Link onClick={scrolltoTop} to="star-oil">
                 <div className="single-project-item">
                   <img src="assets/images/project-2.jpg" alt="" />
                   <div className="single-project-overlay">
-                    <h4 className="title">INVESTLOOP</h4>
+                    <h4 className="title">STAR OIL</h4>
                     <span>DESIGN / IDEAS</span>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const Project = () => {
               <div className="single-project-item">
                 <img src="assets/images/project-5.jpg" alt="" />
                 <div className="single-project-overlay">
-                  <h4 className="title">STAR OIL</h4>
+                  <h4 className="title">INVESTMENT LOOP</h4>
                   <span>DESIGN / IDEAS</span>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const Project = () => {
               <div className="single-project-item">
                 <img src="assets/images/project-6.jpg" alt="" />
                 <div className="single-project-overlay">
-                  <h4 className="title">Tech Solutions</h4>
+                  <h4 className="title">TECH SOLUTIONS</h4>
                   <span>DESIGN / IDEAS</span>
                 </div>
               </div>

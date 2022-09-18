@@ -27,9 +27,12 @@ const AppRoutes = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/career" element={<Career />} />
         <Route path="/career/careerDetail/:id" element={<CareerDetail />} />
-        <Route path="/services/serviceDetail1" element={<ServiceDetails1 />} />
+        <Route
+          path="/services/cloud-consultant"
+          element={<ServiceDetails1 />}
+        />
         <Route path="/project/balance-it" element={<ProjectDetail1 />} />
-        <Route path="/project/investment-loop" element={<ProjectDetail2 />} />
+        <Route path="/project/star-oil" element={<ProjectDetail2 />} />
       </Route>
     </Routes>
   );

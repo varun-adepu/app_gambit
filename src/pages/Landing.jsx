@@ -6,7 +6,7 @@ import Slider from "react-slick";
 export const scrolltoTop = () => {
   window.scrollTo({
     top: 0,
-    behavior: "smooth",
+    behavior: "instant",
   });
 };
 
@@ -757,16 +757,18 @@ const Landing = () => {
                 </Link>
               </div>
               <div className="col-lg-3">
-                <div className="single-project-item">
-                  <img src="assets/images/project-2.jpg" alt="" />
-                  <div className="single-project-overlay">
-                    <h4 className="title">INVESTLOOP</h4>
-                    <span>DESIGN / IDEAS</span>
-                    {/* <a href="#">
+                <Link onClick={scrolltoTop} to="project/star-oil">
+                  <div className="single-project-item">
+                    <img src="assets/images/project-2.jpg" alt="" />
+                    <div className="single-project-overlay">
+                      <h4 className="title">STAR OIL</h4>
+                      <span>DESIGN / IDEAS</span>
+                      {/* <a href="#">
                       <i className="fal fa-long-arrow-right"></i>
                     </a> */}
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               <div className="col-lg-3">
                 <div className="single-project-item">
@@ -796,7 +798,7 @@ const Landing = () => {
                 <div className="single-project-item">
                   <img src="assets/images/project-2.jpg" alt="" />
                   <div className="single-project-overlay">
-                    <h4 className="title">STAR OIL</h4>
+                    <h4 className="title">INVEST LOOP</h4>
                     <span>DESIGN / IDEAS</span>
                     {/*   */}
                   </div>
@@ -1525,7 +1527,7 @@ const Landing = () => {
               width={834}
               height={108}
               className="hills-line"
-              src="assets/images/9.png"
+              src="assets/images/hill-line-final.png"
               alt="alt"
             />
 
