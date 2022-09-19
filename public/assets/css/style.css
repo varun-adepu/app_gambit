@@ -9529,12 +9529,13 @@ h4 {
     width: 30%;
   }
 }
-/* @media screen and (min-width:1024px) and (max-width :1280px){
+
+@media only screen and (min-width: 1024px) and (max-width : 1280px ){
   .row1-container-career {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
 
   .row2-container-career {
@@ -9542,10 +9543,12 @@ h4 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
   }
   .box1-down {
+
     position: relative;
-    top: 200px;
+    top: 0;
   }
   .box1 {
     width: 100%;
@@ -9553,7 +9556,7 @@ h4 {
   .header-career-main p {
     width: 30%;
   }
-} */
+}
 
 /* Technology */
 

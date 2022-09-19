@@ -284,6 +284,7 @@ const Landing = () => {
                     </li>
                   </ul>
                   <Link
+                    onClick={scrolltoTop}
                     style={{ border: "1px solid #000" }}
                     to="/about"
                     className="main-btn"
@@ -317,7 +318,9 @@ const Landing = () => {
                       <img src="assets/images/icon/service-icon-1.png" alt="" />
                     </div>
                     <h3 className="title">
-                      <a href="#">Perfect solutions that business demands</a>
+                      <a style={{ pointerEvents: "none" }} href="#">
+                        Perfect solutions that business demands
+                      </a>
                     </h3>
                   </div>
                 </div>
@@ -338,7 +341,9 @@ const Landing = () => {
                       <img src="assets/images/icon/service-icon-2.png" alt="" />
                     </div>
                     <h3 className="title">
-                      <a href="#">Reduced Spending with IT Talent Sourcing</a>
+                      <a style={{ pointerEvents: "none" }} href="#">
+                        Reduced Spending with IT Talent Sourcing
+                      </a>
                     </h3>
                   </div>
                 </div>
@@ -359,7 +364,7 @@ const Landing = () => {
                       <img src="assets/images/icon/service-icon-3.png" alt="" />
                     </div>
                     <h3 className="title">
-                      <a href="#">
+                      <a style={{ pointerEvents: "none" }} href="#">
                         Access to Experts and the Latest Technology
                       </a>
                     </h3>
@@ -416,9 +421,9 @@ const Landing = () => {
                   </div>
                   <div className="content">
                     <h4 className="title">
-                      <a href="#">
+                      <Link onClick={scrolltoTop} to="services">
                         Product <br /> Development
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Lorem Ipsum has been the industry text ever since then.
@@ -469,9 +474,9 @@ const Landing = () => {
                   </div>
                   <div className="content">
                     <h4 className="title">
-                      <a href="#">
+                      <Link onClick={scrolltoTop} to="services">
                         Digital <br /> Marketing
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Lorem Ipsum has been the industry text ever since then.
@@ -515,9 +520,9 @@ const Landing = () => {
                   </div>
                   <div className="content">
                     <h4 className="title">
-                      <a href="#">
+                      <Link onClick={scrolltoTop} to="services">
                         Security <br /> System
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Lorem Ipsum has been the industry text ever since then.
@@ -552,9 +557,9 @@ const Landing = () => {
                   </div>
                   <div className="content">
                     <h4 className="title">
-                      <a href="#">
+                      <Link onClick={scrolltoTop} to="services">
                         UI/UX <br /> Designing
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Lorem Ipsum has been the industry text ever since then.
@@ -597,9 +602,9 @@ const Landing = () => {
                   </div>
                   <div className="content">
                     <h4 className="title">
-                      <a href="#">
+                      <Link onClick={scrolltoTop} to="services">
                         Data <br /> Analysis
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Lorem Ipsum has been the industry text ever since then.
@@ -650,9 +655,9 @@ const Landing = () => {
                   </div>
                   <div className="content">
                     <h4 className="title">
-                      <a href="#">
+                      <Link onClick={scrolltoTop} to="services">
                         Digital <br /> Marketing
-                      </a>
+                      </Link>
                     </h4>
                     <p>
                       Lorem Ipsum has been the industry text ever since then.
@@ -703,7 +708,11 @@ const Landing = () => {
                           </ul>
                         </div>
                         <div className="col-lg-4">
-                          <Link to="/services" className="main-btn ml-30">
+                          <Link
+                            onClick={scrolltoTop}
+                            to="/services"
+                            className="main-btn ml-30"
+                          >
                             Learn More
                           </Link>
                         </div>
@@ -1709,7 +1718,7 @@ const Landing = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
-                  <a href="#">
+                  <a style={{ pointerEvents: "none" }} href="#">
                     <img
                       src="https://cdn-images-1.medium.com/max/1024/1*xGEzFVEESz1SfF-KSvSAjg.png"
                       alt=""
@@ -1720,7 +1729,7 @@ const Landing = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -1729,7 +1738,7 @@ const Landing = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <a href="#">
+                      <a style={{ pointerEvents: "none" }} href="#">
                         Provisioning a Jenkins Server on AWS With Terraform.
                       </a>
                     </h4>
@@ -1747,7 +1756,7 @@ const Landing = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
-                  <a href="#">
+                  <a style={{ pointerEvents: "none" }} href="#">
                     <img
                       src="https://cdn-images-1.medium.com/max/1024/1*KZixg7VK_dF1b046QdDOHQ.jpeg"
                       alt=""
@@ -1758,7 +1767,7 @@ const Landing = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Dhaval Nagar
+                        <i class="fa-sharp fa-solid fa-user"></i> Dhaval Nagar
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 18 Dec
@@ -1766,7 +1775,7 @@ const Landing = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <a href="#">
+                      <a style={{ pointerEvents: "none" }} href="#">
                         PAY per USE can derail your Serverless (dream) Budget
                       </a>
                     </h4>
@@ -1784,7 +1793,7 @@ const Landing = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
-                  <a href="#">
+                  <a style={{ pointerEvents: "none" }} href="#">
                     <img
                       src="https://cdn-images-1.medium.com/max/1024/1*q296DIiygo9qYYBeLJsJag.png"
                       alt=""
@@ -1795,7 +1804,7 @@ const Landing = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -1804,7 +1813,7 @@ const Landing = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <a href="#">
+                      <a style={{ pointerEvents: "none" }} href="#">
                         Terraform — Deploy AWS Inspector A cloud-based
                         Vulnerability...
                       </a>
@@ -1823,7 +1832,7 @@ const Landing = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
-                  <a href="#">
+                  <a style={{ pointerEvents: "none" }} href="#">
                     <img
                       src="https://cdn-images-1.medium.com/max/1024/1*uYrJjNqPJ6uvGIuZds5W_w.png"
                       alt=""
@@ -1834,7 +1843,7 @@ const Landing = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -1843,7 +1852,7 @@ const Landing = () => {
                       </li>
                     </ul>
                     <h4 className="title">
-                      <a href="#">
+                      <a style={{ pointerEvents: "none" }} href="#">
                         AWS CodePipeline — Alexa Skill Deployment Pipeline.
                       </a>
                     </h4>

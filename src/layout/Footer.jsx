@@ -2,6 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import FooterLogo from "../../src/assets/img/logo-white2.png";
 
+export const scrolltoTopV2 = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
 const Footer = () => {
   const scrolltoTop = () => {
     window.scrollTo({
@@ -9,6 +16,7 @@ const Footer = () => {
       behavior: "instant",
     });
   };
+
   let date = new Date().getFullYear();
   return (
     <>
@@ -88,10 +96,10 @@ const Footer = () => {
                   </li>
 
                   <li onClick={scrolltoTop}>
-                    <Link to="/team">Web Development</Link>
+                    <Link to="/services">Web Development</Link>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="/project">Mobile Development</Link>
+                    <Link to="/services">Mobile Development</Link>
                   </li>
                 </ul>
               </div>
@@ -142,7 +150,10 @@ const Footer = () => {
       </footer>
       <div className="footer-copyright text-center">
         <p>
-          All Copyright © {date} by <Link to="/">Modularize</Link>{" "}
+          All Copyright © {date} by{" "}
+          <Link onClick={scrolltoTopV2} to="/">
+            Modularize
+          </Link>{" "}
         </p>
       </div>
     </>

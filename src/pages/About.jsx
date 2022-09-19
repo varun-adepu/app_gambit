@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 import { Link } from "react-router-dom";
 import Slider from "react-slick/lib/slider";
 
@@ -66,55 +67,55 @@ const About = () => {
 
       {/* About Our Company We’re Partner of Your Innovations */}
 
-      <section className="modularize-company-about-area">
+      <section className="modularize-company-about-area pt-70">
         <div className="container">
           <div className="row align-items-center">
-            <div
-              className="col-lg-6 animated wow fadeInLeft"
-              data-wow-duration="1500ms"
-              data-wow-delay="0ms"
-            >
-              <div className="company-about-thumb">
-                <img src="assets/images/company-thumb-2.png" alt="" />
-                <div
-                  className="icon"
-                  style={{ width: "230px", height: "200px" }}
-                >
-                  <img src="assets/images/cloudPartner-footer.png" alt="" />
+            <Fade left>
+              <div className="col-lg-6">
+                <div className="company-about-thumb">
+                  <img src="assets/images/company-thumb-2.png" alt="" />
+                  <div
+                    className="icon"
+                    style={{ width: "230px", height: "200px" }}
+                  >
+                    <img src="assets/images/cloudPartner-footer.png" alt="" />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6 animated wow fadeInRight">
-              <div className="modularize-about-content">
-                <span>About Our Company</span>
-                <h3 className="title">We’re Partner of Your Innovations</h3>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even.
-                </p>
-                <ul>
-                  <li>
-                    <i class="fa-solid fa-check"></i> Best quality support
-                  </li>
-                  <li>
-                    <i class="fa-solid fa-check"></i> Serve the best
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <i class="fa-solid fa-check"></i> Money back guarantee
-                  </li>
-                  <li>
-                    <i class="fa-solid fa-check"></i> Trusted Professionals
-                  </li>
-                </ul>
-                {/* <Link to="#" className="main-btn">
+            </Fade>
+            <Fade right>
+              <div className="col-lg-6">
+                <div className="modularize-about-content">
+                  <span>About Our Company</span>
+                  <h3 className="title">We’re Partner of Your Innovations</h3>
+                  <p>
+                    There are many variations of passages of Lorem Ipsum
+                    available, but the majority have suffered alteration in some
+                    form, by injected humour, or randomised words which don't
+                    look even.
+                  </p>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-check"></i> Best quality support
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-check"></i> Serve the best
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-check"></i> Money back guarantee
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-check"></i> Trusted Professionals
+                    </li>
+                  </ul>
+                  {/* <Link to="#" className="main-btn">
                   Learn More
                 </Link> */}
+                </div>
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
       </section>
@@ -312,58 +313,62 @@ const About = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6 animated wow fadeInLeft pb-20">
-              <div className="mission">
-                <div className="mission-icon pb-20">
-                  <span>Our Mission</span>
-                  <i class="fa-solid fa-bullseye"></i>
-                </div>
-                <div className="mission-details">
-                  <ul>
-                    <li>
-                      <i class="fa-solid fa-check"></i> Best quality support
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-check"></i> Serve the best
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <i class="fa-solid fa-check"></i> Client happiness
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-check"></i> World-class service
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6 animated wow fadeInRight">
-              <div className="mission">
-                <div className="mission-icon pb-20">
-                  <span>Our Vision</span>
-                  <i class="fa-solid fa-crosshairs"></i>
-                </div>
-                <div className="mission-details">
-                  <ul>
-                    <li>
-                      <i class="fa-solid fa-check"></i> Best quality support
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-check"></i> Serve the best
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <i class="fa-solid fa-check"></i> Client happiness
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-check"></i> World-class service
-                    </li>
-                  </ul>
+            <Fade left>
+              <div className="col-lg-6 col-md-6 pb-20">
+                <div className="mission">
+                  <div className="mission-icon pb-20">
+                    <span>Our Mission</span>
+                    <i class="fa-solid fa-bullseye"></i>
+                  </div>
+                  <div className="mission-details">
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-check"></i> Best quality support
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-check"></i> Serve the best
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-check"></i> Client happiness
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-check"></i> World-class service
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Fade>
+            <Fade right>
+              <div className="col-lg-6 col-md-6">
+                <div className="mission">
+                  <div className="mission-icon pb-20">
+                    <span>Our Vision</span>
+                    <i class="fa-solid fa-crosshairs"></i>
+                  </div>
+                  <div className="mission-details">
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-check"></i> Best quality support
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-check"></i> Serve the best
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <i class="fa-solid fa-check"></i> Client happiness
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-check"></i> World-class service
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </Fade>
           </div>
         </div>
       </section>

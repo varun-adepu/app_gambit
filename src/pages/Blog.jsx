@@ -54,7 +54,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Rajan Shah
+                        <i class="fa-sharp fa-solid fa-user"></i> Rajan Shah
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 19 Jul
@@ -90,7 +90,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -129,7 +129,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Dhaval Nagar
+                        <i class="fa-sharp fa-solid fa-user"></i> Dhaval Nagar
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 01 Sep
@@ -165,7 +165,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Dhaval Nagar
+                        <i class="fa-sharp fa-solid fa-user"></i> Dhaval Nagar
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 30 Aug
@@ -201,7 +201,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -241,7 +241,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -280,7 +280,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Dhaval Nagar
+                        <i class="fa-sharp fa-solid fa-user"></i> Dhaval Nagar
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 24 Dec
@@ -319,7 +319,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Dhaval Nagar
+                        <i class="fa-sharp fa-solid fa-user"></i> Dhaval Nagar
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 22 Dec
@@ -358,7 +358,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Dhaval Nagar
+                        <i class="fa-sharp fa-solid fa-user"></i> Dhaval Nagar
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 18 Dec
@@ -396,7 +396,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -436,7 +436,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -476,7 +476,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -516,7 +516,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Rahul Ladumor
+                        <i class="fa-sharp fa-solid fa-user"></i> Rahul Ladumor
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 30 May
@@ -552,7 +552,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Rahul Ladumor
+                        <i class="fa-sharp fa-solid fa-user"></i> Rahul Ladumor
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 29 May
@@ -588,7 +588,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -625,7 +625,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -664,7 +664,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -701,7 +701,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -738,7 +738,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -775,7 +775,7 @@ const Blog = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i className="fal fa-user-circle"></i> Prashant
+                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>

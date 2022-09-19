@@ -48,7 +48,11 @@ const Career = () => {
                 <img src="assets/images/office-environment.jpg" alt="" />
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 pt-5">
+            <div
+              className="col-lg-6 col-md-12 animated wow fadeInRight pt-5"
+              data-wow-duration="1500ms"
+              data-wow-delay="0ms"
+            >
               <div className="modularize-career-environment">
                 <div className="environment-title">
                   <span style={{ color: "#000" }}>
@@ -98,7 +102,7 @@ const Career = () => {
 
       <section className="modularize-career-third pt-120">
         <div className="row1-container-career">
-          <Bounce left duration={3000}>
+          <Bounce left duration={2000}>
             <div className="box1 box1-down cyan-career">
               <h4>Competive & On-time Salary</h4>
               <p>Monitors activity to identify project roadblocks</p>
@@ -123,7 +127,7 @@ const Career = () => {
             </div>
           </Bounce>
 
-          <Bounce right duration={3000}>
+          <Bounce right duration={2000}>
             <div className="box1 box1-down blue-career">
               <h4>Daily Refreshment</h4>
               <p>
@@ -139,7 +143,7 @@ const Career = () => {
         </div>
 
         <div className="row2-container-career">
-          <Bounce up duration={4000}>
+          <Bounce up duration={3000}>
             <div className="box1 orange-career">
               <h4>Yearly Bonus and Hike</h4>
               <p>Regularly evaluates our talent to ensure quality</p>
