@@ -10102,7 +10102,15 @@ h4 {
   }
 
   .modularize-servicesDetail-1 .services-image-style {
-    margin: 30px;
+    /* /* margin: 30px; * */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modularize-servicesDetail-1 .services-image-style img {
+    width: 40%;
+
   }
 }
 
