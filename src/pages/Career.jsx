@@ -8,7 +8,7 @@ const Career = () => {
   const scrolltoTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "instant",
+      behavior: "instant"
     });
   };
   return (
@@ -18,7 +18,7 @@ const Career = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcrumb-item">
-                <h2 className="title">Carriers</h2>
+                <h2 className="title">Career</h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -26,7 +26,7 @@ const Career = () => {
                     </li>
                     <li className="breadcrumb-item active">/</li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      Carrier
+                      Career
                     </li>
                   </ol>
                 </nav>
@@ -180,7 +180,10 @@ const Career = () => {
                         <p>{i.jobType}</p>
                       </div>
                       <div className="modularize-job-apply">
-                        <Link onClick={scrolltoTop} to={`careerDetail/${i.id}`}>
+                        <Link
+                          onClick={scrolltoTop}
+                          to={`career-detail/${i.id}`}
+                        >
                           {" "}
                           Apply Here
                         </Link>

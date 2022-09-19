@@ -26,7 +26,7 @@ const AppRoutes = () => {
         <Route path="/team" element={<OurTeam />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/career" element={<Career />} />
-        <Route path="/career/careerDetail/:id" element={<CareerDetail />} />
+        <Route path="/career/career-detail/:id" element={<CareerDetail />} />
         <Route
           path="/services/cloud-consultant"
           element={<ServiceDetails1 />}
