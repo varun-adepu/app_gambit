@@ -1033,14 +1033,14 @@ const Landing = () => {
             <div className="col-lg-2 col-md-6">
               <div className="certifications-justify-center">
                 <div className="certification-image-1 pb-20">
-                  <img src="assets/images/certifications/3.png" alt="" />
+                  <img src="assets/images/certifications/4.png" alt="" />
                 </div>
               </div>
             </div>
             <div className="col-lg-2 col-md-6">
               <div className="certifications-justify-center">
                 <div className="certification-image-1 pb-20">
-                  <img src="assets/images/certifications/4.png" alt="" />
+                  <img src="assets/images/certifications/3.png" alt="" />
                 </div>
               </div>
             </div>

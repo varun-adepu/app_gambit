@@ -10,6 +10,7 @@ const Services = () => {
       behavior: "instant",
     });
   };
+
   const serviceTechTools = {
     dots: false,
     infinite: true,
@@ -19,6 +20,7 @@ const Services = () => {
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    arrows: false,
 
     responsive: [
       {
@@ -46,6 +48,7 @@ const Services = () => {
       },
     ],
   };
+
   return (
     // BreadCrumer
     <>

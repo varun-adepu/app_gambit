@@ -2622,6 +2622,7 @@ p {
   .modularize-about-content {
     padding-left: 0;
     margin-top: 20px;
+    margin-bottom: 120px;
   }
 }
 .modularize-about-content span {
@@ -10271,6 +10272,7 @@ h4 {
 
 
 /* Services TechTools */
+
 .modularize-service-tools-area i {
   font-size: 100px;
 }
@@ -10284,3 +10286,6 @@ h4 {
   justify-content: center;
   gap: 10px;
 }
+
+
+
