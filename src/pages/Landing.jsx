@@ -820,7 +820,7 @@ const Landing = () => {
 
       {/* Technologies */}
 
-      <section className="modularize-technologies-area mb-115">
+      <section className="modularize-technologies-area mb-90">
         <div className="container">
           <div className="row align-items-center mb-55">
             <div className="col-lg-6">
@@ -1704,7 +1704,7 @@ const Landing = () => {
 
       {/* Blogs  */}
 
-      <section className="modularize-blog-area pt-115 pb-115">
+      <section className="modularize-blog-area pt-80 pb-115">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

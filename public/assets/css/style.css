@@ -17,7 +17,8 @@ body {
   box-sizing: border-box;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: #fff;
   background: #323232;
 }
@@ -8032,7 +8033,7 @@ single-tema-item .content .share-icon > a {
 ===========================*/
 .modularize-technology-area {
   position: relative;
-  background-image: url('../images/technology-bg.jpg');
+  background-image: url("../images/technology-bg.jpg");
   z-index: 10;
   margin-top: 120px;
   margin-bottom: 120px;
@@ -8082,7 +8083,6 @@ single-tema-item .content .share-icon > a {
   .modularize-technology-area {
     padding: 10px 0;
   }
-  
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .technology-box .section-title {
@@ -9488,7 +9488,6 @@ h1:last-of-type {
   }
 }
 
-
 .cyan-career {
   border-top: 3px solid #323232;
 }
@@ -9531,7 +9530,7 @@ h4 {
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width : 1280px ){
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
   .row1-container-career {
     display: flex;
     justify-content: center;
@@ -9544,10 +9543,8 @@ h4 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
   }
   .box1-down {
-
     position: relative;
     top: 0;
   }
@@ -10066,6 +10063,7 @@ h4 {
 }
 .modularize-servicesDetail-1 .services-paragraphs p {
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .modularize-servicesDetail-1 .services-benefits {
@@ -10094,12 +10092,17 @@ h4 {
   margin-right: 30px;
   margin-left: 30px;
 }
+
 @media (max-width: 767px) {
   .modularize-servicesDetail-1 .services-tools-slider i {
     font-size: 100px;
     align-items: center;
     justify-content: center;
     display: flex;
+  }
+
+  .modularize-servicesDetail-1 .services-image-style {
+    margin: 30px;
   }
 }
 
@@ -10135,16 +10138,14 @@ h4 {
   }
 }
 
-
-
 @media (max-width: 767px) {
   .modularize-new-sdlc-area .how-it-work-inner .custom-row {
     display: flex;
     flex-direction: column;
   }
 }
-@media only screen and (min-width:768px) and (max-width:1191px) {
-  .modularize-new-sdlc-area .how-it-work-inner .custom-row{
+@media only screen and (min-width: 768px) and (max-width: 1191px) {
+  .modularize-new-sdlc-area .how-it-work-inner .custom-row {
     display: flex;
     flex-direction: column;
   }
@@ -10270,7 +10271,6 @@ h4 {
   height: 100%;
 }
 
-
 /* Services TechTools */
 
 .modularize-service-tools-area i {
@@ -10286,6 +10286,3 @@ h4 {
   justify-content: center;
   gap: 10px;
 }
-
-
-
