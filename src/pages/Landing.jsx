@@ -6,7 +6,7 @@ import Slider from "react-slick";
 export const scrolltoTop = () => {
   window.scrollTo({
     top: 0,
-    behavior: "instant",
+    behavior: "instant"
   });
 };
 
@@ -18,7 +18,7 @@ const Landing = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    arrows: false,
+    arrows: false
   };
 
   const serviceSettings = {
@@ -36,24 +36,24 @@ const Landing = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false,
-        },
+          dots: false
+        }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-        },
+          slidesToScroll: 2
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   const testimonialSettings = {
     dots: false,
@@ -70,8 +70,8 @@ const Landing = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: false,
-        },
+          dots: false
+        }
       },
       {
         breakpoint: 768,
@@ -79,31 +79,31 @@ const Landing = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: false,
-        },
+          dots: false
+        }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-        },
+          slidesToScroll: 2
+        }
       },
       {
         breakpoint: 540,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
+          slidesToScroll: 1
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   const ourValiableClients = {
@@ -121,24 +121,24 @@ const Landing = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false,
-        },
+          dots: false
+        }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-        },
+          slidesToScroll: 2
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   return (
@@ -976,7 +976,7 @@ const Landing = () => {
                   />
                 </div>
                 <div className="techno-content">
-                  <h4>Kubernates</h4>
+                  <h4>Kubernetes</h4>
                 </div>
               </div>
             </div>

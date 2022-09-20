@@ -19,24 +19,24 @@ const About = () => {
           slidesToShow: 1,
           slidesToScroll: 3,
           infinite: true,
-          dots: false,
-        },
+          dots: false
+        }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 2,
-        },
+          slidesToScroll: 2
+        }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <>
