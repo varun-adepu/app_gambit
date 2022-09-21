@@ -26,7 +26,7 @@ const Blog = () => {
           </div>
         </div>
       </section>
-      <section className="modularize-blog-page-area pt-120 pb-90">
+      <section className="modularize-blog-page-area pt-90 pb-90">
         <div className="container">
           <div class="row">
             <div class="col-lg-12">

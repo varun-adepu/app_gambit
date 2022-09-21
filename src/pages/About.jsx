@@ -19,24 +19,24 @@ const About = () => {
           slidesToShow: 1,
           slidesToScroll: 3,
           infinite: true,
-          dots: false
-        }
+          dots: false,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 2
-        }
+          slidesToScroll: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <>
@@ -70,7 +70,7 @@ const About = () => {
       <section className="modularize-company-about-area pt-70">
         <div className="container">
           <div className="row align-items-center">
-            <Fade left>
+            <Fade big>
               <div className="col-lg-6">
                 <div className="company-about-thumb">
                   <img src="assets/images/company-thumb-2.png" alt="" />
@@ -83,7 +83,7 @@ const About = () => {
                 </div>
               </div>
             </Fade>
-            <Fade right>
+            <Fade big>
               <div className="col-lg-6">
                 <div className="modularize-about-content">
                   <span>About Our Company</span>
@@ -313,7 +313,7 @@ const About = () => {
             </div>
           </div>
           <div className="row">
-            <Fade left>
+            <Fade big>
               <div className="col-lg-6 col-md-6 pb-20">
                 <div className="mission">
                   <div className="mission-icon pb-20">
@@ -341,7 +341,7 @@ const About = () => {
                 </div>
               </div>
             </Fade>
-            <Fade right>
+            <Fade big>
               <div className="col-lg-6 col-md-6">
                 <div className="mission">
                   <div className="mission-icon pb-20">
@@ -375,28 +375,7 @@ const About = () => {
 
       {/* Map  */}
 
-      {/* <section className="modularize-company-about-area pt-0 ">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="modularize-map">
-                <iframe
-                  title="map"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d465.1359181428402!2d72.776026!3d21.148922000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaac07e8d4b5bff36!2sSNS+Platina!5e0!3m2!1sen!2sus!4v1543994223146"
-                  width="600"
-                  height="450"
-                  style={{ border: "0" }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      <section className="modularize-about-get-in-touch pt-120 pb-115">
+      <section className="modularize-about-get-in-touch pb-115">
         <div className="container">
           <div className="row align-items-center mb-55">
             <div className="col-lg-6">

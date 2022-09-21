@@ -74,12 +74,14 @@ const Footer = () => {
                   <li onClick={scrolltoTop}>
                     <Link to="/about">About us</Link>
                   </li>
-
-                  <li onClick={scrolltoTop}>
-                    <Link to="/team">Meet our Team</Link>
-                  </li>
                   <li onClick={scrolltoTop}>
                     <Link to="/project">Our Projects</Link>
+                  </li>
+                  <li onClick={scrolltoTop}>
+                    <Link to="/blog">Blog</Link>
+                  </li>
+                  <li onClick={scrolltoTop}>
+                    <Link to="/career">Career</Link>
                   </li>
                   <li onClick={scrolltoTop}>
                     <Link to="/contact">Contact us</Link>
@@ -109,7 +111,7 @@ const Footer = () => {
               <div className="footer-info">
                 <h4 className="title">Contact</h4>
                 <ul>
-                  <li>
+                  {/* <li>
                     <i class="fa-solid fa-phone"></i>
                     <span>
                       <a href="tel:+919925200545">( + 91 ) 99252 00545</a>
@@ -120,7 +122,7 @@ const Footer = () => {
                     <span>
                       <a href="tel:+919925200545">( + 91 ) 99041 57241</a>
                     </span>
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fas fa-envelope"></i>
                     <span>

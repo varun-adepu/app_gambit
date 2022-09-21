@@ -32,7 +32,7 @@ const Project = () => {
 
       {/* Projects Card  */}
 
-      <section className="modularize-projects-grid-area pt-120 pb-90">
+      <section className="modularize-projects-grid-area pt-90 pb-90">
         <div className="container">
           <div class="row">
             <div class="col-lg-12">

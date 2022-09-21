@@ -90,58 +90,54 @@ const Services = () => {
             </div>
           </div>
           <div className="row">
-            <div
-              className="col-lg-6 animated wow fadeInLeft "
-              data-wow-duration="1500ms"
-              data-wow-delay="0ms"
-            >
-              <div className="about-thumb-4 pr-50">
-                <img src="assets/images/cloud-computing.jpg" alt="" />
+            <Fade big>
+              <div className="col-lg-6">
+                <div className="about-thumb-4 pr-50">
+                  <img src="assets/images/cloud-computing.jpg" alt="" />
+                </div>
               </div>
-            </div>
-            <div
-              className="col-lg-6 animated wow fadeInUp"
-              data-wow-duration="1500ms"
-              data-wow-delay="300ms"
-            >
-              <div className="about-thumb-content">
-                <div className="section-title">
-                  <span>We Do More For Your Business</span>
-                  <h3>Cloud Consulting </h3>
+            </Fade>
+            <Fade big>
+              <div className="col-lg-6">
+                <div className="about-thumb-content">
+                  <div className="section-title">
+                    <span>We Do More For Your Business</span>
+                    <h3>Cloud Consulting </h3>
+                  </div>
+                  <div className="about-sub-item mt-25">
+                    <div className="number">
+                      {/* <span>01</span> */}
+                      <i class="fa-solid fa-circle"></i>
+                    </div>
+                    <div className="content">
+                      <p>
+                        We have years of experience working around Cloud
+                        Technologies.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="about-sub-item mt-25">
+                    <div className="number">
+                      <i class="fa-solid fa-circle"></i>
+                    </div>
+                    <div className="content">
+                      <p>
+                        Our core skills include Evaluation, Migration,
+                        Docker/Kubernetes, Serverless, DevOps, and
+                        Well-Architected Cloud Environment.
+                      </p>
+                    </div>
+                  </div>
+                  <Link
+                    onClick={scrolltoTop}
+                    className="main-btn mt-55"
+                    to="/services/cloud-consultant"
+                  >
+                    Learn More
+                  </Link>
                 </div>
-                <div className="about-sub-item mt-25">
-                  <div className="number">
-                    {/* <span>01</span> */}
-                    <i class="fa-solid fa-circle"></i>
-                  </div>
-                  <div className="content">
-                    <p>
-                      We have years of experience working around Cloud
-                      Technologies.
-                    </p>
-                  </div>
-                </div>
-                <div className="about-sub-item mt-25">
-                  <div className="number">
-                    <i class="fa-solid fa-circle"></i>
-                  </div>
-                  <div className="content">
-                    <p>
-                      Our core skills include Evaluation, Migration,
-                      Docker/Kubernetes, Serverless, DevOps, and
-                      Well-Architected Cloud Environment.
-                    </p>
-                  </div>
-                </div>
-                <Link
-                  onClick={scrolltoTop}
-                  className="main-btn mt-55"
-                  to="/services/cloud-consultant"
-                >
-                  Learn More
-                </Link>
               </div>
-            </div>
+            </Fade>
           </div>
         </div>
       </section>
@@ -151,7 +147,7 @@ const Services = () => {
       <section className="modularize-about-5-area">
         <div className="container">
           <div className="row">
-            <Fade up>
+            <Fade big>
               <div className="col-lg-6">
                 <div className="about-thumb-content pr-50">
                   <div className="section-title">
@@ -190,12 +186,8 @@ const Services = () => {
               </div>
             </Fade>
 
-            <Fade right>
-              <div
-                className="col-lg-6 animated wow fadeInLeft"
-                data-wow-duration="1500ms"
-                data-wow-delay="0ms"
-              >
+            <Fade big>
+              <div className="col-lg-6">
                 <div className="about-thumb-4">
                   <img
                     style={{
@@ -216,14 +208,14 @@ const Services = () => {
       <section className="modularize-about-6-area pt-120">
         <div className="container">
           <div className="row">
-            <Fade left>
+            <Fade big>
               <div className="col-lg-6">
                 <div className="about-thumb-4 pr-50">
                   <img src="assets/images/mobile-development.jpg" alt="" />
                 </div>
               </div>
             </Fade>
-            <Fade up>
+            <Fade big>
               <div className="col-lg-6">
                 <div className="about-thumb-content">
                   <div className="section-title">
@@ -269,11 +261,7 @@ const Services = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div
-                className="technology-box animated wow fadeIn"
-                data-wow-duration="1500ms"
-                data-wow-delay="0ms"
-              >
+              <div className="technology-box">
                 <div className="row align-items-center">
                   <div className="col-lg-4">
                     <div className="section-title">

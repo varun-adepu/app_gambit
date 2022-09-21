@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import HeaderLogo from "../../src/assets/img/logo-white.png";
 
 const Header = () => {
-  const [isToggal, setIsToggal] = useState(false);
+  const [isToggal, setIsToggal] = useState();
 
   const scrolltoTop = () => {
     window.scrollTo({
@@ -11,6 +11,7 @@ const Header = () => {
       behavior: "instant",
     });
   };
+
   return (
     <>
       {isToggal && (
@@ -59,43 +60,68 @@ const Header = () => {
                   <div id="menu" className="text-left ">
                     <ul className="offcanvas_main_menu">
                       <li className="menu-item-has-children active">
-                        <Link onClick={() => setIsToggal(false)} to="/">
+                        <Link
+                          onClick={() => {
+                            setIsToggal(false);
+                            scrolltoTop();
+                          }}
+                          to="/"
+                        >
                           Home
                         </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link onClick={() => setIsToggal(false)} to="about">
+                        <Link
+                          onClick={() => {
+                            setIsToggal(false);
+                            scrolltoTop();
+                          }}
+                          to="about"
+                        >
                           About
                         </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link onClick={() => setIsToggal(false)} to="services">
+                        <Link
+                          onClick={() => {
+                            setIsToggal(false);
+                            scrolltoTop();
+                          }}
+                          to="services"
+                        >
                           Services
                         </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link onClick={() => setIsToggal(false)} to="project">
-                          Projects
-                        </Link>
-                      </li>
-                      <li className="menu-item-has-children active">
-                        <Link onClick={() => setIsToggal(false)} to="team">
-                          Our Team
-                        </Link>
-                      </li>
-
-                      <li className="menu-item-has-children active">
-                        <Link onClick={() => setIsToggal(false)} to="blog">
+                        <Link
+                          onClick={() => {
+                            setIsToggal(false);
+                            scrolltoTop();
+                          }}
+                          to="blog"
+                        >
                           Blog
                         </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link onClick={() => setIsToggal(false)} to="career">
+                        <Link
+                          onClick={() => {
+                            setIsToggal(false);
+                            scrolltoTop();
+                          }}
+                          to="career"
+                        >
                           Career
                         </Link>
                       </li>
                       <li className="menu-item-has-children active">
-                        <Link onClick={() => setIsToggal(false)} to="contact">
+                        <Link
+                          onClick={() => {
+                            setIsToggal(false);
+                            scrolltoTop();
+                          }}
+                          to="contact"
+                        >
                           Contact
                         </Link>
                       </li>
@@ -176,32 +202,6 @@ const Header = () => {
                       Services
                     </NavLink>
                   </li>
-                  <li onClick={scrolltoTop}>
-                    <NavLink
-                      to="project"
-                      className={({ isActive }) =>
-                        isActive ? "header-nav-after" : ""
-                      }
-                      style={({ isActive }) => ({
-                        color: isActive ? "#343434" : "#6c6a72",
-                      })}
-                    >
-                      Projects
-                    </NavLink>
-                  </li>
-                  <li onClick={scrolltoTop}>
-                    <NavLink
-                      style={({ isActive }) => ({
-                        color: isActive ? "#343434" : "#6c6a72",
-                      })}
-                      to="team"
-                      className={({ isActive }) =>
-                        isActive ? "header-nav-after" : ""
-                      }
-                    >
-                      Our Team
-                    </NavLink>
-                  </li>
 
                   <li
                     onClick={scrolltoTop}
@@ -254,7 +254,7 @@ const Header = () => {
                       <Link
                         className="toggle-bar canvas_open"
                         to="#"
-                        onClick={() => setIsToggal(true)}
+                        onClick={() => setIsToggal(!isToggal)}
                       >
                         <i class="fa-solid fa-bars"></i>
                       </Link>
@@ -264,12 +264,11 @@ const Header = () => {
                 <div className="header-main-info-contact">
                   <div className="icon">
                     {/* <img src="assets/images/icon/phone.svg" alt="" /> */}
-                    <i className="fa-solid fa-phone"></i>
+                    <i class="fa-solid fa-envelope"></i>
                   </div>
                   <div className="content">
-                    <span>Call Anytime</span>
-                    <a href="tel:+919925200545">( +91 ) 99252 00545</a>
-                    <a href="tel:+919925200545">( +91 ) 99041 57241</a>
+                    <span>Connect With Us</span>
+                    <a href="mailto:hello@appgambit.com">hello@appgambit.com</a>
                   </div>
                 </div>
               </div>

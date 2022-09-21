@@ -6,7 +6,7 @@ import Slider from "react-slick";
 export const scrolltoTop = () => {
   window.scrollTo({
     top: 0,
-    behavior: "instant"
+    behavior: "instant",
   });
 };
 
@@ -18,7 +18,7 @@ const Landing = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    arrows: false
+    arrows: false,
   };
 
   const serviceSettings = {
@@ -36,24 +36,24 @@ const Landing = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false
-        }
+          dots: false,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
-        }
+          slidesToScroll: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   const testimonialSettings = {
     dots: false,
@@ -70,8 +70,17 @@ const Landing = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: false
-        }
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 860,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
       },
       {
         breakpoint: 768,
@@ -79,38 +88,38 @@ const Landing = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: false
-        }
+          dots: false,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
-        }
+          slidesToScroll: 2,
+        },
       },
       {
         breakpoint: 540,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const ourValiableClients = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
@@ -121,24 +130,24 @@ const Landing = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: false
-        }
+          dots: false,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
-        }
+          slidesToScroll: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -151,35 +160,18 @@ const Landing = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="modularize-banner-content">
-                    <h4
-                      className="title"
-                      data-animation="fadeInDown"
-                      data-delay=".1s"
-                    >
-                      Experience the best IT Solutions
-                    </h4>
-                    <h1
-                      className=""
-                      data-animation="fadeInLeft"
-                      data-delay=".3s"
-                    >
+                    <h4 className="title">Experience the best IT Solutions</h4>
+                    <h1 className="">
                       IT Solutions{" "}
                       {/* <img src="assets/images/banner-icon.png" alt="" /> {" "} */}{" "}
                       & <br />
                       Services
                     </h1>
-                    <Link
-                      className="main-btn"
-                      data-animation="fadeInUp"
-                      data-delay=".6s"
-                      to="/about"
-                    >
+                    <Link className="main-btn" to="/about">
                       Learn More
                     </Link>
                     <img
                       className="banner-arrow"
-                      data-animation="fadeInRight"
-                      data-delay=".9s"
                       src="assets/images/banner-arrow.png"
                       alt=""
                     />
@@ -193,35 +185,18 @@ const Landing = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="modularize-banner-content">
-                    <h4
-                      className="title"
-                      data-animation="fadeInDown"
-                      data-delay=".1s"
-                    >
-                      Experience the best IT Solutions
-                    </h4>
-                    <h1
-                      className=""
-                      data-animation="fadeInLeft"
-                      data-delay=".3s"
-                    >
+                    <h4 className="title">Experience the best IT Solutions</h4>
+                    <h1 className="">
                       IT Solutions{" "}
                       {/* <img src="assets/images/banner-icon.png" alt="" /> <br />{" "} */}
                       & <br />
                       Services
                     </h1>
-                    <Link
-                      className="main-btn"
-                      data-animation="fadeInUp"
-                      data-delay=".6s"
-                      to="/contact"
-                    >
+                    <Link className="main-btn" to="/contact">
                       Learn More
                     </Link>
                     <img
                       className="banner-arrow"
-                      data-animation="fadeInRight"
-                      data-delay=".9s"
                       src="assets/images/banner-arrow.png"
                       alt=""
                     />
@@ -236,7 +211,7 @@ const Landing = () => {
       <section className="modularize-about-area">
         <div className="container">
           <div className="row">
-            <Fade left>
+            <Fade big>
               <div className="col-lg-6">
                 <div
                   className="modularize-about-thumb"
@@ -257,7 +232,7 @@ const Landing = () => {
                 </div>
               </div>
             </Fade>
-            <Fade right>
+            <Fade big>
               <div className="col-lg-6">
                 <div className="modularize-about-content">
                   <span>About Our Company</span>
@@ -303,7 +278,7 @@ const Landing = () => {
       <section className="modularize-service-area">
         <div className="container">
           <div className="row">
-            <Fade left>
+            <Fade big>
               <div className="col-lg-4 col-md-6">
                 <div
                   className="single-modularize-serice-item animated wow fadeInUp"
@@ -326,13 +301,9 @@ const Landing = () => {
                 </div>
               </div>
             </Fade>
-            <Fade up>
+            <Fade big>
               <div className="col-lg-4 col-md-6">
-                <div
-                  className="single-modularize-serice-item animated wow fadeInUp"
-                  data-wow-duration="1000ms"
-                  data-wow-delay="300ms"
-                >
+                <div className="single-modularize-serice-item">
                   <div className="thumb">
                     <img src="assets/images/service-2.jpg" alt="" />
                   </div>
@@ -349,13 +320,9 @@ const Landing = () => {
                 </div>
               </div>
             </Fade>
-            <Fade right>
+            <Fade big>
               <div className="col-lg-4 col-md-6">
-                <div
-                  className="single-modularize-serice-item animated wow fadeInUp"
-                  data-wow-duration="1000ms"
-                  data-wow-delay="600ms"
-                >
+                <div className="single-modularize-serice-item">
                   <div className="thumb">
                     <img src="assets/images/service-3.jpg" alt="" />
                   </div>
@@ -676,11 +643,7 @@ const Landing = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div
-                className="modularize-cta-box animated wow fadeIn"
-                data-wow-duration="1000ms"
-                data-wow-delay="300ms"
-              >
+              <div className="modularize-cta-box">
                 <div className="row">
                   <div className="col-lg-3">
                     <div className="cta-thumb">
@@ -814,13 +777,23 @@ const Landing = () => {
                 </div>
               </div>
             </Slider>
+            <div className="col-lg-12 text-center pt-30">
+              <Link
+                style={{ border: "1px solid #000" }}
+                onClick={scrolltoTop}
+                to="/project"
+                className="main-btn"
+              >
+                View More
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Technologies */}
 
-      <section className="modularize-technologies-area mb-90">
+      <section className="modularize-technologies-area">
         <div className="container">
           <div className="row align-items-center mb-55">
             <div className="col-lg-6">
@@ -1162,29 +1135,25 @@ const Landing = () => {
                     <img src="assets/images/clients/coorworks.png" alt="" />
                   </div>
                 </div>
-                <div className="col-lg-3">
-                  <div className="modularize-sponser-item">
-                    <img src="assets/images/clients/mastermind.png" alt="" />
-                  </div>
-                </div>
-                <div className="col-lg-3">
-                  <div className="modularize-sponser-item">
-                    <img src="assets/images/clients/moneyapp.png" alt="" />
-                  </div>
-                </div>
-                <div className="col-lg-3">
-                  <div className="modularize-sponser-item">
-                    <img src="assets/images/clients/promenta.png" alt="" />
-                  </div>
-                </div>
+
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
                     <img src="assets/images/clients/skycreek.png" alt="" />
                   </div>
                 </div>
+
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/clients/swasth.png" alt="" />
+                    <img src="assets/images/clients/Vizabli.png" alt="" />
+                  </div>
+                </div>
+
+                <div className="col-lg-3">
+                  <div className="modularize-sponser-item">
+                    <img
+                      src="assets/images/clients/Scale_Capacity.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </Slider>
@@ -1704,7 +1673,7 @@ const Landing = () => {
 
       {/* Blogs  */}
 
-      <section className="modularize-blog-area pt-80 pb-115">
+      <section className="modularize-blog-area pb-115">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -1968,7 +1937,7 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="modularize-valuable-partners pt-115">
+      {/* <section className="modularize-valuable-partners pt-115">
         <div className="modularize-sponser-area modularize-sponser-about-area">
           <div className="container">
             <div className="row">
@@ -2023,7 +1992,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

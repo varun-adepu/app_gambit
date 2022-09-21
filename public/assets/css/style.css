@@ -294,6 +294,11 @@ p {
 @media (max-width: 767px) {
   .modularize-header-area .header-wrapper {
     display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
   }
   .modularize-header-area .templates-logo img {
     margin: 10px 0 0 53px;
@@ -314,6 +319,11 @@ p {
     display: flex;
     align-items: center;
   }
+}
+
+.header-main-nav-box {
+  text-align: center;
+  width: 100%;
 }
 
 /* header border bottom  */
@@ -830,6 +840,11 @@ p {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-main-info .header-mini-btn .toggle-bar {
     display: inline-block;
+  }
+  .header-main-info .header-mini-btn .toggle-bar i{ 
+    font-size: 30px;
+    margin-right: 50px;
+
   }
 }
 @media (max-width: 767px) {
@@ -1407,6 +1422,7 @@ p {
       top: 0;
     }
   }
+
   .header-main-nav-layout-2.header-sticky.sticky {
     background: #1d1729;
   }
@@ -2867,7 +2883,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 120px;
+  padding-top: 90px;
   padding-bottom: 120px;
 }
 
@@ -3430,7 +3446,7 @@ p {
 }
 @media (max-width: 767px) {
   .modularize-feature-area {
-    padding-top: 80px;
+    padding-top: 10px;
     padding-bottom: 80px;
   }
 }
@@ -3496,7 +3512,7 @@ p {
 }
 .single-modularize-feature-item:hover .icon {
   background: #000;
-  box-shadow: 0px -1px 20px #6c6a72;
+  box-shadow:0px -1px 40px rgb(187 187 187 / 30%)
 }
 .single-modularize-feature-item:hover .icon svg path {
   fill: #fff;
@@ -3755,7 +3771,7 @@ p {
 ===========================*/
 .modularize-project-area {
   /* border-bottom: 1px solid #e4e0ee; */
-  padding-bottom: 70px;
+  padding-bottom: 120px;
   /* margin-bottom: 80px; */
   overflow: hidden;
 }
@@ -5685,14 +5701,20 @@ single-tema-item .content .share-icon > a {
 /*===========================
     12.BLOG css 
 ===========================*/
+.modularize-blog-area {
+  padding-top: 120px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .modularize-blog-area {
     padding-bottom: 80px;
+    padding-top: 80px;
   }
 }
 @media (max-width: 767px) {
   .modularize-blog-area {
     padding-bottom: 80px;
+    padding-top: 80px;
   }
 }
 .modularize-blog-area.modularize-blog-area-3 {
@@ -7895,18 +7917,17 @@ single-tema-item .content .share-icon > a {
 
 .modularize-company-about-area {
   padding-top: 120px;
-  padding-bottom: 130px;
+  padding-bottom: 120px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .modularize-company-about-area {
     padding-top: 80px;
-    padding-bottom: 90px;
   }
 }
 @media (max-width: 767px) {
   .modularize-company-about-area {
     padding-top: 80px;
-    padding-bottom: 90px;
+    padding-bottom: 0;
   }
 }
 .modularize-company-about-area .company-about-thumb {
@@ -8082,6 +8103,7 @@ single-tema-item .content .share-icon > a {
   }
   .modularize-technology-area {
     padding: 10px 0;
+    margin-bottom: 90px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -9559,7 +9581,7 @@ h4 {
 /* Technology */
 
 .modularize-technologies-area {
-  padding: 100px;
+  padding: 115px;
   background-color: #131212;
 }
 
@@ -9611,6 +9633,15 @@ h4 {
 }
 
 /* certifications */
+
+.modularize-certifications-area {
+  padding-top: 120px;
+}
+@media (max-width: 767px) {
+  .modularize-certifications-area {
+    padding-top: 90px;
+  }
+}
 
 .modularize-certifications-area
   .certifications-justify-center
@@ -9810,7 +9841,7 @@ h4 {
 
 .modularize-get-in-touch-area {
   background-image: url("../../assets/images/sdlc-black-bg.jpg");
-  padding: 80px;
+  padding: 115px;
 }
 
 @media (max-width: 767px) {
@@ -10110,7 +10141,6 @@ h4 {
   }
   .modularize-servicesDetail-1 .services-image-style img {
     width: 40%;
-
   }
 }
 
@@ -10293,4 +10323,13 @@ h4 {
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+.modularize-about-get-in-touch {
+  padding-top: 120px;
+}
+@media (max-width: 767px) {
+  .modularize-about-get-in-touch {
+    padding-top: 90px;
+  }
 }
