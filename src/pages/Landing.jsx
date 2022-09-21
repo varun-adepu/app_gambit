@@ -280,11 +280,7 @@ const Landing = () => {
           <div className="row">
             <Fade big>
               <div className="col-lg-4 col-md-6">
-                <div
-                  className="single-modularize-serice-item animated wow fadeInUp"
-                  data-wow-duration="1000ms"
-                  data-wow-delay="0ms"
-                >
+                <div className="single-modularize-serice-item">
                   <div className="thumb">
                     <img src="assets/images/service-1.jpg" alt="" />
                   </div>
@@ -1513,7 +1509,7 @@ const Landing = () => {
               <div className="col custom-col">
                 <div className="single-work-inner style-three text-center">
                   <div className="count-inner">
-                    <i class="fa-solid fa-diagram-project"></i>
+                    <i className="fa-solid fa-diagram-project"></i>
                   </div>
                   <div className="details-wrap">
                     <div className="details-inner">
@@ -1526,7 +1522,7 @@ const Landing = () => {
               <div className="col custom-col">
                 <div className="single-work-inner style-three text-center">
                   <div className="count-inner">
-                    <i class="fa-solid fa-diagram-project"></i>
+                    <i className="fa-solid fa-diagram-project"></i>
                   </div>
                   <div className="details-wrap">
                     <div className="details-inner">
@@ -1539,7 +1535,7 @@ const Landing = () => {
               <div className="col custom-col">
                 <div className="single-work-inner style-three text-center">
                   <div className="count-inner">
-                    <i class="fa-solid fa-diagram-project"></i>
+                    <i className="fa-solid fa-diagram-project"></i>
                   </div>
                   <div className="details-wrap">
                     <div className="details-inner">
@@ -1552,7 +1548,7 @@ const Landing = () => {
               <div className="col custom-col">
                 <div className="single-work-inner style-three text-center">
                   <div className="count-inner">
-                    <i class="fa-solid fa-diagram-project"></i>
+                    <i className="fa-solid fa-diagram-project"></i>
                   </div>
                   <div className="details-wrap">
                     <div className="details-inner">
@@ -1698,7 +1694,7 @@ const Landing = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
+                        <i className="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
@@ -1736,7 +1732,8 @@ const Landing = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i class="fa-sharp fa-solid fa-user"></i> Dhaval Nagar
+                        <i className="fa-sharp fa-solid fa-user"></i> Dhaval
+                        Nagar
                       </li>
                       <li>
                         <i className="fa-regular fa-calendar-days"></i> 18 Dec
@@ -1773,7 +1770,7 @@ const Landing = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
+                        <i className="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>
