@@ -34,9 +34,9 @@ const Project = () => {
 
       <section className="modularize-projects-grid-area pt-90 pb-90">
         <div className="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="section-title text-center mb-55">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section-title text-center mb-55">
                 <span style={{ fontSize: "32px", fontWeight: "700" }}>
                   Our Projects
                 </span>

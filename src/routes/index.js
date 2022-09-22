@@ -13,6 +13,7 @@ import CareerDetail from "../pages/CareerDetail";
 import ServiceDetails1 from "../pages/ServiceDetails1";
 import ProjectDetail1 from "../pages/ProjectDetail1";
 import ProjectDetail2 from "../pages/ProjectDetail2";
+import PageNotFound from "../pages/PageNotFound";
 
 const AppRoutes = () => {
   return (
@@ -24,14 +25,15 @@ const AppRoutes = () => {
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/career" element={<Career />} />
-        <Route path="/career/career-detail/:id" element={<CareerDetail />} />
+        <Route path="/careers" element={<Career />} />
+        <Route path="/careers/career-detail/:id" element={<CareerDetail />} />
         <Route
           path="/services/cloud-consultant"
           element={<ServiceDetails1 />}
         />
         <Route path="/project/balance-it" element={<ProjectDetail1 />} />
         <Route path="/project/star-oil" element={<ProjectDetail2 />} />
+        <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>
   );

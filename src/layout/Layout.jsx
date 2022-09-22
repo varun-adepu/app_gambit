@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <main>
+      <main id="overlay-body">
         <Outlet />
       </main>
       <Footer />

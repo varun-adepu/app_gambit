@@ -96,18 +96,19 @@ const About = () => {
                   </p>
                   <ul>
                     <li>
-                      <i class="fa-solid fa-check"></i> Best quality support
+                      <i className="fa-solid fa-check"></i> Best quality support
                     </li>
                     <li>
-                      <i class="fa-solid fa-check"></i> Serve the best
+                      <i className="fa-solid fa-check"></i> Serve the best
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <i class="fa-solid fa-check"></i> Money back guarantee
+                      <i className="fa-solid fa-check"></i> Money back guarantee
                     </li>
                     <li>
-                      <i class="fa-solid fa-check"></i> Trusted Professionals
+                      <i className="fa-solid fa-check"></i> Trusted
+                      Professionals
                     </li>
                   </ul>
                   {/* <Link to="#" className="main-btn">
@@ -318,23 +319,25 @@ const About = () => {
                 <div className="mission">
                   <div className="mission-icon pb-20">
                     <span>Our Mission</span>
-                    <i class="fa-solid fa-bullseye"></i>
+                    <i className="fa-solid fa-bullseye"></i>
                   </div>
                   <div className="mission-details">
                     <ul>
                       <li>
-                        <i class="fa-solid fa-check"></i> Best quality support
+                        <i className="fa-solid fa-check"></i> Best quality
+                        support
                       </li>
                       <li>
-                        <i class="fa-solid fa-check"></i> Serve the best
+                        <i className="fa-solid fa-check"></i> Serve the best
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <i class="fa-solid fa-check"></i> Client happiness
+                        <i className="fa-solid fa-check"></i> Client happiness
                       </li>
                       <li>
-                        <i class="fa-solid fa-check"></i> World-class service
+                        <i className="fa-solid fa-check"></i> World-class
+                        service
                       </li>
                     </ul>
                   </div>
@@ -346,23 +349,25 @@ const About = () => {
                 <div className="mission">
                   <div className="mission-icon pb-20">
                     <span>Our Vision</span>
-                    <i class="fa-solid fa-crosshairs"></i>
+                    <i className="fa-solid fa-crosshairs"></i>
                   </div>
                   <div className="mission-details">
                     <ul>
                       <li>
-                        <i class="fa-solid fa-check"></i> Best quality support
+                        <i className="fa-solid fa-check"></i> Best quality
+                        support
                       </li>
                       <li>
-                        <i class="fa-solid fa-check"></i> Serve the best
+                        <i className="fa-solid fa-check"></i> Serve the best
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <i class="fa-solid fa-check"></i> Client happiness
+                        <i className="fa-solid fa-check"></i> Client happiness
                       </li>
                       <li>
-                        <i class="fa-solid fa-check"></i> World-class service
+                        <i className="fa-solid fa-check"></i> World-class
+                        service
                       </li>
                     </ul>
                   </div>

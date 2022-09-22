@@ -19,7 +19,7 @@ const Career = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcrumb-item">
-                <h2 className="title">Career</h2>
+                <h2 className="title">Careers</h2>
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
@@ -27,7 +27,7 @@ const Career = () => {
                     </li>
                     <li className="breadcrumb-item active">/</li>
                     <li className="breadcrumb-item active" aria-current="page">
-                      Career
+                      Careers
                     </li>
                   </ol>
                 </nav>
@@ -170,7 +170,7 @@ const Career = () => {
                       <div>{i.jobTitle}</div>
                       <div>{i.Experience}</div>
                       <div className="modularize-job-location">
-                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <i className="fa-sharp fa-solid fa-location-dot"></i>
                         <p>{i.jobLocation}</p>
                       </div>
                       <div className="modularize-job-timing">
@@ -184,7 +184,7 @@ const Career = () => {
                           {" "}
                           Apply Here
                         </Link>
-                        <i class="fa-solid fa-arrow-right"></i>
+                        <i className="fa-solid fa-arrow-right"></i>
                       </div>
                     </div>
                   </div>

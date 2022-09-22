@@ -12,6 +12,12 @@ const Header = () => {
     });
   };
 
+  let overlay = document.getElementById("overlay-body");
+  overlay &&
+    overlay.addEventListener("click", () => {
+      setIsToggal(false);
+    });
+
   return (
     <>
       {isToggal && (
@@ -42,7 +48,7 @@ const Header = () => {
                           target="_blank"
                           href="https://medium.com/appgambit"
                         >
-                          <i class="fab fa-medium-m"></i>
+                          <i className="fab fa-medium-m"></i>
                         </a>
                       </li>
                       <li>
@@ -109,9 +115,9 @@ const Header = () => {
                             setIsToggal(false);
                             scrolltoTop();
                           }}
-                          to="career"
+                          to="careers"
                         >
-                          Career
+                          Careers
                         </Link>
                       </li>
                       <li className="menu-item-has-children active">
@@ -130,7 +136,8 @@ const Header = () => {
                   <div className="offcanvas_footer">
                     <span>
                       <a href="mailto:hello@appgambit.com">
-                        <i className="fa fa-envelope-o"></i> hello@appgambit.com
+                        <i className="fa-solid fa-envelope"></i>{" "}
+                        hello@appgambit.com
                       </a>
                     </span>
                   </div>
@@ -221,7 +228,7 @@ const Header = () => {
                   </li>
                   <li onClick={scrolltoTop}>
                     <NavLink
-                      to="career"
+                      to="careers"
                       style={({ isActive }) => ({
                         color: isActive ? "#343434" : "#6c6a72",
                       })}
@@ -229,7 +236,7 @@ const Header = () => {
                         isActive ? "header-nav-after" : ""
                       }
                     >
-                      Career
+                      Careers
                     </NavLink>
                   </li>
                   <li onClick={scrolltoTop}>
@@ -256,7 +263,7 @@ const Header = () => {
                         to="#"
                         onClick={() => setIsToggal(!isToggal)}
                       >
-                        <i class="fa-solid fa-bars"></i>
+                        <i className="fa-solid fa-bars"></i>
                       </Link>
                     </li>
                   </ul>
@@ -264,7 +271,7 @@ const Header = () => {
                 <div className="header-main-info-contact">
                   <div className="icon">
                     {/* <img src="assets/images/icon/phone.svg" alt="" /> */}
-                    <i class="fa-solid fa-envelope"></i>
+                    <i className="fa-solid fa-envelope"></i>
                   </div>
                   <div className="content">
                     <span>Connect With Us</span>

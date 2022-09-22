@@ -107,7 +107,7 @@ const Services = () => {
                   <div className="about-sub-item mt-25">
                     <div className="number">
                       {/* <span>01</span> */}
-                      <i class="fa-solid fa-circle"></i>
+                      <i className="fa-solid fa-circle"></i>
                     </div>
                     <div className="content">
                       <p>
@@ -118,7 +118,7 @@ const Services = () => {
                   </div>
                   <div className="about-sub-item mt-25">
                     <div className="number">
-                      <i class="fa-solid fa-circle"></i>
+                      <i className="fa-solid fa-circle"></i>
                     </div>
                     <div className="content">
                       <p>
@@ -158,7 +158,7 @@ const Services = () => {
                     <div className="number">
                       <i
                         style={{ color: "#fff", fontSize: "11px" }}
-                        class="fa-solid fa-circle"
+                        className="fa-solid fa-circle"
                       ></i>
                     </div>
                     <div className="content">
@@ -169,7 +169,7 @@ const Services = () => {
                     <div className="number">
                       <i
                         style={{ color: "#fff", fontSize: "11px" }}
-                        class="fa-solid fa-circle"
+                        className="fa-solid fa-circle"
                       ></i>
                     </div>
                     <div className="content">
@@ -224,7 +224,7 @@ const Services = () => {
                   </div>
                   <div className="about-sub-item mt-25">
                     <div className="number">
-                      <i class="fa-solid fa-circle"></i>
+                      <i className="fa-solid fa-circle"></i>
                     </div>
                     <div className="content">
                       <p>
@@ -235,7 +235,7 @@ const Services = () => {
                   </div>
                   <div className="about-sub-item mt-25">
                     <div className="number">
-                      <i class="fa-solid fa-circle"></i>
+                      <i className="fa-solid fa-circle"></i>
                     </div>
                     <div className="content">
                       <p>

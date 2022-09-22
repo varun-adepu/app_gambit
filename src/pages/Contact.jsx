@@ -55,7 +55,7 @@ const Contact = () => {
                 <div className="item">
                   <div className="icon">
                     {/* <img src="assets/images/icon/mail-icon.png" alt="" /> */}
-                    <i class="fa-solid fa-envelope"></i>
+                    <i className="fa-solid fa-envelope"></i>
                   </div>
                   <div className="content">
                     <span>Send Email</span>
@@ -69,7 +69,7 @@ const Contact = () => {
                 <div className="item">
                   <div className="icon">
                     {/* <img src="assets/images/icon/map-icon.png" alt="" /> */}
-                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <i className="fa-sharp fa-solid fa-location-dot"></i>
                   </div>
                   <div className="content">
                     <span>Visit Now</span>

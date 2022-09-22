@@ -50,7 +50,7 @@ const Footer = () => {
                       target="_blank"
                       href="https://medium.com/appgambit"
                     >
-                      <i class="fab fa-medium-m"></i>
+                      <i className="fab fa-medium-m"></i>
                     </a>
                   </li>
 
@@ -81,7 +81,7 @@ const Footer = () => {
                     <Link to="/blog">Blog</Link>
                   </li>
                   <li onClick={scrolltoTop}>
-                    <Link to="/career">Career</Link>
+                    <Link to="/careers">Careers</Link>
                   </li>
                   <li onClick={scrolltoTop}>
                     <Link to="/contact">Contact us</Link>
@@ -112,13 +112,13 @@ const Footer = () => {
                 <h4 className="title">Contact</h4>
                 <ul>
                   {/* <li>
-                    <i class="fa-solid fa-phone"></i>
+                    <i className="fa-solid fa-phone"></i>
                     <span>
                       <a href="tel:+919925200545">( + 91 ) 99252 00545</a>
                     </span>
                   </li>
                   <li>
-                    <i class="fa-solid fa-phone"></i>
+                    <i className="fa-solid fa-phone"></i>
                     <span>
                       <a href="tel:+919925200545">( + 91 ) 99041 57241</a>
                     </span>

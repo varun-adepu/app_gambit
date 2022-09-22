@@ -1128,28 +1128,52 @@ const Landing = () => {
               <Slider {...ourValiableClients}>
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/clients/coorworks.png" alt="" />
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://www.coorworks.com/"
+                    >
+                      <img src="assets/images/clients/coorworks.png" alt="" />
+                    </a>
                   </div>
                 </div>
 
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/clients/skycreek.png" alt="" />
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://www.skycreek.com/"
+                    >
+                      <img src="assets/images/clients/skycreek.png" alt="" />
+                    </a>
                   </div>
                 </div>
 
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img src="assets/images/clients/Vizabli.png" alt="" />
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://vizabli.com/"
+                    >
+                      <img src="assets/images/clients/Vizabli.png" alt="" />
+                    </a>
                   </div>
                 </div>
 
                 <div className="col-lg-3">
                   <div className="modularize-sponser-item">
-                    <img
-                      src="assets/images/clients/Scale_Capacity.png"
-                      alt=""
-                    />
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                      href="https://www.scalecapacity.com/"
+                    >
+                      <img
+                        src="assets/images/clients/Scale_Capacity.png"
+                        alt=""
+                      />
+                    </a>
                   </div>
                 </div>
               </Slider>
@@ -1561,7 +1585,7 @@ const Landing = () => {
               <div className="col custom-col">
                 <div className="single-work-inner style-three text-center">
                   <div className="count-inner">
-                    <i class="fa-solid fa-diagram-project"></i>
+                    <i className="fa-solid fa-diagram-project"></i>
                   </div>
                   <div className="details-wrap">
                     <div className="details-inner">
@@ -1683,7 +1707,11 @@ const Landing = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
-                  <a style={{ pointerEvents: "none" }} href="#">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://medium.com/appgambit/provisioning-a-jenkins-server-on-aws-with-terraform-bf04a6a6ef7f"
+                  >
                     <img
                       src="https://cdn-images-1.medium.com/max/1024/1*xGEzFVEESz1SfF-KSvSAjg.png"
                       alt=""
@@ -1721,7 +1749,11 @@ const Landing = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
-                  <a style={{ pointerEvents: "none" }} href="#">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://medium.com/appgambit/pay-per-use-can-derail-your-serverless-dream-budget-6884a8de0b75"
+                  >
                     <img
                       src="https://cdn-images-1.medium.com/max/1024/1*KZixg7VK_dF1b046QdDOHQ.jpeg"
                       alt=""
@@ -1759,7 +1791,11 @@ const Landing = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
-                  <a style={{ pointerEvents: "none" }} href="#">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://medium.com/appgambit/terraform-deploy-aws-inspector-a-cloud-based-vulnerability-assessment-tools-a4e2f5987e48"
+                  >
                     <img
                       src="https://cdn-images-1.medium.com/max/1024/1*q296DIiygo9qYYBeLJsJag.png"
                       alt=""
@@ -1798,7 +1834,11 @@ const Landing = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-blog-item">
                 <div className="thumb">
-                  <a style={{ pointerEvents: "none" }} href="#">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://medium.com/appgambit/aws-codepipeline-alexa-skill-deployment-pipeline-a77d1e6a8da5"
+                  >
                     <img
                       src="https://cdn-images-1.medium.com/max/1024/1*uYrJjNqPJ6uvGIuZds5W_w.png"
                       alt=""
@@ -1809,7 +1849,7 @@ const Landing = () => {
                   <div className="blog-meta">
                     <ul>
                       <li>
-                        <i class="fa-sharp fa-solid fa-user"></i> Prashant
+                        <i className="fa-sharp fa-solid fa-user"></i> Prashant
                         Bhatasana
                       </li>
                       <li>

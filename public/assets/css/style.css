@@ -10333,3 +10333,48 @@ h4 {
     padding-top: 90px;
   }
 }
+
+
+/* Page Not Found */
+
+.modularize-page-not-found-area {
+  padding-top: 120px;
+}
+
+.modularize-page-not-found-area .page-not-found-both {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.modularize-page-not-found-area .page-not-found-text {
+  text-align: center;
+}
+
+.modularize-page-not-found-area .page-not-found-text span {
+  padding-top: 30px;
+  font-size: 40px;
+  color: #000;
+  font-weight: 500;
+}
+
+.modularize-page-not-found-area .page-not-found-img img {
+  width: 100vh;
+  object-fit: cover;
+  z-index: -1000;
+}
+
+@media (max-width: 767px) {
+  .modularize-page-not-found-area {
+    padding-top:80px;
+  }
+  .modularize-page-not-found-area .page-not-found-img img {
+    padding-bottom: 0;
+  }
+
+  .modularize-page-not-found-area .page-not-found-text span {
+    font-size: 22px;
+    padding-top: 0;
+  }
+}
