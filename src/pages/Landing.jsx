@@ -2,6 +2,7 @@ import React from "react";
 import { Fade } from "react-reveal";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
+import { mDataBlogs, mediumData } from "../js/Medium";
 
 export const scrolltoTop = () => {
   window.scrollTo({
@@ -1704,175 +1705,44 @@ const Landing = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3 col-md-6">
-              <div className="single-blog-item">
-                <div className="thumb">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://medium.com/appgambit/provisioning-a-jenkins-server-on-aws-with-terraform-bf04a6a6ef7f"
-                  >
-                    <img
-                      src="https://cdn-images-1.medium.com/max/1024/1*xGEzFVEESz1SfF-KSvSAjg.png"
-                      alt=""
-                    />
-                  </a>
-                </div>
-                <div className="content">
-                  <div className="blog-meta">
-                    <ul>
-                      <li>
-                        <i className="fa-sharp fa-solid fa-user"></i> Prashant
-                        Bhatasana
-                      </li>
-                      <li>
-                        <i className="fa-regular fa-calendar-days"></i> 28 Jun
-                        2022
-                      </li>
-                    </ul>
-                    <h4 className="title">
-                      <a style={{ pointerEvents: "none" }} href="#">
-                        Provisioning a Jenkins Server on AWS With Terraform.
+            {mDataBlogs.map((i, idx) => {
+              if (idx > 3) return null;
+              const { id, imageSrc, author, publishDate, title, hrefRedirect } =
+                i;
+              return (
+                <div key={id} className="col-lg-3 col-md-6">
+                  <div className="single-blog-item">
+                    <div className="thumb">
+                      <a rel="noreferrer" target="_blank" href={hrefRedirect}>
+                        <img src={imageSrc} alt="" />
                       </a>
-                    </h4>
-                    <a
-                      rel="noreferrer"
-                      target="_blank"
-                      href="https://medium.com/appgambit/provisioning-a-jenkins-server-on-aws-with-terraform-bf04a6a6ef7f"
-                    >
-                      Read More
-                    </a>
+                    </div>
+                    <div className="content">
+                      <div className="blog-meta">
+                        <ul>
+                          <li>
+                            <i className="fa-sharp fa-solid fa-user"></i>{" "}
+                            {author}
+                          </li>
+                          <li>
+                            <i className="fa-regular fa-calendar-days"></i>{" "}
+                            {publishDate}
+                          </li>
+                        </ul>
+                        <h4 className="title">
+                          <a style={{ pointerEvents: "none" }} href="#">
+                            {title}
+                          </a>
+                        </h4>
+                        <a rel="noreferrer" target="_blank" href={hrefRedirect}>
+                          Read More
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="single-blog-item">
-                <div className="thumb">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://medium.com/appgambit/pay-per-use-can-derail-your-serverless-dream-budget-6884a8de0b75"
-                  >
-                    <img
-                      src="https://cdn-images-1.medium.com/max/1024/1*KZixg7VK_dF1b046QdDOHQ.jpeg"
-                      alt=""
-                    />
-                  </a>
-                </div>
-                <div className="content">
-                  <div className="blog-meta">
-                    <ul>
-                      <li>
-                        <i className="fa-sharp fa-solid fa-user"></i> Dhaval
-                        Nagar
-                      </li>
-                      <li>
-                        <i className="fa-regular fa-calendar-days"></i> 18 Dec
-                        2020
-                      </li>
-                    </ul>
-                    <h4 className="title">
-                      <a style={{ pointerEvents: "none" }} href="#">
-                        PAY per USE can derail your Serverless (dream) Budget
-                      </a>
-                    </h4>
-                    <a
-                      rel="noreferrer"
-                      target="_blank"
-                      href="https://medium.com/appgambit/pay-per-use-can-derail-your-serverless-dream-budget-6884a8de0b75"
-                    >
-                      Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="single-blog-item">
-                <div className="thumb">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://medium.com/appgambit/terraform-deploy-aws-inspector-a-cloud-based-vulnerability-assessment-tools-a4e2f5987e48"
-                  >
-                    <img
-                      src="https://cdn-images-1.medium.com/max/1024/1*q296DIiygo9qYYBeLJsJag.png"
-                      alt=""
-                    />
-                  </a>
-                </div>
-                <div className="content">
-                  <div className="blog-meta">
-                    <ul>
-                      <li>
-                        <i className="fa-sharp fa-solid fa-user"></i> Prashant
-                        Bhatasana
-                      </li>
-                      <li>
-                        <i className="fa-regular fa-calendar-days"></i> 01 Apr
-                        2021
-                      </li>
-                    </ul>
-                    <h4 className="title">
-                      <a style={{ pointerEvents: "none" }} href="#">
-                        Terraform — Deploy AWS Inspector A cloud-based
-                        Vulnerability...
-                      </a>
-                    </h4>
-                    <a
-                      rel="noreferrer"
-                      target="_blank"
-                      href="https://medium.com/appgambit/terraform-deploy-aws-inspector-a-cloud-based-vulnerability-assessment-tools-a4e2f5987e48"
-                    >
-                      Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="single-blog-item">
-                <div className="thumb">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://medium.com/appgambit/aws-codepipeline-alexa-skill-deployment-pipeline-a77d1e6a8da5"
-                  >
-                    <img
-                      src="https://cdn-images-1.medium.com/max/1024/1*uYrJjNqPJ6uvGIuZds5W_w.png"
-                      alt=""
-                    />
-                  </a>
-                </div>
-                <div className="content">
-                  <div className="blog-meta">
-                    <ul>
-                      <li>
-                        <i className="fa-sharp fa-solid fa-user"></i> Prashant
-                        Bhatasana
-                      </li>
-                      <li>
-                        <i className="fa-regular fa-calendar-days"></i> 03 Feb
-                        2021
-                      </li>
-                    </ul>
-                    <h4 className="title">
-                      <a style={{ pointerEvents: "none" }} href="#">
-                        AWS CodePipeline — Alexa Skill Deployment Pipeline.
-                      </a>
-                    </h4>
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://medium.com/appgambit/aws-codepipeline-alexa-skill-deployment-pipeline-a77d1e6a8da5"
-                    >
-                      Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+              );
+            })}
 
             <div className="col-lg-12 text-center pt-30">
               <Link
